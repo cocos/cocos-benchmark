@@ -1,0 +1,40 @@
+{
+  "ver": "1.0.18",
+  "importer": "image",
+  "imported": true,
+  "uuid": "b7a04bb9-de92-4d56-9903-154e9418abdf",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "b7a04bb9-de92-4d56-9903-154e9418abdf@6c48a",
+      "displayName": "M_Med_CuChulainn_Hat_baseColor",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b7a04bb9-de92-4d56-9903-154e9418abdf"
+      }
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "redirect": "b7a04bb9-de92-4d56-9903-154e9418abdf@6c48a"
+  }
+}

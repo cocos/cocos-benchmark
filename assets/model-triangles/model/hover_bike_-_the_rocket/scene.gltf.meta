@@ -1,0 +1,394 @@
+{
+  "ver": "1.3.21",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3",
+  "files": [],
+  "subMetas": {
+    "60b07": {
+      "importer": "gltf-mesh",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@60b07",
+      "displayName": "",
+      "id": "60b07",
+      "name": "VentMain_Test_0.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "e6111": {
+      "importer": "gltf-mesh",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@e6111",
+      "displayName": "",
+      "id": "e6111",
+      "name": "VentSub_Test_0.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      }
+    },
+    "28b9d": {
+      "importer": "gltf-mesh",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@28b9d",
+      "displayName": "",
+      "id": "28b9d",
+      "name": "FlapRight_Test_0.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      }
+    },
+    "16a63": {
+      "importer": "gltf-mesh",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@16a63",
+      "displayName": "",
+      "id": "16a63",
+      "name": "WingRight_Test_0.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 3
+      }
+    },
+    "cb2d2": {
+      "importer": "gltf-mesh",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@cb2d2",
+      "displayName": "",
+      "id": "cb2d2",
+      "name": "FlapLeft_Test_0.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 4
+      }
+    },
+    "45c61": {
+      "importer": "gltf-mesh",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@45c61",
+      "displayName": "",
+      "id": "45c61",
+      "name": "WingLeft_Test_0.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 5
+      }
+    },
+    "28f18": {
+      "importer": "gltf-mesh",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@28f18",
+      "displayName": "",
+      "id": "28f18",
+      "name": "SwitchRight_Test_0.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 6
+      }
+    },
+    "8548b": {
+      "importer": "gltf-mesh",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@8548b",
+      "displayName": "",
+      "id": "8548b",
+      "name": "SwitchLeft_Test_0.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 7
+      }
+    },
+    "26af2": {
+      "importer": "gltf-mesh",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@26af2",
+      "displayName": "",
+      "id": "26af2",
+      "name": "WingMain_Test_0.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 8
+      }
+    },
+    "7345c": {
+      "importer": "gltf-mesh",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@7345c",
+      "displayName": "",
+      "id": "7345c",
+      "name": "Bike_Test_0.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 9
+      }
+    },
+    "bef90": {
+      "importer": "gltf-animation",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@bef90",
+      "displayName": "",
+      "id": "bef90",
+      "name": "Armature|Idle.animation",
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.9666666984558105
+        },
+        "events": []
+      }
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 18
+      }
+    },
+    "3effa": {
+      "importer": "texture",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@3effa",
+      "displayName": "",
+      "id": "3effa",
+      "name": "UnnamedTexture-0.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/hover_bike_-_the_rocket/textures/Test_baseColor.png"
+      }
+    },
+    "221a5": {
+      "importer": "texture",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@221a5",
+      "displayName": "",
+      "id": "221a5",
+      "name": "UnnamedTexture-1.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/hover_bike_-_the_rocket/textures/Test_metallicRoughness.png"
+      }
+    },
+    "0089c": {
+      "importer": "texture",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@0089c",
+      "displayName": "",
+      "id": "0089c",
+      "name": "UnnamedTexture-2.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/hover_bike_-_the_rocket/textures/Test_emissive.png"
+      }
+    },
+    "9b633": {
+      "importer": "texture",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@9b633",
+      "displayName": "",
+      "id": "9b633",
+      "name": "UnnamedTexture-3.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/hover_bike_-_the_rocket/textures/Test_normal.png"
+      }
+    },
+    "d1932": {
+      "importer": "gltf-scene",
+      "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@d1932",
+      "displayName": "",
+      "id": "d1932",
+      "name": "scene.prefab",
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "uri": "db://assets/model-triangles/model/hover_bike_-_the_rocket/textures/Test_baseColor.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/hover_bike_-_the_rocket/textures/Test_metallicRoughness.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/hover_bike_-_the_rocket/textures/Test_emissive.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/hover_bike_-_the_rocket/textures/Test_normal.png"
+      }
+    ],
+    "animationImportSettings": [
+      {
+        "name": "Armature|Idle",
+        "duration": 1.9666666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Armature|Idle",
+            "from": 0,
+            "to": 1.9666666984558105,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@d1932",
+    "assetFinder": {
+      "meshes": [
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@60b07",
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@e6111",
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@28b9d",
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@16a63",
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@cb2d2",
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@45c61",
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@28f18",
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@8548b",
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@26af2",
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@7345c"
+      ],
+      "skeletons": [
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@438fe"
+      ],
+      "textures": [
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@3effa",
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@221a5",
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@0089c",
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@9b633"
+      ],
+      "materials": [
+        "d32b3639-23b9-4ead-bf8b-8eb8c8dd044a"
+      ],
+      "scenes": [
+        "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@d1932"
+      ]
+    },
+    "dumpMaterials": true
+  }
+}

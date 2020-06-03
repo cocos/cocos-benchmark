@@ -1,0 +1,40 @@
+{
+  "ver": "1.0.18",
+  "importer": "image",
+  "imported": true,
+  "uuid": "c25d7163-2da7-4d04-86f4-09ddef848d42",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "c25d7163-2da7-4d04-86f4-09ddef848d42@6c48a",
+      "displayName": "Material_001_metallicRoughness",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c25d7163-2da7-4d04-86f4-09ddef848d42"
+      }
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "redirect": "c25d7163-2da7-4d04-86f4-09ddef848d42@6c48a"
+  }
+}

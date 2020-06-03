@@ -1,0 +1,40 @@
+{
+  "ver": "1.0.18",
+  "importer": "image",
+  "imported": true,
+  "uuid": "be228a82-d7d9-4588-9af7-3d0f78f74b01",
+  "files": [
+    ".jpeg",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "be228a82-d7d9-4588-9af7-3d0f78f74b01@6c48a",
+      "displayName": "Material_003_emissive",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "be228a82-d7d9-4588-9af7-3d0f78f74b01"
+      }
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "redirect": "be228a82-d7d9-4588-9af7-3d0f78f74b01@6c48a"
+  }
+}

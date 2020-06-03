@@ -1,0 +1,260 @@
+{
+  "ver": "1.3.21",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "900996a8-07d8-4115-8643-d76eee0a9baa",
+  "files": [],
+  "subMetas": {
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "900996a8-07d8-4115-8643-d76eee0a9baa@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 80
+      }
+    },
+    "709d0": {
+      "importer": "gltf-mesh",
+      "uuid": "900996a8-07d8-4115-8643-d76eee0a9baa@709d0",
+      "displayName": "",
+      "id": "709d0",
+      "name": "M_MED_Marshmellow_DJ.mo-0.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "235da": {
+      "importer": "gltf-mesh",
+      "uuid": "900996a8-07d8-4115-8643-d76eee0a9baa@235da",
+      "displayName": "",
+      "id": "235da",
+      "name": "M_MED_Marshmellow_DJ.mo-1.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      }
+    },
+    "a412e": {
+      "importer": "gltf-mesh",
+      "uuid": "900996a8-07d8-4115-8643-d76eee0a9baa@a412e",
+      "displayName": "",
+      "id": "a412e",
+      "name": "M_MED_Marshmallow_DJ_FaceAcc.mo-2.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      }
+    },
+    "e29b9": {
+      "importer": "gltf-animation",
+      "uuid": "900996a8-07d8-4115-8643-d76eee0a9baa@e29b9",
+      "displayName": "",
+      "id": "e29b9",
+      "name": "Take 01.animation",
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 7.666669845581055
+        },
+        "events": []
+      }
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "900996a8-07d8-4115-8643-d76eee0a9baa@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 14
+      }
+    },
+    "3effa": {
+      "importer": "texture",
+      "uuid": "900996a8-07d8-4115-8643-d76eee0a9baa@3effa",
+      "displayName": "",
+      "id": "3effa",
+      "name": "UnnamedTexture-0.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/marshmallow_doing_shimmer/textures/M_MED_Marshmellow_DJ_Body_baseColor.png"
+      }
+    },
+    "221a5": {
+      "importer": "texture",
+      "uuid": "900996a8-07d8-4115-8643-d76eee0a9baa@221a5",
+      "displayName": "",
+      "id": "221a5",
+      "name": "UnnamedTexture-1.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/marshmallow_doing_shimmer/textures/M_MED_Marshmellow_DJ_Hat_baseColor.png"
+      }
+    },
+    "0089c": {
+      "importer": "texture",
+      "uuid": "900996a8-07d8-4115-8643-d76eee0a9baa@0089c",
+      "displayName": "",
+      "id": "0089c",
+      "name": "UnnamedTexture-2.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/marshmallow_doing_shimmer/textures/M_MED_Marshmellow_DJ_Bandolier_baseColor.png"
+      }
+    },
+    "d1932": {
+      "importer": "gltf-scene",
+      "uuid": "900996a8-07d8-4115-8643-d76eee0a9baa@d1932",
+      "displayName": "",
+      "id": "d1932",
+      "name": "scene.prefab",
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "uri": "db://assets/model-triangles/model/marshmallow_doing_shimmer/textures/M_MED_Marshmellow_DJ_Body_baseColor.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/marshmallow_doing_shimmer/textures/M_MED_Marshmellow_DJ_Hat_baseColor.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/marshmallow_doing_shimmer/textures/M_MED_Marshmellow_DJ_Bandolier_baseColor.png"
+      }
+    ],
+    "animationImportSettings": [
+      {
+        "name": "Take 01",
+        "duration": 7.666669845581055,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Take 01",
+            "from": 0,
+            "to": 7.666669845581055,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "900996a8-07d8-4115-8643-d76eee0a9baa@d1932",
+    "assetFinder": {
+      "meshes": [
+        "900996a8-07d8-4115-8643-d76eee0a9baa@709d0",
+        "900996a8-07d8-4115-8643-d76eee0a9baa@235da",
+        "900996a8-07d8-4115-8643-d76eee0a9baa@a412e"
+      ],
+      "skeletons": [
+        "900996a8-07d8-4115-8643-d76eee0a9baa@30732",
+        "900996a8-07d8-4115-8643-d76eee0a9baa@f1394"
+      ],
+      "textures": [
+        "900996a8-07d8-4115-8643-d76eee0a9baa@3effa",
+        "900996a8-07d8-4115-8643-d76eee0a9baa@221a5",
+        "900996a8-07d8-4115-8643-d76eee0a9baa@0089c"
+      ],
+      "materials": [
+        "3c095f45-531b-4735-b741-3331939d1979",
+        "0879af65-93c4-4797-b3bd-7204f659d744",
+        "1a0e7476-929d-4223-9fa3-0cce14c04730"
+      ],
+      "scenes": [
+        "900996a8-07d8-4115-8643-d76eee0a9baa@d1932"
+      ]
+    },
+    "dumpMaterials": true
+  }
+}

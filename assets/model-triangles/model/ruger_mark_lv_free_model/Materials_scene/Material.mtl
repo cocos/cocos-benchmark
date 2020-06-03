@@ -1,0 +1,68 @@
+{
+  "__type__": "cc.Material",
+  "_name": "",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_INSTANCING": true,
+      "USE_NORMAL_MAP": true,
+      "USE_ALBEDO_MAP": true,
+      "USE_METALLIC_ROUGHNESS_MAP": true,
+      "USE_OCCLUSION_MAP": true,
+      "USE_EMISSIVE_MAP": true
+    }
+  ],
+  "_states": [
+    {
+      "blendState": {
+        "targets": [
+          {
+            "blend": true,
+            "blendDst": 4,
+            "blendDstAlpha": 4,
+            "blendSrc": 2
+          }
+        ]
+      },
+      "depthStencilState": {
+        "depthWrite": false
+      },
+      "rasterizerState": {
+        "cullMode": 0
+      }
+    }
+  ],
+  "_props": [
+    {
+      "alphaThreshold": 0,
+      "roughness": 1,
+      "metallic": 1,
+      "emissiveScale": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "mainTexture": {
+        "__uuid__": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@3effa"
+      },
+      "normalMap": {
+        "__uuid__": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@9b633"
+      },
+      "metallicRoughnessMap": {
+        "__uuid__": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@221a5"
+      },
+      "occlusionMap": {
+        "__uuid__": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@221a5"
+      },
+      "emissiveMap": {
+        "__uuid__": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@0089c"
+      }
+    }
+  ]
+}

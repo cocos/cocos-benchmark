@@ -1,0 +1,567 @@
+{
+  "ver": "1.3.21",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5",
+  "files": [],
+  "subMetas": {
+    "50743": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@50743",
+      "displayName": "",
+      "id": "50743",
+      "name": "UnnamedTexture-5.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_002_metallicRoughness.png"
+      }
+    },
+    "55257": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@55257",
+      "displayName": "",
+      "id": "55257",
+      "name": "UnnamedTexture-12.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_001_baseColor.png"
+      }
+    },
+    "56f4a": {
+      "importer": "gltf-mesh",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@56f4a",
+      "displayName": "",
+      "id": "56f4a",
+      "name": "defaultMaterial-0.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "09509": {
+      "importer": "gltf-mesh",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@09509",
+      "displayName": "",
+      "id": "09509",
+      "name": "defaultMaterial-1.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      }
+    },
+    "ac4af": {
+      "importer": "gltf-mesh",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@ac4af",
+      "displayName": "",
+      "id": "ac4af",
+      "name": "defaultMaterial-2.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      }
+    },
+    "c8dc3": {
+      "importer": "gltf-mesh",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@c8dc3",
+      "displayName": "",
+      "id": "c8dc3",
+      "name": "defaultMaterial-3.mesh",
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 3
+      }
+    },
+    "3effa": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@3effa",
+      "displayName": "",
+      "id": "3effa",
+      "name": "UnnamedTexture-0.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_baseColor.png"
+      }
+    },
+    "221a5": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@221a5",
+      "displayName": "",
+      "id": "221a5",
+      "name": "UnnamedTexture-1.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_metallicRoughness.png"
+      }
+    },
+    "0089c": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@0089c",
+      "displayName": "",
+      "id": "0089c",
+      "name": "UnnamedTexture-2.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_emissive.jpeg"
+      }
+    },
+    "9b633": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@9b633",
+      "displayName": "",
+      "id": "9b633",
+      "name": "UnnamedTexture-3.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_normal.png"
+      }
+    },
+    "9b782": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@9b782",
+      "displayName": "",
+      "id": "9b782",
+      "name": "UnnamedTexture-4.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_002_baseColor.png"
+      }
+    },
+    "99ea5": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@99ea5",
+      "displayName": "",
+      "id": "99ea5",
+      "name": "UnnamedTexture-6.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_002_emissive.jpeg"
+      }
+    },
+    "006bd": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@006bd",
+      "displayName": "",
+      "id": "006bd",
+      "name": "UnnamedTexture-7.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_002_normal.png"
+      }
+    },
+    "531b0": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@531b0",
+      "displayName": "",
+      "id": "531b0",
+      "name": "UnnamedTexture-8.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_003_baseColor.png"
+      }
+    },
+    "9c3d2": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@9c3d2",
+      "displayName": "",
+      "id": "9c3d2",
+      "name": "UnnamedTexture-9.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_003_metallicRoughness.png"
+      }
+    },
+    "f7e17": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@f7e17",
+      "displayName": "",
+      "id": "f7e17",
+      "name": "UnnamedTexture-10.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_003_emissive.jpeg"
+      }
+    },
+    "a2905": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@a2905",
+      "displayName": "",
+      "id": "a2905",
+      "name": "UnnamedTexture-11.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_003_normal.png"
+      }
+    },
+    "809d9": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@809d9",
+      "displayName": "",
+      "id": "809d9",
+      "name": "UnnamedTexture-13.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_001_metallicRoughness.png"
+      }
+    },
+    "b4841": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@b4841",
+      "displayName": "",
+      "id": "b4841",
+      "name": "UnnamedTexture-14.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_001_emissive.jpeg"
+      }
+    },
+    "3c999": {
+      "importer": "texture",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@3c999",
+      "displayName": "",
+      "id": "3c999",
+      "name": "UnnamedTexture-15.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_001_normal.png"
+      }
+    },
+    "d1932": {
+      "importer": "gltf-scene",
+      "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@d1932",
+      "displayName": "",
+      "id": "d1932",
+      "name": "scene.prefab",
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_baseColor.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_metallicRoughness.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_emissive.jpeg"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_normal.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_002_baseColor.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_002_metallicRoughness.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_002_emissive.jpeg"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_002_normal.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_003_baseColor.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_003_metallicRoughness.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_003_emissive.jpeg"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_003_normal.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_001_baseColor.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_001_metallicRoughness.png"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_001_emissive.jpeg"
+      },
+      {
+        "uri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_001_normal.png"
+      }
+    ],
+    "redirect": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@d1932",
+    "assetFinder": {
+      "meshes": [
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@56f4a",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@09509",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@ac4af",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@c8dc3"
+      ],
+      "skeletons": [],
+      "textures": [
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@3effa",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@221a5",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@0089c",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@9b633",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@9b782",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@50743",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@99ea5",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@006bd",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@531b0",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@9c3d2",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@f7e17",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@a2905",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@55257",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@809d9",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@b4841",
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@3c999"
+      ],
+      "materials": [
+        "b45d8a76-23f0-4bb6-b29d-8be57a376ed3",
+        "7d221ba7-46cc-4ee9-a487-a266057b4962",
+        "04daf804-91d0-42dc-a5f5-6c49d2dc3e17",
+        "eb9f648c-e8d1-4dae-a329-a49f30c2e96a"
+      ],
+      "scenes": [
+        "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@d1932"
+      ]
+    },
+    "dumpMaterials": true
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "model-triangles",
+        "sceneUrl": "model-triangles/main.scene",
+        "coverImgUrl": "lobby/model-triangles/spriteFrame",
+        "tips": "用于静态模型面数测试"
+    },
+    {
+        "name": "model-animation",
+        "sceneUrl": "model-animation/main.scene",
+        "coverImgUrl": "lobby/model-animation/spriteFrame",
+        "tips": "用于动画模型测试"
+    },
+    {
+        "name": "physics-benchmark",
+        "sceneUrl": "physics-benchmark/benchmark.scene",
+        "coverImgUrl": "lobby/physics-benchmark/spriteFrame",
+        "tips": "用于物理测试"
+    }
+]
