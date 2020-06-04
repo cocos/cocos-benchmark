@@ -1,0 +1,40 @@
+{
+  "ver": "1.0.18",
+  "importer": "image",
+  "imported": true,
+  "uuid": "fc292cba-71bc-42fb-8414-89e397e6ff99",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "fc292cba-71bc-42fb-8414-89e397e6ff99@6c48a",
+      "displayName": "Partex_01",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "fc292cba-71bc-42fb-8414-89e397e6ff99"
+      }
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "redirect": "fc292cba-71bc-42fb-8414-89e397e6ff99@6c48a"
+  }
+}

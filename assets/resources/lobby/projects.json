@@ -16,5 +16,11 @@
         "sceneUrl": "physics-benchmark/benchmark.scene",
         "coverImgUrl": "lobby/physics-benchmark/spriteFrame",
         "tips": "用于物理测试"
+    },
+    {
+        "name": "particle-test",
+        "sceneUrl": "particle-test/ParticleTest.scene",
+        "coverImgUrl": "lobby/particle-test/spriteFrame",
+        "tips": "用于粒子测试"
     }
 ]
