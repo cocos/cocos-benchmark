@@ -653,30 +653,34 @@
       "__id__": 16
     },
     "_enabled": true,
-    "box": {
-      "__uuid__": "91a3d107-cbc0-49b4-9679-380143afaddf"
-    },
-    "sphere": {
-      "__uuid__": "7ba73fbc-c089-458d-bf99-a955cc63d023"
-    },
-    "boxRB": {
-      "__uuid__": "74690640-bc5d-4f89-9eb0-390a46a146db"
-    },
-    "sphereRB": {
-      "__uuid__": "98a265fc-1145-4c9a-9c26-c3bb52c12fc3"
-    },
-    "boxContainer": {
-      "__id__": 18
-    },
-    "sphereContainer": {
-      "__id__": 20
-    },
-    "boxRBContainer": {
-      "__id__": 21
-    },
-    "sphereRBContainer": {
-      "__id__": 22
-    },
+    "elementPrefabs": [
+      {
+        "__uuid__": "91a3d107-cbc0-49b4-9679-380143afaddf"
+      },
+      {
+        "__uuid__": "7ba73fbc-c089-458d-bf99-a955cc63d023"
+      },
+      {
+        "__uuid__": "74690640-bc5d-4f89-9eb0-390a46a146db"
+      },
+      {
+        "__uuid__": "98a265fc-1145-4c9a-9c26-c3bb52c12fc3"
+      }
+    ],
+    "elementContainers": [
+      {
+        "__id__": 18
+      },
+      {
+        "__id__": 20
+      },
+      {
+        "__id__": 21
+      },
+      {
+        "__id__": 22
+      }
+    ],
     "rangeY": {
       "__type__": "cc.Vec2",
       "x": 10,
@@ -1170,7 +1174,7 @@
     },
     "_sharedMaterial": null,
     "_useOriginalSize": true,
-    "_string": "初始数量，格式: x-x-x-x",
+    "_string": "数量修改，格式: x-x-x-x",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 20,

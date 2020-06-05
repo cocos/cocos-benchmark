@@ -4,37 +4,28 @@ const { ccclass, property, menu } = _decorator;
 export const KEY_INIT_STR = "KEY_INIT_STR";
 const v3_0 = new Vec3(0, 3, 0);
 
+declare var CC_PHYSICS_AMMO: any;
+declare var CC_PHYSICS_CANNON: any;
+
+enum ElementType {
+    BOX = 0,
+    SPHERE,
+    BOX_RB,
+    SPHERE_RB,
+    MAX,
+}
+
 @ccclass("BENCHMARK.Benchmark")
 @menu("demo/benchmark/Benchmark")
 export class Benchmark extends Component {
 
     /** PREFAB */
-
-    @property({ type: Prefab })
-    readonly box: Prefab = null;
-
-    @property({ type: Prefab })
-    readonly sphere: Prefab = null;
-
-    @property({ type: Prefab })
-    readonly boxRB: Prefab = null;
-
-    @property({ type: Prefab })
-    readonly sphereRB: Prefab = null;
+    @property({type: Prefab})
+    elementPrefabs: Prefab[] = [];
 
     /** CONTAINER */
-
     @property({ type: Node })
-    readonly boxContainer: Node = null;
-
-    @property({ type: Node })
-    readonly sphereContainer: Node = null;
-
-    @property({ type: Node })
-    readonly boxRBContainer: Node = null;
-
-    @property({ type: Node })
-    readonly sphereRBContainer: Node = null;
+    elementContainers: Node[] = []
 
     /** RANGE */
 
@@ -78,15 +69,13 @@ export class Benchmark extends Component {
     @property({ type: RigidBodyComponent })
     readonly rotateDynamics: RigidBodyComponent = null;
 
-    private initBoxCount: number = 0;
-    private initSphereCount: number = 0;
-    private initBoxRBCount: number = 0;
-    private initSphereRBCount: number = 0;
 
     private intervalCurrent: number = 0;
     private intervalNumber: number = 0;
 
     private enableRotate = true;
+    private addOnceNum = 10;
+    private curElementNum: number[] = [0, 0, 0, 0];
 
     start () {
         if (CC_PHYSICS_AMMO) {
@@ -96,6 +85,9 @@ export class Benchmark extends Component {
         }
 
         profiler.showStats();
+        for (let i = 0; i < ElementType.MAX; i++) {
+            this.curElementNum[i] = 0;
+        }
 
         const item = localStorage.getItem(KEY_INIT_STR);
         let value = '';
@@ -105,30 +97,10 @@ export class Benchmark extends Component {
             value = this.l_editBox.string;
         }
 
-        if (value != '') {
-            const arr = value.split('-');
-            if (arr && arr.length > 0) {
-                for (let i = 0; i < arr.length; i++) {
-                    const count = parseInt(arr[i]);
-                    if (isNaN(count)) continue;
+        this.updateAllElementsNumber(value);
 
-                    switch (i) {
-                        case 0: this.initBoxCount = count; break;
-                        case 1: this.initSphereCount = count; break;
-                        case 2: this.initBoxRBCount = count; break;
-                        case 3: this.initSphereRBCount = count; break;
-                    }
-                }
-            }
-        }
-
-        this.instantiate(this.initBoxCount, this.box, this.boxContainer);
-        this.instantiate(this.initSphereCount, this.sphere, this.sphereContainer);
-        this.instantiate(this.initBoxRBCount, this.boxRB, this.boxRBContainer);
-        this.instantiate(this.initSphereRBCount, this.sphereRB, this.sphereRBContainer);
-
-        this.onRotateToggole(this.r_rotateToggle);
-        this.onUseFixTimeToggole(this.r_useFixToggle);
+        this.onRotateToggle(this.r_rotateToggle);
+        this.onUseFixTimeToggle(this.r_useFixToggle);
         this.onEditFrameRate(this.r_frameRateEditBox);
         this.onEditSubStep(this.r_subStepEditBox);
         this.onEditInterval(this.r_IntervalEditBox);
@@ -149,39 +121,74 @@ export class Benchmark extends Component {
             this.rotateDynamics.setAngularVelocity(Vec3.ZERO);
     }
 
-    private instantiate (count: number, prefab: Prefab, container: Node) {
-        for (let i = 0; i < count; i++) {
-            this.instantiateSingle(prefab, container);
+    private updateAllElementsNumber(inputString: string) {
+        if (inputString != '') {
+            const arr = inputString.split('-');
+            if (arr && arr.length > 0) {
+                for (let i = 0; i < arr.length; i++) {
+                    const count = parseInt(arr[i]);
+                    if (isNaN(count)) continue;
+
+                    switch (i) {
+                        case 0: 
+                            this.updateElementNumber(ElementType.BOX, count); 
+                            break;
+                        case 1: 
+                            this.updateElementNumber(ElementType.SPHERE, count);
+                            break;
+                        case 2: 
+                            this.updateElementNumber(ElementType.BOX_RB, count); 
+                            break;
+                        case 3: 
+                            this.updateElementNumber(ElementType.SPHERE_RB, count); 
+                            break;
+                    }
+                }
+            }
+
+            this.updateCurrentLab();
         }
     }
 
-    private instantiateSingle (prefab: Prefab, container: Node) {
-        const entity = instantiate(prefab) as Node;
-        this.resetTransformSingle(entity);
-        container.addChild(entity);
-        this.updateCurrentLab();
+    private updateElementNumber(elemType: ElementType, num: number) {
+        const container = this.elementContainers[elemType];
+        const prefab = this.elementPrefabs[elemType];
+        const curNum = container.children.length;
+
+        if (curNum === num) {
+            return;
+        }
+
+        if (num < 0) { num = 0;}
+
+        // add
+        if (num > curNum) {
+            const addNum = num - curNum;
+
+            for (let i = 0; i < addNum; i++) {
+                const entity = instantiate(prefab) as Node;
+                this.resetTransformSingle(entity);
+                container.addChild(entity);
+            }
+        } else {    // delete
+            const deleteNum = curNum - num;
+
+            for (let i = 0; i < deleteNum; i++) {
+                const node = container.children[curNum - 1 - i];
+                node.destroy();
+            }
+        }
+
+        this.curElementNum[elemType] = num;
     }
 
     private resetTransforms () {
-        for (let i = 0; i < this.boxContainer.children.length; i++) {
-            const entity = this.boxContainer.children[i];
-            this.resetTransformSingle(entity);
-        }
-
-        for (let i = 0; i < this.sphereContainer.children.length; i++) {
-            const entity = this.sphereContainer.children[i];
-            this.resetTransformSingle(entity);
-        }
-
-        for (let i = 0; i < this.boxRBContainer.children.length; i++) {
-            const entity = this.boxRBContainer.children[i];
-            this.resetTransformSingle(entity);
-        }
-
-        for (let i = 0; i < this.sphereRBContainer.children.length; i++) {
-            const entity = this.sphereRBContainer.children[i];
-            this.resetTransformSingle(entity);
-        }
+        this.elementContainers.forEach((container: Node) => {
+            for (let i = 0; i < container.children.length; i++) {
+                const entity = container.children[i];
+                this.resetTransformSingle(entity);
+            }
+        });
     }
 
     private resetTransformSingle (entity: Node) {
@@ -206,33 +213,41 @@ export class Benchmark extends Component {
     }
 
     private updateCurrentLab () {
-        const a = this.boxContainer.children.length;
-        const b = this.sphereContainer.children.length;
-        const c = this.boxRBContainer.children.length;
-        const d = this.sphereRBContainer.children.length;
-        this.l_current.string = "目前数量：" + a + "-" + b + "-" + c + "-" + d;
+        const a = this.curElementNum[ElementType.BOX];
+        const b = this.curElementNum[ElementType.SPHERE];
+        const c = this.curElementNum[ElementType.BOX_RB];
+        const d = this.curElementNum[ElementType.SPHERE_RB];
+        const numString = a + "-" + b + "-" + c + "-" + d
+        this.l_current.string = "目前数量：" + numString;
+        this.l_editBox.string = numString;
+    }
+
+    addElement(elemType: ElementType) {
+        this.updateElementNumber(elemType, this.elementContainers[elemType].children.length + this.addOnceNum);
+        this.updateCurrentLab();
     }
 
     onAddBox (touch: EventTouch, custom?: string) {
-        this.instantiateSingle(this.box, this.boxContainer);
+        this.addElement(ElementType.BOX);
     }
 
     onAddSphere (touch: EventTouch, custom?: string) {
-        this.instantiateSingle(this.sphere, this.sphereContainer);
+        this.addElement(ElementType.SPHERE);
     }
 
     onAddBoxRB (touch: EventTouch, custom?: string) {
-        this.instantiateSingle(this.boxRB, this.boxRBContainer);
+        this.addElement(ElementType.BOX_RB);
     }
 
     onAddSphereRB (touch: EventTouch, custom?: string) {
-        this.instantiateSingle(this.sphereRB, this.sphereRBContainer);
+        this.addElement(ElementType.SPHERE_RB);
     }
 
     onEditFinish (editBox: EditBoxComponent) {
         const str = editBox.string;
         if (str != '') {
             localStorage.setItem(KEY_INIT_STR, str);
+            this.updateAllElementsNumber(str);
         }
     }
 
@@ -240,11 +255,11 @@ export class Benchmark extends Component {
         this.resetTransforms();
     }
 
-    onRotateToggole (toggle: ToggleComponent) {
+    onRotateToggle (toggle: ToggleComponent) {
         this.enableRotate = toggle.isChecked;
     }
 
-    onUseFixTimeToggole (toggle: ToggleComponent) {
+    onUseFixTimeToggle (toggle: ToggleComponent) {
         if (toggle.isChecked) {
             PhysicsSystem.instance.useFixedTime = true;
             this.r_subStepEditBox.node.active = false;

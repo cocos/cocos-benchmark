@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, profiler, LabelComponent, SpriteFrame, SpriteComponent } from 'cc';
+import { _decorator, Component, Node, profiler, LabelComponent, SpriteFrame, SpriteComponent, EditBoxComponent } from 'cc';
 import { playerManager } from '../../fight/playerManager';
 import { confirmBox } from './confirmBox';
 import { constants } from '../../framework/util/constants';
@@ -63,6 +63,8 @@ export class mainUI extends Component {
 
     @property(LabelComponent)
     lbVersion: LabelComponent = null;
+    @property(EditBoxComponent)
+    numberInput: EditBoxComponent = null;
 
     count: number = 0;
     curClickLogoTimes: number = 0;
@@ -151,6 +153,10 @@ export class mainUI extends Component {
         this.lbVersion.string = 'Version: ' + constants.VERSION;
 
         this.updateSwitch();
+
+        if (this.manager) {
+            this.manager.onPeopleNumChanged = this.onPeopleNumberChanged.bind(this);
+        }
     }
 
     updateSwitch () {
@@ -205,6 +211,17 @@ export class mainUI extends Component {
         this.enableShadow = !this.enableShadow;
     }
 
+    onNumberInputEnd() {
+        const num = Number.parseInt(this.numberInput.string);
+        this.manager.updatePlayerNumber(num);
+    }
+
+    onPeopleNumberChanged(num: number) {
+        if (this.numberInput) {
+            this.numberInput.string = num.toString();
+        }
+    }
+
     update (deltaTime: number) {
         // Your update function goes here.
         this.count++;
@@ -226,7 +243,15 @@ export class mainUI extends Component {
         }
 
         
-
+        
         //
+    }
+
+    onDestroy() {
+        // @ts-ignore
+        if (profiler._rootNode) {
+            // @ts-ignore
+            profiler._rootNode.active = true;
+        }
     }
 }

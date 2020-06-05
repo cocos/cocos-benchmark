@@ -30,7 +30,18 @@ export class playerManager extends Component {
     //美术的面数及顶点数
     artTriangle: number = 0;
     artVertex: number = 0;
-    people: number = 0;
+    private _people: number = 0;
+    get people() {
+        return this._people;
+    }
+    set people(value: number) {
+        this._people = value;
+        if (this.onPeopleNumChanged) {
+            this.onPeopleNumChanged(this._people);
+        }
+    }
+
+    public onPeopleNumChanged: Function = null;
     isStart = false;
 
     currentLevel: number = 0;
@@ -127,45 +138,7 @@ export class playerManager extends Component {
     }
 
     addPlayerGroup () {
-        this.arrModel.forEach((pfModel)=>{
-            let model = instantiate(pfModel) as Node;
-            model.parent = this.node;
-
-            let playerScript = model.getComponent(player);
-            playerScript.show(this);
-
-            this.artTriangle += playerScript.triangle;
-            this.artVertex += playerScript.vertex;
-
-            this.people++;
-
-            if (Math.floor(this.people / CAMERA_MOVE_PER_PERSON) > this.currentLevel) {
-                //触发镜头拉高
-                this.moveUpCamera();
-            }
-        })
-
-        let rate = Math.floor(this.people / 30);
-
-        if (rate > this._prevPeopleRate) {
-            let obj = {
-                'Fps': Math.round(profiler._stats.fps.counter.value).toString(),     
-                'Drawcall' : profiler._stats.draws.counter.value.toString(),
-                'Instancing' : profiler._stats.instances.counter.value.toString(),
-                'Triangle' : profiler._stats.tricount.counter.value.toString(),
-                'GFXMem' : profiler._stats.textureMemory.counter.value.toFixed(1).toString(),
-                'GameLogic' : profiler._stats.logic.counter.value.toFixed(2).toString(),
-                'ArtTriangle' : this.artTriangle.toString(),
-                'Vertex' : this.artVertex.toString(),
-                'People' : this.people.toString(),            
-            }
-            
-            this.scheduleOnce(()=>{
-                gameLogic.customEventStatistics(constants.EVENT_TYPE.PERFORMANCE_PARAMETER, obj);
-            }, 0.5);
-
-            this._prevPeopleRate = rate;
-        }
+        this.updatePlayerNumber(this.people + this.arrModel.length);
     }
 
     resetPlayer () {
@@ -182,20 +155,79 @@ export class playerManager extends Component {
     }
 
     reducePlayer () {
-        this.arrName.forEach((name)=>{
-            let nodePlayer = this.node.getChildByName(name);
-            if (!nodePlayer) {
-                return;
+        this.updatePlayerNumber(this.people - this.arrName.length);
+    }
+
+    updatePlayerNumber(num: number) {
+        if (this.people === num) {
+            return;
+        }
+
+        if (num < 0) {
+            num = 0;
+        }
+
+        // add
+        if (num > this.people) {
+            const addNum = num - this.people;
+            for (let i = 0; i < addNum; i++) {
+                const pfModel = this.arrModel[i%this.arrModel.length];
+                let model = instantiate(pfModel) as Node;
+                model.parent = this.node;
+    
+                let playerScript = model.getComponent(player);
+                playerScript.show(this);
+    
+                this.artTriangle += playerScript.triangle;
+                this.artVertex += playerScript.vertex;
             }
 
-            let playerScript = nodePlayer.getComponent(player);
-            this.artTriangle -= playerScript.triangle;
-            this.artVertex -= playerScript.vertex;
+            this.people = num;
 
-            nodePlayer.destroy();
+            if (Math.floor(this.people / CAMERA_MOVE_PER_PERSON) > this.currentLevel) {
+                //触发镜头拉高
+                this.moveUpCamera();
+            }
+    
+            let rate = Math.floor(this.people / 30);
+    
+            if (rate > this._prevPeopleRate) {
+                let obj = {
+                    'Fps': Math.round(profiler._stats.fps.counter.value).toString(),     
+                    'Drawcall' : profiler._stats.draws.counter.value.toString(),
+                    'Instancing' : profiler._stats.instances.counter.value.toString(),
+                    'Triangle' : profiler._stats.tricount.counter.value.toString(),
+                    'GFXMem' : profiler._stats.textureMemory.counter.value.toFixed(1).toString(),
+                    'GameLogic' : profiler._stats.logic.counter.value.toFixed(2).toString(),
+                    'ArtTriangle' : this.artTriangle.toString(),
+                    'Vertex' : this.artVertex.toString(),
+                    'People' : this.people.toString(),            
+                }
+                
+                this.scheduleOnce(()=>{
+                    gameLogic.customEventStatistics(constants.EVENT_TYPE.PERFORMANCE_PARAMETER, obj);
+                }, 0.5);
+    
+                this._prevPeopleRate = rate;
+            }
+        } else {    // reduce
+            const deleteNum = this.people - num;
+            for(let i = 0; i < deleteNum; i++) {
+                const nodePlayer = this.node.children[this.node.children.length - 1 - i];
+     
+                if (!nodePlayer) {
+                    return;
+                }
+    
+                let playerScript = nodePlayer.getComponent(player);
+                this.artTriangle -= playerScript.triangle;
+                this.artVertex -= playerScript.vertex;
+    
+                nodePlayer.destroy();
+            }
 
-            this.people--;
-
+            this.people = num;
+            
             if (this.currentLevel > Math.floor(this.people / CAMERA_MOVE_PER_PERSON)) {
                 this.currentLevel = Math.floor(this.people / CAMERA_MOVE_PER_PERSON);
 
@@ -210,7 +242,7 @@ export class playerManager extends Component {
         
                 this.tweenCamera = new Tween(this.mainCamera.node).to(0.2, {position: pos}).start();
             }
-        });
+        }
     }
 
     moveUpCamera () {

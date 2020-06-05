@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, CameraComponent, Prefab, loader, instantiate, LabelComponent, Vec3, SliderComponent, EventTouch, profiler, ToggleContainerComponent, ToggleComponent, Tween, CCString } from 'cc';
+import { _decorator, Component, Node, CameraComponent, Prefab, loader, instantiate, LabelComponent, Vec3, SliderComponent, EventTouch, profiler, ToggleContainerComponent, ToggleComponent, Tween, CCString, EditBoxComponent, clamp } from 'cc';
 import { ModelInfo } from './ModelInfo';
 const { ccclass, property } = _decorator;
 
@@ -35,6 +35,8 @@ export class Helper extends Component {
     modelRoot: Node = null;
     @property({type:CCString})
     public resPath: string = 'model-triangles/model/';
+    @property(EditBoxComponent)
+    numberInput: EditBoxComponent = null;
 
     prefabList = new Map<string, Prefab>();
 
@@ -45,9 +47,18 @@ export class Helper extends Component {
     currLevel = 0;
     trianglesStr = 0;
     verticesStr = 0;
-    count = 0;
-
+    private _count = 0;
     num = 0;
+
+    get count () {
+        return this._count;
+    }
+
+    set count(value: number) {
+        this._count = value;
+        this.numberInput.string = ''+value;
+        this.updateStr();
+    }
 
     start () {
         loader.loadRes(this.resPath+'9.8', Prefab, (err: any, asset: Prefab)=>{
@@ -93,58 +104,11 @@ export class Helper extends Component {
     }
 
     onBtnAdd(){
-        //x: -8~8
-        //z: -16~2
-        const prefab = this.prefabList.get(this.currModelName);
-        let vertex = 0;
-        for (let i = 0; i < maxCount; i++) {
-            const model = instantiate(prefab) as Node;
-            model.parent = this.modelRoot;
-            vertex = vertex || model.getComponent(ModelInfo).vertices;
-            this.verticesStr += vertex;
-            let x = (-8 - 3 * this.currLevel) + Math.random() * (12 + 6 * this.currLevel);
-            let z = -16 + Math.random() * (18 + 5 * this.currLevel);
-            let pos = new Vec3(x, 0, z);
-            model.setPosition(pos);
-
-            if (Math.floor(this.count / CAMERA_MOVE_PER_MODEL) > this.currLevel) {
-                //触发镜头拉高
-                this.moveUpCamera();
-            }
-        }
-
-        this.count += maxCount;
-        this.updateStr();
+        this.updateModelNumber(this.count + maxCount);
     }
 
     onBtnReduce(){
-        const models = this.modelRoot.children;
-        let len = models.length - 1;
-        let vertex = 0;
-        for (let i = 0; i < maxCount; i++) {
-            const model = models[len - i];
-            vertex = vertex || model.getComponent(ModelInfo).vertices;
-            this.verticesStr += vertex;
-            model.destroy();
-
-            if (this.currLevel > Math.floor(this.count / CAMERA_MOVE_PER_MODEL)) {
-                this.currLevel = Math.floor(this.count / CAMERA_MOVE_PER_MODEL);
-
-                let pos = this.camera.node.forward.clone().negative().multiplyScalar(8 * this.currLevel);
-
-                pos.add(this.cameraPos);
-
-                if (this.tweenCamera) {
-                    this.tweenCamera.stop();
-                    this.tweenCamera = null;
-                }
-
-                this.tweenCamera = new Tween(this.camera.node).to(0.2, { position: pos }).start();
-            }
-        }
-
-        this.count -= maxCount;
-        this.updateStr();
+        this.updateModelNumber(this.count - maxCount);
     }
 
     onBtnChanged(toggle: ToggleComponent){
@@ -216,5 +180,71 @@ export class Helper extends Component {
         }
 
         this.tweenCamera = new Tween(this.camera.node).to(0.2, { position: direction }).start();
+    }
+
+    updateModelNumber(num: number) {
+        if (this.count === num) { return; }
+
+        if (num < 0) {
+            num = 0;
+        }
+
+        if (num > this.count) {
+            const prefab = this.prefabList.get(this.currModelName);
+            let vertex = 0;
+            const addNum = num - this.count;
+            for (let i = 0; i < addNum; i++) {
+                const model = instantiate(prefab) as Node;
+                model.parent = this.modelRoot;
+                vertex = vertex || model.getComponent(ModelInfo).vertices;
+                this.verticesStr += vertex;
+                //x: -8~8
+                //z: -16~2
+                let x = (-8 - 3 * this.currLevel) + Math.random() * (12 + 6 * this.currLevel);
+                let z = -16 + Math.random() * (18 + 5 * this.currLevel);
+                let pos = new Vec3(x, 0, z);
+                model.setPosition(pos);
+    
+                if (Math.floor(this.count / CAMERA_MOVE_PER_MODEL) > this.currLevel) {
+                    //触发镜头拉高
+                    this.moveUpCamera();
+                }
+            }
+    
+        } else {
+            const models = this.modelRoot.children;
+            let len = models.length - 1;
+            let vertex = 0;
+            const deleteNum = this.count - num;
+            for (let i = 0; i < deleteNum; i++) {
+                const model = models[len - i];
+                vertex = vertex || model.getComponent(ModelInfo).vertices;
+                this.verticesStr += vertex;
+                model.destroy();
+    
+                if (this.currLevel > Math.floor(this.count / CAMERA_MOVE_PER_MODEL)) {
+                    this.currLevel = Math.floor(this.count / CAMERA_MOVE_PER_MODEL);
+    
+                    let pos = this.camera.node.forward.clone().negative().multiplyScalar(8 * this.currLevel);
+    
+                    pos.add(this.cameraPos);
+    
+                    if (this.tweenCamera) {
+                        this.tweenCamera.stop();
+                        this.tweenCamera = null;
+                    }
+    
+                    this.tweenCamera = new Tween(this.camera.node).to(0.2, { position: pos }).start();
+                }
+            }
+        }
+
+        this.count = num;
+    }
+
+    onNumberInputEnd() {
+        let num = Number.parseInt(this.numberInput.string);
+
+        this.updateModelNumber(num);
     }
 }
