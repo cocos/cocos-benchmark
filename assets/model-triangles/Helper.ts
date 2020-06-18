@@ -30,10 +30,10 @@ export class Helper extends Component {
 
     @property(Node)
     btn: Node = null;
-
+    
     @property(Node)
     modelRoot: Node = null;
-    @property({type:CCString})
+    @property
     public resPath: string = 'model-triangles/model/';
     @property(EditBoxComponent)
     numberInput: EditBoxComponent = null;
@@ -80,10 +80,10 @@ export class Helper extends Component {
         }
 
         //@ts-ignore
-        if (profiler._rootNode) {
-            //@ts-ignore
-            profiler._rootNode.active = false;
-        }
+        // if (profiler._rootNode) {
+        //     //@ts-ignore
+        //     profiler._rootNode.active = false;
+        // }
 
     }
 

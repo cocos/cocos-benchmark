@@ -1,5 +1,5 @@
 {
-  "ver": "1.3.21",
+  "ver": "1.3.19",
   "importer": "fbx",
   "imported": true,
   "uuid": "97856fc0-86c9-4ee5-8625-03b2e5e7af82",
@@ -59,8 +59,8 @@
         "mipfilter": "none",
         "premultiplyAlpha": false,
         "anisotropy": 1,
-        "isUuid": false,
-        "imageUuidOrDatabaseUri": "db://assets/skyBox/skyBox1.jpg"
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "97856fc0-86c9-4ee5-8625-03b2e5e7af82@31667"
       }
     },
     "9ba3e": {
@@ -84,7 +84,6 @@
     "imageMetas": [
       {
         "name": "skyBox1.jpg",
-        "remap": "db://assets/skyBox/skyBox1.jpg",
         "uri": "97856fc0-86c9-4ee5-8625-03b2e5e7af82@31667"
       }
     ],

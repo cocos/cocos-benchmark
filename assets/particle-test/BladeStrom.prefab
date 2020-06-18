@@ -168,6 +168,33 @@
       "__id__": 16
     },
     "bursts": [],
+    "colorOverLifetimeModule": {
+      "__id__": 17
+    },
+    "shapeModule": {
+      "__id__": 19
+    },
+    "sizeOvertimeModule": {
+      "__id__": 21
+    },
+    "velocityOvertimeModule": {
+      "__id__": 26
+    },
+    "forceOvertimeModule": {
+      "__id__": 31
+    },
+    "limitVelocityOvertimeModule": {
+      "__id__": 35
+    },
+    "rotationOvertimeModule": {
+      "__id__": 40
+    },
+    "textureAnimationModule": {
+      "__id__": 44
+    },
+    "trailModule": {
+      "__id__": 47
+    },
     "renderer": {
       "__id__": 52
     },
@@ -175,34 +202,7 @@
     "_prewarm": false,
     "_capacity": 100,
     "_simulationSpace": 1,
-    "_id": "",
-    "_colorOverLifetimeModule": {
-      "__id__": 17
-    },
-    "_sizeOvertimeModule": {
-      "__id__": 21
-    },
-    "_rotationOvertimeModule": {
-      "__id__": 40
-    },
-    "_forceOvertimeModule": {
-      "__id__": 31
-    },
-    "_limitVelocityOvertimeModule": {
-      "__id__": 35
-    },
-    "_velocityOvertimeModule": {
-      "__id__": 26
-    },
-    "_shapeModule": {
-      "__id__": 19
-    },
-    "_trailModule": {
-      "__id__": 47
-    },
-    "_textureAnimationModule": {
-      "__id__": 44
-    }
+    "_id": ""
   },
   {
     "__type__": "cc.GradientRange",
@@ -882,6 +882,33 @@
       "__id__": 68
     },
     "bursts": [],
+    "colorOverLifetimeModule": {
+      "__id__": 69
+    },
+    "shapeModule": {
+      "__id__": 75
+    },
+    "sizeOvertimeModule": {
+      "__id__": 77
+    },
+    "velocityOvertimeModule": {
+      "__id__": 82
+    },
+    "forceOvertimeModule": {
+      "__id__": 87
+    },
+    "limitVelocityOvertimeModule": {
+      "__id__": 91
+    },
+    "rotationOvertimeModule": {
+      "__id__": 96
+    },
+    "textureAnimationModule": {
+      "__id__": 100
+    },
+    "trailModule": {
+      "__id__": 103
+    },
     "renderer": {
       "__id__": 108
     },
@@ -889,34 +916,7 @@
     "_prewarm": false,
     "_capacity": 100,
     "_simulationSpace": 1,
-    "_id": "",
-    "_colorOverLifetimeModule": {
-      "__id__": 69
-    },
-    "_sizeOvertimeModule": {
-      "__id__": 77
-    },
-    "_rotationOvertimeModule": {
-      "__id__": 96
-    },
-    "_forceOvertimeModule": {
-      "__id__": 87
-    },
-    "_limitVelocityOvertimeModule": {
-      "__id__": 91
-    },
-    "_velocityOvertimeModule": {
-      "__id__": 82
-    },
-    "_shapeModule": {
-      "__id__": 75
-    },
-    "_trailModule": {
-      "__id__": 103
-    },
-    "_textureAnimationModule": {
-      "__id__": 100
-    }
+    "_id": ""
   },
   {
     "__type__": "cc.GradientRange",

@@ -1,5 +1,5 @@
 {
-  "ver": "1.3.21",
+  "ver": "1.3.19",
   "importer": "fbx",
   "imported": true,
   "uuid": "c45af642-dea2-4669-8421-0ba86d05f198",
@@ -96,7 +96,7 @@
       "displayName": "",
       "id": "73b7f",
       "name": "Take 001.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.13",
       "imported": true,
       "files": [
         ".bin",
@@ -168,8 +168,8 @@
         "mipfilter": "none",
         "premultiplyAlpha": false,
         "anisotropy": 1,
-        "isUuid": false,
-        "imageUuidOrDatabaseUri": "db://assets/model/shitou/shitou.jpg"
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c45af642-dea2-4669-8421-0ba86d05f198@10ed8"
       }
     },
     "804b6": {
@@ -193,7 +193,6 @@
     "imageMetas": [
       {
         "name": "Map #59",
-        "remap": "db://assets/model/shitou/shitou.jpg",
         "uri": "c45af642-dea2-4669-8421-0ba86d05f198@10ed8"
       }
     ],

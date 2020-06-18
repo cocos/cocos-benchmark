@@ -281,7 +281,6 @@
     },
     "_bakeable": false,
     "_castShadow": false,
-    "_receiveShadow": false,
     "_recieveShadow": false,
     "_lightmapSize": 64
   },
@@ -498,7 +497,6 @@
     },
     "_bakeable": false,
     "_castShadow": false,
-    "_receiveShadow": false,
     "_recieveShadow": false,
     "_lightmapSize": 64
   },
@@ -771,7 +769,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 540,
+      "x": 480,
       "y": 320,
       "z": 1
     },
@@ -891,7 +889,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -380,
+      "x": -320,
       "y": 120,
       "z": 0
     },
@@ -999,7 +997,6 @@
     "_originalWidth": 0,
     "_originalHeight": 0,
     "_alignMode": 2,
-    "_lockFlags": 0,
     "_id": "48KvUklfRHK55OzMerpPCj"
   },
   {
@@ -1053,7 +1050,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -380,
+      "x": -320,
       "y": 120,
       "z": 0
     },
@@ -3925,7 +3922,6 @@
     "_originalWidth": 0,
     "_originalHeight": 0,
     "_alignMode": 2,
-    "_lockFlags": 0,
     "_id": "0cGeGQ2BJGV51b1uIOuJfd"
   },
   {
@@ -3954,7 +3950,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 466.5,
+      "x": 406.5,
       "y": 223,
       "z": 0
     },
@@ -4062,7 +4058,6 @@
     "_originalWidth": 0,
     "_originalHeight": 0,
     "_alignMode": 2,
-    "_lockFlags": 0,
     "_id": "d4T7A3/sxGnqt5DysXA/dA"
   },
   {
@@ -4160,7 +4155,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 241.60000000000002,
+      "x": 181.60000000000002,
       "y": -250,
       "z": 0
     },
@@ -4794,7 +4789,6 @@
     "_originalWidth": 0,
     "_originalHeight": 0,
     "_alignMode": 2,
-    "_lockFlags": 0,
     "_id": "25sDO/FEROSYjkWPME9VES"
   },
   {
@@ -4830,7 +4824,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 437.8,
+      "x": 377.8,
       "y": -98,
       "z": 0
     },
@@ -6079,7 +6073,6 @@
     "_originalWidth": 0,
     "_originalHeight": 0,
     "_alignMode": 2,
-    "_lockFlags": 0,
     "_id": "eehkXXiWFFEp/LMS1YhJsz"
   },
   {
@@ -6105,7 +6098,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -440,
+      "x": -380,
       "y": -300,
       "z": 0
     },
@@ -6213,7 +6206,6 @@
     "_originalWidth": 0,
     "_originalHeight": 0,
     "_alignMode": 2,
-    "_lockFlags": 0,
     "_id": "2bKaBRgoRLGJFmbDmSRj8k"
   },
   {
@@ -6249,8 +6241,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -116.24900000000002,
-      "y": -244.122,
+      "x": -26.999000000000024,
+      "y": -171.119,
       "z": 0
     },
     "_lrot": {
@@ -6593,9 +6585,9 @@
     "_alignFlags": 36,
     "_target": null,
     "_left": 0,
-    "_right": 596.249,
+    "_right": 446.999,
     "_top": 0,
-    "_bottom": 55.877999999999986,
+    "_bottom": 128.881,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
     "_isAbsLeft": true,
@@ -6607,7 +6599,6 @@
     "_originalWidth": 0,
     "_originalHeight": 0,
     "_alignMode": 2,
-    "_lockFlags": 0,
     "_id": "03RF6nFr9Di5Y5N6gnu1RA"
   },
   {
@@ -6621,7 +6612,7 @@
     "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1080,
+      "width": 960,
       "height": 640
     },
     "_anchorPoint": {
@@ -7607,7 +7598,6 @@
     "_originalWidth": 0,
     "_originalHeight": 0,
     "_alignMode": 2,
-    "_lockFlags": 0,
     "_id": "ebIyU+pa1FWauVgUYHkghd"
   },
   {
@@ -7713,7 +7703,6 @@
     "_originalWidth": 100,
     "_originalHeight": 100,
     "_alignMode": 2,
-    "_lockFlags": 0,
     "_id": "93qjhhfJNLorc8KlR6PCKO"
   },
   {
@@ -7764,7 +7753,6 @@
     "_originalWidth": 100,
     "_originalHeight": 100,
     "_alignMode": 2,
-    "_lockFlags": 0,
     "_id": "874NZeDSxKP4Wmtpd/oUq5"
   },
   {
@@ -7778,7 +7766,7 @@
     "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1080,
+      "width": 960,
       "height": 640
     },
     "_anchorPoint": {

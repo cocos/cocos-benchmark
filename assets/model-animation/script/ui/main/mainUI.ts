@@ -145,10 +145,10 @@ export class mainUI extends Component {
         }
 
         //@ts-ignore
-        if (profiler._rootNode) {
-            //@ts-ignore
-            profiler._rootNode.active = false;
-        }
+        // if (profiler._rootNode) {
+        //     //@ts-ignore
+        //     profiler._rootNode.active = false;
+        // }
         
         this.lbVersion.string = 'Version: ' + constants.VERSION;
 

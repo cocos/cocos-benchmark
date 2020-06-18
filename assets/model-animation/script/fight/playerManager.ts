@@ -48,12 +48,12 @@ export class playerManager extends Component {
     tweenCamera: Tween;
     posCameraOrigin: Vec3;
 
-    isEnableInstacing = false;
+    isEnableInstancing = false;
 
     private _prevPeopleRate: number = 0; //人数除以30等于多少倍
 
     set enableInstancing (value: boolean) {
-        this.isEnableInstacing = value;
+        this.isEnableInstancing = value;
 
         this.node.children.forEach((nodePlayer)=>{
             let playerScript = nodePlayer.getComponent(player);
@@ -64,7 +64,7 @@ export class playerManager extends Component {
     }
 
     get enableInstancing () {
-        return this.isEnableInstacing;
+        return this.isEnableInstancing;
     }
 
     isEnableShadow = true;
@@ -277,7 +277,7 @@ export class playerManager extends Component {
 
     //     //     nodePlayer.getComponent(player).changeInstancingBatch(isEnable);
     //     // });
-    //     this.isEnableInstacing = false;
+    //     this.isEnableInstancing = false;
 
     //     this.node.children.forEach((nodePlayer)=>{
     //         let playerScript = nodePlayer.getComponent(player);

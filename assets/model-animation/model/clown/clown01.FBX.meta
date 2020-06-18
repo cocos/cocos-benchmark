@@ -1,5 +1,5 @@
 {
-  "ver": "1.3.21",
+  "ver": "1.3.19",
   "importer": "fbx",
   "imported": true,
   "uuid": "9445909f-4879-4c2b-8bc3-a48e7015a2ba",
@@ -44,7 +44,7 @@
       "displayName": "",
       "id": "1f586",
       "name": "idle.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.13",
       "imported": true,
       "files": [
         ".bin",
@@ -68,7 +68,7 @@
       "displayName": "",
       "id": "cf5ee",
       "name": "run.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.13",
       "imported": true,
       "files": [
         ".bin",
@@ -92,7 +92,7 @@
       "displayName": "",
       "id": "989ed",
       "name": "attack.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.13",
       "imported": true,
       "files": [
         ".bin",
@@ -116,7 +116,7 @@
       "displayName": "",
       "id": "ee525",
       "name": "win.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.13",
       "imported": true,
       "files": [
         ".bin",
@@ -140,7 +140,7 @@
       "displayName": "",
       "id": "5b2e9",
       "name": "died.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.13",
       "imported": true,
       "files": [
         ".bin",
@@ -212,8 +212,8 @@
         "mipfilter": "none",
         "premultiplyAlpha": false,
         "anisotropy": 1,
-        "isUuid": false,
-        "imageUuidOrDatabaseUri": "db://assets/model/clown/clown02.jpg"
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9445909f-4879-4c2b-8bc3-a48e7015a2ba@181cb"
       }
     }
   },
@@ -221,7 +221,6 @@
     "imageMetas": [
       {
         "name": "贴图 #4",
-        "remap": "db://assets/model/clown/clown02.jpg",
         "uri": "9445909f-4879-4c2b-8bc3-a48e7015a2ba@181cb"
       }
     ],
