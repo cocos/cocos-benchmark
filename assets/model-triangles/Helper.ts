@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, CameraComponent, Prefab, loader, instantiate, LabelComponent, Vec3, SliderComponent, EventTouch, profiler, ToggleContainerComponent, ToggleComponent, Tween, CCString, EditBoxComponent, clamp } from 'cc';
+import { _decorator, Component, Node, CameraComponent, Prefab, loader, instantiate, LabelComponent, Vec3, SliderComponent, EventTouch, profiler, ToggleContainerComponent, ToggleComponent, Tween, CCString, EditBoxComponent, clamp, BatchingUtility, ModelComponent } from 'cc';
 import { ModelInfo } from './ModelInfo';
 const { ccclass, property } = _decorator;
 
@@ -34,7 +34,7 @@ export class Helper extends Component {
     @property(Node)
     modelRoot: Node = null;
     @property
-    public resPath: string = 'model-triangles/model/';
+    public resPath = 'model-triangles/model/';
     @property(EditBoxComponent)
     numberInput: EditBoxComponent = null;
 
@@ -49,6 +49,10 @@ export class Helper extends Component {
     verticesStr = 0;
     private _count = 0;
     num = 0;
+    enableInstancing = true;
+    enableStaticBatching = false;
+    inBatching = false;
+    delaySchedule = -1;
 
     get count () {
         return this._count;
@@ -133,20 +137,47 @@ export class Helper extends Component {
         this.replaceModel(count);
     }
 
+    onBtnUseGpu(toggle: ToggleComponent) {
+        if (toggle.node.name === 'useInstancing') {
+            this.enableInstancing = true;
+            this.enableStaticBatching = false;
+        } else {
+            this.enableInstancing = false;
+            this.enableStaticBatching = toggle.node.name === 'useStaticBatching';
+        }
+
+        const models = this.modelRoot.children;
+        const len = models.length;
+
+        for (let i = 0; i < len; i++) {
+            const model = models[i];
+            const info = model.getComponent(ModelInfo);
+            info.changeInstancingBatch(this.enableInstancing);
+        }
+
+        this._clearSchedule();
+        this._useStaticBatching();
+        this.inBatching = this.enableStaticBatching;
+    }
+
     replaceModel(childArr: number){
         childArr = Math.round(childArr);
         const prefab = this.prefabList.get(this.currModelName);
-        let vertex = 0;
         for (let i = 0; i < childArr; i++) {
             const element = instantiate(prefab) as Node;
             element.parent = this.modelRoot;
-            vertex = vertex || element.getComponent(ModelInfo).vertices;
+            const info = element.getComponent(ModelInfo);
+            info.changeInstancingBatch(this.enableInstancing);
+            const vertex = info.vertices;
             this.verticesStr += vertex;
             let x = (-8 - 3 * this.currLevel) + Math.random() * (12 + 6 * this.currLevel);
             let z = -16 + Math.random() * (18 + 5 * this.currLevel);
             let pos = new Vec3(x, 0, z);
             element.setPosition(pos);
         }
+
+        this._clearSchedule();
+        this._useStaticBatching();
 
         this.count = childArr;
         this.updateStr();
@@ -191,12 +222,16 @@ export class Helper extends Component {
 
         if (num > this.count) {
             const prefab = this.prefabList.get(this.currModelName);
-            let vertex = 0;
             const addNum = num - this.count;
             for (let i = 0; i < addNum; i++) {
                 const model = instantiate(prefab) as Node;
                 model.parent = this.modelRoot;
-                vertex = vertex || model.getComponent(ModelInfo).vertices;
+                const info = model.getComponent(ModelInfo);
+                if(!this.enableInstancing){
+                    info.changeInstancingBatch(false);
+                }
+
+                const vertex = info.vertices;
                 this.verticesStr += vertex;
                 //x: -8~8
                 //z: -16~2
@@ -204,13 +239,13 @@ export class Helper extends Component {
                 let z = -16 + Math.random() * (18 + 5 * this.currLevel);
                 let pos = new Vec3(x, 0, z);
                 model.setPosition(pos);
-    
+
                 if (Math.floor(this.count / CAMERA_MOVE_PER_MODEL) > this.currLevel) {
                     //触发镜头拉高
                     this.moveUpCamera();
                 }
             }
-    
+
         } else {
             const models = this.modelRoot.children;
             let len = models.length - 1;
@@ -221,22 +256,27 @@ export class Helper extends Component {
                 vertex = vertex || model.getComponent(ModelInfo).vertices;
                 this.verticesStr += vertex;
                 model.destroy();
-    
+
                 if (this.currLevel > Math.floor(this.count / CAMERA_MOVE_PER_MODEL)) {
                     this.currLevel = Math.floor(this.count / CAMERA_MOVE_PER_MODEL);
-    
+
                     let pos = this.camera.node.forward.clone().negative().multiplyScalar(8 * this.currLevel);
-    
+
                     pos.add(this.cameraPos);
-    
+
                     if (this.tweenCamera) {
                         this.tweenCamera.stop();
                         this.tweenCamera = null;
                     }
-    
+
                     this.tweenCamera = new Tween(this.camera.node).to(0.2, { position: pos }).start();
                 }
             }
+        }
+
+        if(this.enableStaticBatching){
+            this._clearSchedule();
+            this.delaySchedule = setTimeout(this._useStaticBatching, 500);
         }
 
         this.count = num;
@@ -246,5 +286,22 @@ export class Helper extends Component {
         let num = Number.parseInt(this.numberInput.string);
 
         this.updateModelNumber(num);
+    }
+
+    _useStaticBatching(){
+        if(this.inBatching){
+            BatchingUtility.unbatchStaticModel(this.modelRoot, this.modelRoot);
+        }
+
+        if (this.enableStaticBatching) {
+            BatchingUtility.batchStaticModel(this.modelRoot, this.modelRoot);
+        }
+    }
+
+    _clearSchedule(){
+        if(this.delaySchedule > -1){
+            clearTimeout(this.delaySchedule);
+            this.delaySchedule = -1;
+        }
     }
 }
