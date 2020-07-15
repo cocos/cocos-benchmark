@@ -30,7 +30,7 @@ export class Helper extends Component {
 
     @property(Node)
     btn: Node = null;
-    
+
     @property(Node)
     modelRoot: Node = null;
     @property
@@ -50,8 +50,6 @@ export class Helper extends Component {
     private _count = 0;
     num = 0;
     enableInstancing = true;
-    enableStaticBatching = false;
-    inBatching = false;
     delaySchedule = -1;
 
     get count () {
@@ -65,7 +63,7 @@ export class Helper extends Component {
     }
 
     start () {
-        loader.loadRes(this.resPath+'9.8', Prefab, (err: any, asset: Prefab)=>{
+        loader.loadRes(this.resPath + '9.8', Prefab, (err: any, asset: Prefab) => {
             if(err){
                 console.warn(err);
                 return;
@@ -82,12 +80,6 @@ export class Helper extends Component {
         if (!profiler._stats) {
             profiler.showStats();
         }
-
-        //@ts-ignore
-        // if (profiler._rootNode) {
-        //     //@ts-ignore
-        //     profiler._rootNode.active = false;
-        // }
 
     }
 
@@ -121,7 +113,9 @@ export class Helper extends Component {
         this.currModelName = toggle.node.name;
         const count = this.modelRoot.children.length;
         this.onBtnClear();
+        this.count = count;
         if(!this.prefabList.get(this.currModelName)){
+            this.btn.active = false;
             loader.loadRes(this.resPath+`${this.currModelName}`, Prefab, (err: any, asset: Prefab)=>{
                 if(err){
                     console.warn(err);
@@ -129,22 +123,27 @@ export class Helper extends Component {
                 }
 
                 this.prefabList.set(asset.data.name, asset);
+                if (Math.floor(this.count / CAMERA_MOVE_PER_MODEL) > this.currLevel) {
+                    //触发镜头拉高
+                    this.moveUpCamera();
+                }
+
                 this.replaceModel(count);
+                this.btn.active = true;
             });
             return;
+        }
+
+        if (Math.floor(this.count / CAMERA_MOVE_PER_MODEL) > this.currLevel) {
+            //触发镜头拉高
+            this.moveUpCamera();
         }
 
         this.replaceModel(count);
     }
 
     onBtnUseGpu(toggle: ToggleComponent) {
-        if (toggle.node.name === 'useInstancing') {
-            this.enableInstancing = true;
-            this.enableStaticBatching = false;
-        } else {
-            this.enableInstancing = false;
-            this.enableStaticBatching = toggle.node.name === 'useStaticBatching';
-        }
+        this.enableInstancing = toggle.isChecked;
 
         const models = this.modelRoot.children;
         const len = models.length;
@@ -154,10 +153,6 @@ export class Helper extends Component {
             const info = model.getComponent(ModelInfo);
             info.changeInstancingBatch(this.enableInstancing);
         }
-
-        this._clearSchedule();
-        this._useStaticBatching();
-        this.inBatching = this.enableStaticBatching;
     }
 
     replaceModel(childArr: number){
@@ -175,9 +170,6 @@ export class Helper extends Component {
             let pos = new Vec3(x, 0, z);
             element.setPosition(pos);
         }
-
-        this._clearSchedule();
-        this._useStaticBatching();
 
         this.count = childArr;
         this.updateStr();
@@ -199,10 +191,10 @@ export class Helper extends Component {
     }
 
     moveUpCamera() {
-        this.currLevel++;
+        this.currLevel = Math.floor(this.count / CAMERA_MOVE_PER_MODEL);
 
-        let direction = this.camera.node.forward.clone().negative().multiplyScalar(8);
-        direction.add(this.camera.node.position);
+        let direction = this.camera.node.forward.clone().negative().multiplyScalar(8 * this.currLevel);
+        direction.add(this.cameraPos);
 
 
         if (this.tweenCamera) {
@@ -216,13 +208,15 @@ export class Helper extends Component {
     updateModelNumber(num: number) {
         if (this.count === num) { return; }
 
-        if (num < 0) {
-            num = 0;
+        if (num < 0 || this.count === num) {
+            return;
         }
 
-        if (num > this.count) {
+        const addNum = num - this.count;
+        this.count = num;
+
+        if (addNum > 0) {
             const prefab = this.prefabList.get(this.currModelName);
-            const addNum = num - this.count;
             for (let i = 0; i < addNum; i++) {
                 const model = instantiate(prefab) as Node;
                 model.parent = this.modelRoot;
@@ -245,12 +239,11 @@ export class Helper extends Component {
                     this.moveUpCamera();
                 }
             }
-
         } else {
             const models = this.modelRoot.children;
             let len = models.length - 1;
             let vertex = 0;
-            const deleteNum = this.count - num;
+            const deleteNum = Math.abs(addNum);
             for (let i = 0; i < deleteNum; i++) {
                 const model = models[len - i];
                 vertex = vertex || model.getComponent(ModelInfo).vertices;
@@ -258,50 +251,15 @@ export class Helper extends Component {
                 model.destroy();
 
                 if (this.currLevel > Math.floor(this.count / CAMERA_MOVE_PER_MODEL)) {
-                    this.currLevel = Math.floor(this.count / CAMERA_MOVE_PER_MODEL);
-
-                    let pos = this.camera.node.forward.clone().negative().multiplyScalar(8 * this.currLevel);
-
-                    pos.add(this.cameraPos);
-
-                    if (this.tweenCamera) {
-                        this.tweenCamera.stop();
-                        this.tweenCamera = null;
-                    }
-
-                    this.tweenCamera = new Tween(this.camera.node).to(0.2, { position: pos }).start();
+                    this.moveUpCamera();
                 }
             }
         }
-
-        if(this.enableStaticBatching){
-            this._clearSchedule();
-            this.delaySchedule = setTimeout(this._useStaticBatching, 500);
-        }
-
-        this.count = num;
     }
 
     onNumberInputEnd() {
         let num = Number.parseInt(this.numberInput.string);
 
         this.updateModelNumber(num);
-    }
-
-    _useStaticBatching(){
-        if(this.inBatching){
-            BatchingUtility.unbatchStaticModel(this.modelRoot, this.modelRoot);
-        }
-
-        if (this.enableStaticBatching) {
-            BatchingUtility.batchStaticModel(this.modelRoot, this.modelRoot);
-        }
-    }
-
-    _clearSchedule(){
-        if(this.delaySchedule > -1){
-            clearTimeout(this.delaySchedule);
-            this.delaySchedule = -1;
-        }
     }
 }
