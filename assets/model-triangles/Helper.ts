@@ -84,13 +84,8 @@ export class Helper extends Component {
     }
 
     onBtnClear(){
-        const childArr = this.modelRoot.children;
-        const len = childArr.length;
-        for (let i = len - 1; i >= 0; i--) {
-            const child = childArr[i];
-            child.destroy();
-        }
-
+        this.modelRoot.destroyAllChildren();
+        this.modelRoot.removeAllChildren();
         this.camera.node.setPosition(this.cameraPos);
         this.trianglesStr = 0;
         this.verticesStr = 0;
