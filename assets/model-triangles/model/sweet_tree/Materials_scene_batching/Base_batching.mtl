@@ -8,21 +8,13 @@
   },
   "_techIdx": 0,
   "_defines": [
-    {
-      "USE_INSTANCING": true,
-      "USE_ALBEDO_MAP": true
-    }
+    {}
   ],
   "_states": [
     {
       "blendState": {
         "targets": [
-          {
-            "blend": true,
-            "blendDst": 4,
-            "blendDstAlpha": 4,
-            "blendSrc": 2
-          }
+          {}
         ]
       },
       "depthStencilState": {},
@@ -33,11 +25,20 @@
   ],
   "_props": [
     {
+      "albedoScale": {
+        "__type__": "cc.Vec3",
+        "x": 0.08805174037017907,
+        "y": 0.05998330627417456,
+        "z": 0.05998330627417456
+      },
       "alphaThreshold": 0,
       "roughness": 1,
       "metallic": 0,
-      "mainTexture": {
-        "__uuid__": "97c9c32c-c089-4a8e-9198-025c28bd582b@e39f7"
+      "emissiveScale": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 0
       }
     }
   ]
