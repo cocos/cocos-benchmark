@@ -84,13 +84,8 @@ export class Helper extends Component {
     }
 
     onBtnClear(){
-        const childArr = this.modelRoot.children;
-        const len = childArr.length;
-        for (let i = len - 1; i >= 0; i--) {
-            const child = childArr[i];
-            child.destroy();
-        }
-
+        this.modelRoot.destroyAllChildren();
+        this.modelRoot.removeAllChildren();
         this.camera.node.setPosition(this.cameraPos);
         this.trianglesStr = 0;
         this.verticesStr = 0;
@@ -113,7 +108,6 @@ export class Helper extends Component {
         this.currModelName = toggle.node.name;
         const count = this.modelRoot.children.length;
         this.onBtnClear();
-        this.count = count;
         if(!this.prefabList.get(this.currModelName)){
             this.btn.active = false;
             loader.loadRes(this.resPath+`${this.currModelName}`, Prefab, (err: any, asset: Prefab)=>{
@@ -123,23 +117,13 @@ export class Helper extends Component {
                 }
 
                 this.prefabList.set(asset.data.name, asset);
-                if (Math.floor(this.count / CAMERA_MOVE_PER_MODEL) > this.currLevel) {
-                    //触发镜头拉高
-                    this.moveUpCamera();
-                }
-
-                this.replaceModel(count);
+                this.updateModelNumber(count);
                 this.btn.active = true;
             });
             return;
         }
 
-        if (Math.floor(this.count / CAMERA_MOVE_PER_MODEL) > this.currLevel) {
-            //触发镜头拉高
-            this.moveUpCamera();
-        }
-
-        this.replaceModel(count);
+        this.updateModelNumber(count);
     }
 
     onBtnUseGpu(toggle: ToggleComponent) {
@@ -153,26 +137,6 @@ export class Helper extends Component {
             const info = model.getComponent(ModelInfo);
             info.changeInstancingBatch(this.enableInstancing);
         }
-    }
-
-    replaceModel(childArr: number){
-        childArr = Math.round(childArr);
-        const prefab = this.prefabList.get(this.currModelName);
-        for (let i = 0; i < childArr; i++) {
-            const element = instantiate(prefab) as Node;
-            element.parent = this.modelRoot;
-            const info = element.getComponent(ModelInfo);
-            info.changeInstancingBatch(this.enableInstancing);
-            const vertex = info.vertices;
-            this.verticesStr += vertex;
-            let x = (-8 - 3 * this.currLevel) + Math.random() * (12 + 6 * this.currLevel);
-            let z = -16 + Math.random() * (18 + 5 * this.currLevel);
-            let pos = new Vec3(x, 0, z);
-            element.setPosition(pos);
-        }
-
-        this.count = childArr;
-        this.updateStr();
     }
 
     updateStr(){
@@ -191,7 +155,7 @@ export class Helper extends Component {
     }
 
     moveUpCamera() {
-        this.currLevel = Math.floor(this.count / CAMERA_MOVE_PER_MODEL);
+        this.currLevel = Math.floor(this.modelRoot.children.length / CAMERA_MOVE_PER_MODEL);
 
         let direction = this.camera.node.forward.clone().negative().multiplyScalar(8 * this.currLevel);
         direction.add(this.cameraPos);
@@ -225,19 +189,20 @@ export class Helper extends Component {
                     info.changeInstancingBatch(false);
                 }
 
+                if (Math.floor(this.modelRoot.children.length / CAMERA_MOVE_PER_MODEL) > this.currLevel) {
+                    //触发镜头拉高
+                    this.moveUpCamera();
+                }
+
                 const vertex = info.vertices;
                 this.verticesStr += vertex;
                 //x: -8~8
                 //z: -16~2
-                let x = (-8 - 3 * this.currLevel) + Math.random() * (12 + 6 * this.currLevel);
-                let z = -16 + Math.random() * (18 + 5 * this.currLevel);
+                const curL = Math.floor(this.modelRoot.children.length / CAMERA_MOVE_PER_MODEL);
+                let x = (-8 - 3 * curL) + Math.random() * (12 + 6 * curL);
+                let z = -16 + Math.random() * (18 + 5 * curL);
                 let pos = new Vec3(x, 0, z);
                 model.setPosition(pos);
-
-                if (Math.floor(this.count / CAMERA_MOVE_PER_MODEL) > this.currLevel) {
-                    //触发镜头拉高
-                    this.moveUpCamera();
-                }
             }
         } else {
             const models = this.modelRoot.children;
@@ -250,7 +215,7 @@ export class Helper extends Component {
                 this.verticesStr += vertex;
                 model.destroy();
 
-                if (this.currLevel > Math.floor(this.count / CAMERA_MOVE_PER_MODEL)) {
+                if (this.currLevel > Math.floor(this.modelRoot.children.length / CAMERA_MOVE_PER_MODEL)) {
                     this.moveUpCamera();
                 }
             }

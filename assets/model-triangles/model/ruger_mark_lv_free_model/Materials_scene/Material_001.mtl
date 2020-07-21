@@ -29,9 +29,7 @@
           }
         ]
       },
-      "depthStencilState": {
-        "depthWrite": false
-      },
+      "depthStencilState": {},
       "rasterizerState": {
         "cullMode": 0
       }
@@ -42,12 +40,6 @@
       "alphaThreshold": 0,
       "roughness": 1,
       "metallic": 1,
-      "emissiveScale": {
-        "__type__": "cc.Vec3",
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
       "mainTexture": {
         "__uuid__": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@55257"
       },

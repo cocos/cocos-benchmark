@@ -171,11 +171,11 @@
     "_enabled": true,
     "_projection": 1,
     "_priority": 0,
-    "_fov": 45,
+    "_fov": 60,
     "_fovAxis": 0,
     "_orthoHeight": 10,
-    "_near": 1,
-    "_far": 2000,
+    "_near": 0.3,
+    "_far": 1000,
     "_color": {
       "__type__": "cc.Color",
       "r": 51,
@@ -5747,9 +5747,9 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 1
+      "x": 5,
+      "y": 5,
+      "z": 5
     },
     "_layer": 1073741824,
     "_euler": {
@@ -5964,9 +5964,9 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 1
+      "x": 5,
+      "y": 5,
+      "z": 5
     },
     "_layer": 1073741824,
     "_euler": {
