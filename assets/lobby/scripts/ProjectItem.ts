@@ -37,8 +37,8 @@ export class ProjectItem extends Component {
                 }
                 this.coverSprite.spriteFrame = spr;
                 const trans = this.coverSprite.node.getComponent(UITransformComponent);
-                trans.width = spr.width;
-                trans.height = spr.height;
+                // trans.width = spr.width;
+                // trans.height = spr.height;
             });
         }
 

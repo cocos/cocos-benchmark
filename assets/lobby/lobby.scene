@@ -211,7 +211,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 540,
+      "x": 480,
       "y": 320,
       "z": 1
     },
@@ -308,7 +308,7 @@
         "__id__": 9
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 12
@@ -326,8 +326,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 121.351,
-      "y": -118.654,
+      "x": 481.38599999999997,
+      "y": -200,
       "z": 0
     },
     "_lrot": {
@@ -434,7 +434,7 @@
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 255
+      "a": 0
     },
     "_sharedMaterial": null,
     "_spriteFrame": {
@@ -466,13 +466,13 @@
     "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 250,
-      "height": 12
+      "width": 960,
+      "height": 10
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 1,
-      "y": 0.5
+      "y": 1
     },
     "_id": "11xM/lM/RGY41QrguDM8jN"
   },
@@ -491,7 +491,7 @@
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 255
+      "a": 0
     },
     "_sharedMaterial": null,
     "_spriteFrame": {
@@ -520,12 +520,12 @@
       "__id__": 8
     },
     "_enabled": true,
-    "_alignFlags": 37,
+    "_alignFlags": 40,
     "_target": null,
-    "_left": 0,
-    "_right": -1.350999999999999,
-    "_top": 237.654,
-    "_bottom": 0.34600000000000364,
+    "_left": 1.3859999999999673,
+    "_right": -1.3859999999999673,
+    "_top": 250.45100000000002,
+    "_bottom": -100.451,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
     "_isAbsLeft": true,
@@ -534,10 +534,9 @@
     "_isAbsBottom": true,
     "_isAbsHorizontalCenter": true,
     "_isAbsVerticalCenter": true,
-    "_originalWidth": 0,
+    "_originalWidth": 250,
     "_originalHeight": 250,
     "_alignMode": 1,
-    "_lockFlags": 0,
     "_id": "7bqY33clBJyb1jGo/Q1wTN"
   },
   {
@@ -555,7 +554,7 @@
       "__id__": 11
     },
     "_direction": 0,
-    "_enableAutoHide": false,
+    "_enableAutoHide": true,
     "_autoHideTime": 1,
     "_id": "c4XW9clZBDqoSf15pQrabh"
   },
@@ -567,14 +566,14 @@
       "__id__": 7
     },
     "_enabled": true,
-    "bounceDuration": 0.23,
-    "brake": 0.75,
-    "elastic": true,
-    "inertia": true,
     "horizontal": true,
     "vertical": false,
-    "cancelInnerEvents": true,
+    "inertia": true,
+    "brake": 0.75,
+    "elastic": true,
+    "bounceDuration": 0.23,
     "scrollEvents": [],
+    "cancelInnerEvents": true,
     "_content": {
       "__id__": 17
     },
@@ -696,7 +695,7 @@
     "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1080,
+      "width": 960,
       "height": 400
     },
     "_anchorPoint": {
@@ -754,7 +753,6 @@
     "_originalWidth": 800,
     "_originalHeight": 0,
     "_alignMode": 2,
-    "_lockFlags": 0,
     "_id": "6e0Kj7WeRIVJov0yGnTjp7"
   },
   {
@@ -817,7 +815,7 @@
     "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1080,
+      "width": 960,
       "height": 400
     },
     "_anchorPoint": {
@@ -888,7 +886,6 @@
     "_originalWidth": 800,
     "_originalHeight": 0,
     "_alignMode": 2,
-    "_lockFlags": 0,
     "_id": "30iyI8qhFL7b9hYq4I/vHV"
   },
   {
@@ -902,7 +899,7 @@
     "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1080,
+      "width": 960,
       "height": 640
     },
     "_anchorPoint": {
@@ -1019,7 +1016,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 540,
+      "x": 480,
       "y": 320,
       "z": 1
     },
@@ -1071,7 +1068,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 515,
+      "x": 455,
       "y": 295,
       "z": 0
     },
@@ -1251,7 +1248,6 @@
     "_originalWidth": 0,
     "_originalHeight": 50,
     "_alignMode": 2,
-    "_lockFlags": 0,
     "_id": "4ehQPsZ4JKOINoj0WfIJFJ"
   },
   {
@@ -1265,7 +1261,7 @@
     "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1080,
+      "width": 960,
       "height": 640
     },
     "_anchorPoint": {
