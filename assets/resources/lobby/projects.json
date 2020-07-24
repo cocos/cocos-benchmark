@@ -22,5 +22,11 @@
         "sceneUrl": "particle-test/ParticleTest.scene",
         "coverImgUrl": "lobby/particle-test/spriteFrame",
         "tips": "用于粒子测试"
+    },
+    {
+        "name": "ui-sprite-test",
+        "sceneUrl": "ui-test/BunnyTest.scene",
+        "coverImgUrl": "lobby/bunny-test/spriteFrame",
+        "tips": "用于UI精灵测试"
     }
 ]
