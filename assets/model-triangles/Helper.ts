@@ -91,7 +91,6 @@ export class Helper extends Component {
         this.verticesStr = 0;
         this.count = 0;
         this.currLevel = 0;
-        this.updateStr();
     }
 
     onBtnAdd(){
@@ -166,6 +165,10 @@ export class Helper extends Component {
             this.tweenCamera = null;
         }
 
+        if(this.tweenCamera){
+            this.tweenCamera.stop();
+        }
+
         this.tweenCamera = new Tween(this.camera.node).to(0.2, { position: direction }).start();
     }
 
@@ -177,7 +180,6 @@ export class Helper extends Component {
         }
 
         const addNum = num - this.count;
-        this.count = num;
 
         if (addNum > 0) {
             const prefab = this.prefabList.get(this.currModelName);
@@ -187,11 +189,6 @@ export class Helper extends Component {
                 const info = model.getComponent(ModelInfo);
                 if(!this.enableInstancing){
                     info.changeInstancingBatch(false);
-                }
-
-                if (Math.floor(this.modelRoot.children.length / CAMERA_MOVE_PER_MODEL) > this.currLevel) {
-                    //触发镜头拉高
-                    this.moveUpCamera();
                 }
 
                 const vertex = info.vertices;
@@ -204,6 +201,11 @@ export class Helper extends Component {
                 let pos = new Vec3(x, 0, z);
                 model.setPosition(pos);
             }
+
+            if (Math.floor(num / CAMERA_MOVE_PER_MODEL) > this.currLevel) {
+                //触发镜头拉高
+                this.moveUpCamera();
+            }
         } else {
             const models = this.modelRoot.children;
             let len = models.length - 1;
@@ -212,14 +214,17 @@ export class Helper extends Component {
             for (let i = 0; i < deleteNum; i++) {
                 const model = models[len - i];
                 vertex = vertex || model.getComponent(ModelInfo).vertices;
-                this.verticesStr += vertex;
+                this.verticesStr -= vertex;
+                model.removeFromParent();
                 model.destroy();
+            }
 
-                if (this.currLevel > Math.floor(this.modelRoot.children.length / CAMERA_MOVE_PER_MODEL)) {
-                    this.moveUpCamera();
-                }
+            if (this.currLevel > Math.floor(num / CAMERA_MOVE_PER_MODEL)) {
+                this.moveUpCamera();
             }
         }
+
+        this.count = num;
     }
 
     onNumberInputEnd() {
