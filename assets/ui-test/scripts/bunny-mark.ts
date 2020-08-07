@@ -20,6 +20,7 @@ const bunnys: any[] = [];
 let currentFrame = null;
 let bunnyType = 0;
 const gravity = 0.5;
+let originNodeCount= 0;
 
 let maxX = 0;
 let minX = 0;
@@ -81,18 +82,19 @@ export class BunnyMark extends Component {
         }
 
         currentFrame = this.frames[0];
-        this.node.on(Node.EventType.TOUCH_START, function () {
-            isAdding = true;
-        });
-        this.node.on(Node.EventType.TOUCH_END, function () {
-            isAdding = false;
-            bunnyType++;
-            bunnyType %= 5;
-            currentFrame = this.frames[bunnyType];
-        }, this);
-        this.node.on(Node.EventType.TOUCH_CANCEL, function () {
-            isAdding = false;
-        });
+        originNodeCount = this.node.children.length;
+        // this.node.on(Node.EventType.TOUCH_START, function () {
+        //     isAdding = true;
+        // });
+        // this.node.on(Node.EventType.TOUCH_END, function () {
+        //     isAdding = false;
+        //     bunnyType++;
+        //     bunnyType %= 5;
+        //     currentFrame = this.frames[bunnyType];
+        // }, this);
+        // this.node.on(Node.EventType.TOUCH_CANCEL, function () {
+        //     isAdding = false;
+        // });
 
         // this.add();
         // this.addOne();
@@ -205,10 +207,36 @@ export class BunnyMark extends Component {
         number.string = count.toString();
     }
 
+    reduceOnce() {
+        // the one is container
+        let amountPerLevel = Math.floor(amount / this.levelCount);
+        let children = this.node.children;
+        let len = children.length;
+        // reduce bunnys
+        const startNum = len - 1 - originNodeCount;
+        for (let j = 0; j < amountPerLevel + 1; j++) {
+            const child = children[startNum - j];
+            this.node.removeChild(child);
+            child.destroy();
+        }
+
+        count -= amount;
+        number.string = count.toString();
+
+        for (let i = 0; i < this.levelCount; i++) {
+            const lbunnys = bunnys[i] as Array<any>;
+            if(lbunnys.length >= amountPerLevel){
+                lbunnys.splice(lbunnys.length - amountPerLevel, amountPerLevel);
+            }
+        }
+
+    }
+
     // called every frame, uncomment this function to activate update callback
     update(dt) {
         if (isAdding) {
             this.addOnce();
+            isAdding = false;
         }
 
         // var start = new Date().getTime();
@@ -246,6 +274,17 @@ export class BunnyMark extends Component {
                 bunny.owner.setPosition(x, y, 0);
             }
         }
+    }
+
+    public btnAdd(){
+        isAdding = true;
+        bunnyType++;
+        bunnyType %= 5;
+        currentFrame = this.frames[bunnyType];
+    }
+
+    public btnReduce(){
+        this.reduceOnce();
     }
 }
 
