@@ -216,7 +216,6 @@ export class BunnyMark extends Component {
         const startNum = len - 1 - originNodeCount;
         for (let j = 0; j < amountPerLevel + 1; j++) {
             const child = children[startNum - j];
-            this.node.removeChild(child);
             child.destroy();
         }
 
