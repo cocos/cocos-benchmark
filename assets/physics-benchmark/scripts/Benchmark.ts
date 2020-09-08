@@ -46,9 +46,6 @@ export class Benchmark extends Component {
     @property({ type: LabelComponent })
     readonly l_current: LabelComponent = null;
 
-    @property({ type: LabelComponent })
-    readonly l_engineInfo: LabelComponent = null;
-
     /** RIGHT */
 
     @property({ type: ToggleComponent })
@@ -78,11 +75,6 @@ export class Benchmark extends Component {
     private curElementNum: number[] = [0, 0, 0, 0];
 
     start () {
-        if (CC_PHYSICS_AMMO) {
-            this.l_engineInfo.string = "ammo";
-        } else if (CC_PHYSICS_CANNON) {
-            this.l_engineInfo.string = "cannon";
-        }
 
         profiler.showStats();
         for (let i = 0; i < ElementType.MAX; i++) {
@@ -100,7 +92,6 @@ export class Benchmark extends Component {
         this.updateAllElementsNumber(value);
 
         this.onRotateToggle(this.r_rotateToggle);
-        this.onUseFixTimeToggle(this.r_useFixToggle);
         this.onEditFrameRate(this.r_frameRateEditBox);
         this.onEditSubStep(this.r_subStepEditBox);
         this.onEditInterval(this.r_IntervalEditBox);
@@ -259,22 +250,12 @@ export class Benchmark extends Component {
         this.enableRotate = toggle.isChecked;
     }
 
-    onUseFixTimeToggle (toggle: ToggleComponent) {
-        if (toggle.isChecked) {
-            PhysicsSystem.instance.useFixedTime = true;
-            this.r_subStepEditBox.node.active = false;
-        } else {
-            PhysicsSystem.instance.useFixedTime = false;
-            this.r_subStepEditBox.node.active = true;
-        }
-    }
-
     onEditFrameRate (editBox: EditBoxComponent) {
         const v = parseInt(editBox.string);
         if (isNaN(v)) return;
 
         if (v > 0) {
-            PhysicsSystem.instance.deltaTime = 1 / v;
+            PhysicsSystem.instance.fixedTimeStep = 1 / v;
         }
     }
 
@@ -283,7 +264,7 @@ export class Benchmark extends Component {
         if (isNaN(v)) return;
 
         if (v >= 0) {
-            PhysicsSystem.instance.maxSubStep = v;
+            PhysicsSystem.instance.maxSubSteps = v;
         }
     }
 
