@@ -14,13 +14,11 @@ export class mapManager extends Component {
 
     start () {
         // Your initialization goes here.
-        SubPackageManager.instance.loadModelPackage(()=>{
-            ResManager.getModel('map', (err, prefab)=>{
-                if (!err) {
-                    let node = instantiate(prefab) as Node;
-                    node.parent = this.node;
-                }
-            });
+        ResManager.getModel('map', (err, prefab)=>{
+            if (!err) {
+                let node = instantiate(prefab) as Node;
+                node.parent = this.node;
+            }
         });
     }
 
