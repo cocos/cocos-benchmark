@@ -118,19 +118,17 @@ export class playerManager extends Component {
 
     start () {
         // Your initialization goes here.
-        SubPackageManager.instance.loadModelPackage(()=>{
-            this.arrName.forEach((name)=>{
-                ResManager.getModel(name, (err, prefab)=>{
-                    if (!err) {
-                        this.arrModel.push(prefab);
+        this.arrName.forEach((name)=>{
+            ResManager.getModel(name, (err, prefab)=>{
+                if (!err) {
+                    this.arrModel.push(prefab);
 
-                        if (this.arrModel.length === this.arrName.length) {
-                            this.addPlayerGroup();
-    
-                            this.isStart = true;
-                        }
+                    if (this.arrModel.length === this.arrName.length) {
+                        this.addPlayerGroup();
+
+                        this.isStart = true;
                     }
-                });
+                }
             });
         });
 
