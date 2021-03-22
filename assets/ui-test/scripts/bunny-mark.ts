@@ -1,4 +1,4 @@
-import { _decorator, Node, SpriteFrame, LabelComponent, SpriteComponent, Vec3, Component, UITransformComponent, profiler } from "cc";
+import { _decorator, Node, SpriteFrame, LabelComponent, SpriteComponent, Vec3, Component, UITransformComponent, profiler, Layers } from "cc";
 const { ccclass, property } = _decorator;
 
 class BunnyMarkData {
@@ -185,6 +185,7 @@ export class BunnyMark extends Component {
             const lbunnys = bunnys[i];
             for (let j = 0; j < amountPerLevel; j++) {
                 bunny = new Node();
+                bunny.layer = Layers.Enum.UI_2D;
                 bunnysp = bunny.addComponent(SpriteComponent);
                 bunnysp.spriteFrame = currentFrame;
                 const data = new BunnyMarkData();
