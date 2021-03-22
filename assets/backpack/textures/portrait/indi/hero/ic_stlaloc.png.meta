@@ -1,0 +1,81 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "a6d9dca5-2004-4d75-a72b-b7a213f4e714",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "a6d9dca5-2004-4d75-a72b-b7a213f4e714@6c48a",
+      "displayName": "ic_stlaloc",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "imageUuidOrDatabaseUri": "a6d9dca5-2004-4d75-a72b-b7a213f4e714",
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "ver": "1.0.9",
+      "importer": "sprite-frame",
+      "uuid": "a6d9dca5-2004-4d75-a72b-b7a213f4e714@f9941",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0.5,
+        "offsetY": -7.5,
+        "trimX": 19,
+        "trimY": 24,
+        "width": 113,
+        "height": 117,
+        "rawWidth": 150,
+        "rawHeight": 150,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a6d9dca5-2004-4d75-a72b-b7a213f4e714@6c48a",
+        "atlasUuid": "",
+        "packable": true
+      },
+      "displayName": "ic_stlaloc",
+      "id": "f9941",
+      "name": "spriteFrame"
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "redirect": "a6d9dca5-2004-4d75-a72b-b7a213f4e714@f9941",
+    "hasAlpha": true
+  }
+}
