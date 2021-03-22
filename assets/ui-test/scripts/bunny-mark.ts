@@ -1,4 +1,4 @@
-import { _decorator, Node, SpriteFrame, LabelComponent, SpriteComponent, Vec3, Component, UITransformComponent, Layers } from "cc";
+import { _decorator, Node, SpriteFrame, LabelComponent, SpriteComponent, Vec3, Component, UITransformComponent, profiler, Layers } from "cc";
 const { ccclass, property } = _decorator;
 
 class BunnyMarkData {
@@ -83,6 +83,9 @@ export class BunnyMark extends Component {
 
         currentFrame = this.frames[0];
         originNodeCount = this.node.children.length;
+        if (!profiler._stats) {
+            profiler.showStats();
+        }
         // this.node.on(Node.EventType.TOUCH_START, function () {
         //     isAdding = true;
         // });

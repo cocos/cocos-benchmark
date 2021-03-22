@@ -28,5 +28,17 @@
         "sceneUrl": "ui-test/BunnyTest.scene",
         "coverImgUrl": "lobby/bunny-test/spriteFrame",
         "tips": "用于UI精灵测试"
+    },
+    {
+        "name": "ui-backpack-no-batch",
+        "sceneUrl": "backpack/backpack_no_batch.scene",
+        "coverImgUrl": "lobby/backpack/spriteFrame",
+        "tips": "用于不开启合批的背包测试"
+    },
+    {
+        "name": "ui-backpack-batch",
+        "sceneUrl": "backpack/backpack_batch.scene",
+        "coverImgUrl": "lobby/backpack/spriteFrame",
+        "tips": "用于开启合批的背包测试"
     }
 ]
