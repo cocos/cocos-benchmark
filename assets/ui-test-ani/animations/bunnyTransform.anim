@@ -1,0 +1,143 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bunnyTransform",
+  "_objFlags": 0,
+  "_native": "",
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "events": [],
+  "_duration": 2,
+  "_keys": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      2
+    ]
+  ],
+  "_stepness": 0,
+  "_curves": [
+    {
+      "modifiers": [
+        "x"
+      ],
+      "data": {
+        "keys": 0,
+        "values": [
+          -240,
+          240,
+          -240
+        ],
+        "easingMethods": {}
+      },
+      "commonTarget": 0
+    },
+    {
+      "modifiers": [
+        "y"
+      ],
+      "data": {
+        "keys": 1,
+        "values": [
+          -320,
+          320,
+          -320
+        ],
+        "easingMethods": {}
+      },
+      "commonTarget": 0
+    },
+    {
+      "modifiers": [
+        "x"
+      ],
+      "data": {
+        "keys": 2,
+        "values": [
+          0.5,
+          1.5,
+          0.5
+        ],
+        "easingMethods": {}
+      },
+      "commonTarget": 1
+    },
+    {
+      "modifiers": [
+        "y"
+      ],
+      "data": {
+        "keys": 3,
+        "values": [
+          0.5,
+          1.5,
+          0.5
+        ],
+        "easingMethods": {}
+      },
+      "commonTarget": 1
+    },
+    {
+      "modifiers": [
+        "eulerAngles"
+      ],
+      "data": {
+        "keys": 4,
+        "values": [
+          {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": -360
+          },
+          {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        ],
+        "easingMethods": {}
+      }
+    }
+  ],
+  "_commonTargets": [
+    {
+      "modifiers": [
+        "position"
+      ]
+    },
+    {
+      "modifiers": [
+        "scale"
+      ]
+    }
+  ],
+  "_hash": 0
+}

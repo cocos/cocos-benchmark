@@ -40,5 +40,23 @@
         "sceneUrl": "backpack/backpack_batch.scene",
         "coverImgUrl": "lobby/backpack/spriteFrame",
         "tips": "用于开启合批的背包测试"
+    },
+    {
+        "name": "ui-test",
+        "sceneUrl": "ui-test-ani/scene/UITest.scene",
+        "coverImgUrl": "lobby/uiTest/spriteFrame",
+        "tips": "用于ui复杂场景测试"
+    },
+    {
+        "name": "ui-frameAni-test",
+        "sceneUrl": "ui-test-ani/scene/BunnyFrameAnimationTest.scene",
+        "coverImgUrl": "lobby/uiSpriteFrameAni/spriteFrame",
+        "tips": "用于ui帧动画测试"
+    },
+    {
+        "name": "ui-transAni-test",
+        "sceneUrl": "ui-test-ani/scene/BunnyTransformAnimationTest.scene",
+        "coverImgUrl": "lobby/uiTransAni/spriteFrame",
+        "tips": "用于ui位移动画测试"
     }
 ]
