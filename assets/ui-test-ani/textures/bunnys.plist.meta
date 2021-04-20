@@ -1,0 +1,188 @@
+{
+  "ver": "1.0.6",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe",
+  "files": [
+    ".plist",
+    ".json"
+  ],
+  "subMetas": {
+    "5b71b": {
+      "importer": "sprite-frame",
+      "uuid": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe@5b71b",
+      "displayName": "",
+      "id": "5b71b",
+      "name": "bunnys_01",
+      "userData": {
+        "atlasUuid": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 26,
+        "height": 37,
+        "rawWidth": 26,
+        "rawHeight": 37,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ae5d9a0a-1576-498f-90da-d0a24217b766@6c48a"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "16caf": {
+      "importer": "sprite-frame",
+      "uuid": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe@16caf",
+      "displayName": "",
+      "id": "16caf",
+      "name": "bunnys_02",
+      "userData": {
+        "atlasUuid": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 47,
+        "width": 26,
+        "height": 37,
+        "rawWidth": 26,
+        "rawHeight": 37,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ae5d9a0a-1576-498f-90da-d0a24217b766@6c48a"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a0bda": {
+      "importer": "sprite-frame",
+      "uuid": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe@a0bda",
+      "displayName": "",
+      "id": "a0bda",
+      "name": "bunnys_03",
+      "userData": {
+        "atlasUuid": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 86,
+        "width": 26,
+        "height": 37,
+        "rawWidth": 26,
+        "rawHeight": 37,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ae5d9a0a-1576-498f-90da-d0a24217b766@6c48a"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e9f17": {
+      "importer": "sprite-frame",
+      "uuid": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe@e9f17",
+      "displayName": "",
+      "id": "e9f17",
+      "name": "bunnys_04",
+      "userData": {
+        "atlasUuid": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 125,
+        "width": 26,
+        "height": 37,
+        "rawWidth": 26,
+        "rawHeight": 37,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ae5d9a0a-1576-498f-90da-d0a24217b766@6c48a"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a8e17": {
+      "importer": "sprite-frame",
+      "uuid": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe@a8e17",
+      "displayName": "",
+      "id": "a8e17",
+      "name": "bunnys_05",
+      "userData": {
+        "atlasUuid": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 164,
+        "width": 26,
+        "height": 37,
+        "rawWidth": 26,
+        "rawHeight": 37,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ae5d9a0a-1576-498f-90da-d0a24217b766@6c48a"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "bunnys.png",
+    "format": 3,
+    "textureUuid": "ae5d9a0a-1576-498f-90da-d0a24217b766@6c48a",
+    "uuid": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe"
+  }
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "bunnyFrame",
+    "_objFlags": 0,
+    "_native": "",
+    "sample": 60,
+    "speed": 1,
+    "wrapMode": 2,
+    "events": [],
+    "_duration": 0.85,
+    "_keys": [
+      [
+        0,
+        0.16666666666666666,
+        0.3333333333333333,
+        0.5,
+        0.6666666666666666,
+        0.8333333333333334
+      ]
+    ],
+    "_stepness": 0,
+    "_curves": [
+      {
+        "modifiers": [
+          {
+            "__id__": 1
+          },
+          "spriteFrame"
+        ],
+        "data": {
+          "keys": 0,
+          "values": [
+            {
+              "__uuid__": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe@5b71b"
+            },
+            {
+              "__uuid__": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe@16caf"
+            },
+            {
+              "__uuid__": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe@a0bda"
+            },
+            {
+              "__uuid__": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe@e9f17"
+            },
+            {
+              "__uuid__": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe@a8e17"
+            },
+            {
+              "__uuid__": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe@5b71b"
+            }
+          ],
+          "easingMethods": {}
+        }
+      }
+    ],
+    "_commonTargets": [],
+    "_hash": 1244207039
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  }
+]
