@@ -21,7 +21,7 @@ export class BunnyTransformAnimationTest extends Component {
     reset () {
         this.bunnys = [];
         bunnyType = 0;
-        totalCount = 1000;
+        totalCount = 100;
         count = 0;
         amount = 50;
     }
@@ -44,11 +44,11 @@ export class BunnyTransformAnimationTest extends Component {
     }
 
     addItem () {
-        totalCount += 1000;
+        totalCount += 100;
     }
 
     reduceItem () {
-        totalCount -= 1000;
+        totalCount -= 100;
     }
 
 }

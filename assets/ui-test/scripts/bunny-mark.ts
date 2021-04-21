@@ -31,7 +31,8 @@ let isAdding = false;
 let count = 0;
 let number: LabelComponent = null;
 
-const amount = 500;
+// Notice: the number of the add pre click
+const amount = 100;
 
 let checking = false;
 let totalDt = 0;
@@ -196,7 +197,7 @@ export class BunnyMark extends Component {
                 bunny.anchorY = 1;
                 //bunny.alpha = 0.3 + Math.random() * 0.7;
                 lbunnys.push(data);
-                bunny.setScale(0.3, 0.3, 1);
+                bunny.setScale(1.5, 1.5, 1.5);
                 this._euler.set(0, 0, 360 * (Math.random() * 0.2 - 0.1));
                 bunny.eulerAngles = this._euler;
 
