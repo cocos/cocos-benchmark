@@ -1,15 +1,13 @@
 {
-  "ver": "2.0.14",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "b3985dcc-85dc-4d0d-ad6c-fc41b6728bc1",
-  "files": [
-    ".js",
-    ".trans"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/physics-benchmark/checks/PhysicsEnvCheck.js"
+    "moduleId": "project:///assets/physics-benchmark/checks/PhysicsEnvCheck.js",
+    "simulateGlobals": []
   }
 }
