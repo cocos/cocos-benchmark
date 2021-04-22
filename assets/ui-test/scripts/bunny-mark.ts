@@ -64,6 +64,8 @@ export class BunnyMark extends Component {
     levelCount = 10;
     @property(LabelComponent)
     number: LabelComponent = null;
+    @property(Node)
+    public root:Node | null = null;
 
     _euler = new Vec3();
 
@@ -178,7 +180,7 @@ export class BunnyMark extends Component {
 
     addOnce() {
         let amountPerLevel = Math.floor(amount / this.levelCount);
-        let parent = this.node as Node;
+        let parent = this.root as Node;
 
         let bunny: Node, bunnysp, i;
         // Add bunnys
