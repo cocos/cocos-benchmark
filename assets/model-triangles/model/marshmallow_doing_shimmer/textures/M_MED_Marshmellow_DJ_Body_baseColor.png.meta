@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.17",
+  "ver": "1.0.21",
   "importer": "image",
   "imported": true,
   "uuid": "dc82d35f-a717-4437-a4e0-b84e64a596a9",
@@ -14,7 +14,7 @@
       "displayName": "M_MED_Marshmellow_DJ_Body_baseColor",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -27,7 +27,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "dc82d35f-a717-4437-a4e0-b84e64a596a9"
       }
@@ -35,6 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "dc82d35f-a717-4437-a4e0-b84e64a596a9@6c48a"
+    "redirect": "dc82d35f-a717-4437-a4e0-b84e64a596a9@6c48a",
+    "hasAlpha": false
   }
 }

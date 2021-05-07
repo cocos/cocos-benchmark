@@ -1,15 +1,13 @@
 {
-  "ver": "2.0.14",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "7a6dfe3e-ba5e-4ab1-a246-27f28cb04782",
-  "files": [
-    ".js",
-    ".trans"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/model-triangles/first-person-camera.js"
+    "moduleId": "project:///assets/model-triangles/first-person-camera.js",
+    "simulateGlobals": []
   }
 }

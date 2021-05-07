@@ -1,5 +1,5 @@
 {
-  "ver": "1.3.19",
+  "ver": "2.0.14",
   "importer": "gltf",
   "imported": true,
   "uuid": "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3",
@@ -11,11 +11,11 @@
       "displayName": "",
       "id": "60b07",
       "name": "VentMain_Test_0.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -28,11 +28,11 @@
       "displayName": "",
       "id": "e6111",
       "name": "VentSub_Test_0.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -45,11 +45,11 @@
       "displayName": "",
       "id": "28b9d",
       "name": "FlapRight_Test_0.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -62,11 +62,11 @@
       "displayName": "",
       "id": "16a63",
       "name": "WingRight_Test_0.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -79,11 +79,11 @@
       "displayName": "",
       "id": "cb2d2",
       "name": "FlapLeft_Test_0.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -96,11 +96,11 @@
       "displayName": "",
       "id": "45c61",
       "name": "WingLeft_Test_0.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -113,11 +113,11 @@
       "displayName": "",
       "id": "28f18",
       "name": "SwitchRight_Test_0.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -130,11 +130,11 @@
       "displayName": "",
       "id": "8548b",
       "name": "SwitchLeft_Test_0.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -147,11 +147,11 @@
       "displayName": "",
       "id": "26af2",
       "name": "WingMain_Test_0.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -164,11 +164,11 @@
       "displayName": "",
       "id": "7345c",
       "name": "Bike_Test_0.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -181,7 +181,7 @@
       "displayName": "",
       "id": "bef90",
       "name": "Armature|Idle.animation",
-      "ver": "1.0.13",
+      "ver": "1.0.14",
       "imported": true,
       "files": [
         ".bin",
@@ -222,7 +222,7 @@
       "displayName": "",
       "id": "3effa",
       "name": "UnnamedTexture-0.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -235,7 +235,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/hover_bike_-_the_rocket/textures/Test_baseColor.png"
       }
@@ -246,7 +246,7 @@
       "displayName": "",
       "id": "221a5",
       "name": "UnnamedTexture-1.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -259,7 +259,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/hover_bike_-_the_rocket/textures/Test_metallicRoughness.png"
       }
@@ -270,7 +270,7 @@
       "displayName": "",
       "id": "0089c",
       "name": "UnnamedTexture-2.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -283,7 +283,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/hover_bike_-_the_rocket/textures/Test_emissive.png"
       }
@@ -294,7 +294,7 @@
       "displayName": "",
       "id": "9b633",
       "name": "UnnamedTexture-3.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -307,7 +307,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/hover_bike_-_the_rocket/textures/Test_normal.png"
       }
@@ -318,7 +318,7 @@
       "displayName": "",
       "id": "d1932",
       "name": "scene.prefab",
-      "ver": "1.0.11",
+      "ver": "1.0.12",
       "imported": true,
       "files": [
         ".json"
@@ -389,6 +389,7 @@
         "9f0f841a-0a7c-4d8e-9c24-0e63b1a1c8b3@d1932"
       ]
     },
-    "dumpMaterials": true
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/model-triangles/model/hover_bike_-_the_rocket/Materials_scene"
   }
 }

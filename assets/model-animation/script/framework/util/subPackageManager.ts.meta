@@ -1,15 +1,13 @@
 {
-  "ver": "2.0.14",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "bdff3100-98cf-4df2-87a9-2078929707b6",
-  "files": [
-    ".js",
-    ".trans"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/model-animation/script/framework/util/subPackageManager.js"
+    "moduleId": "project:///assets/model-animation/script/framework/util/subPackageManager.js",
+    "simulateGlobals": []
   }
 }

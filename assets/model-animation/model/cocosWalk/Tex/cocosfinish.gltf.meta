@@ -1,5 +1,5 @@
 {
-  "ver": "1.3.19",
+  "ver": "2.0.14",
   "importer": "gltf",
   "imported": true,
   "uuid": "e5fec1c3-4633-4960-b441-d7150a716c4a",
@@ -11,7 +11,7 @@
       "displayName": "",
       "id": "50743",
       "name": "UnnamedTexture-5.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -24,7 +24,7 @@
         "magfilter": "linear",
         "mipfilter": "nearest",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-animation/model/cocosWalk/Tex/cocosfinish_02_occlusionRoughnessMetallic.png"
       }
@@ -35,11 +35,11 @@
       "displayName": "",
       "id": "72704",
       "name": "cocosfinish_02.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -52,11 +52,11 @@
       "displayName": "",
       "id": "a865e",
       "name": "cocosfinish_01.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -69,7 +69,7 @@
       "displayName": "",
       "id": "3effa",
       "name": "UnnamedTexture-0.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -82,7 +82,7 @@
         "magfilter": "linear",
         "mipfilter": "nearest",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-animation/model/cocosWalk/Tex/cocosfinish_01_baseColor.png"
       }
@@ -93,7 +93,7 @@
       "displayName": "",
       "id": "221a5",
       "name": "UnnamedTexture-1.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -106,7 +106,7 @@
         "magfilter": "linear",
         "mipfilter": "nearest",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-animation/model/cocosWalk/Tex/cocosfinish_01_occlusionRoughnessMetallic.png"
       }
@@ -117,7 +117,7 @@
       "displayName": "",
       "id": "0089c",
       "name": "UnnamedTexture-2.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -130,7 +130,7 @@
         "magfilter": "linear",
         "mipfilter": "nearest",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-animation/model/cocosWalk/Tex/cocosfinish_01_normal.png"
       }
@@ -141,7 +141,7 @@
       "displayName": "",
       "id": "9b633",
       "name": "UnnamedTexture-3.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -154,7 +154,7 @@
         "magfilter": "linear",
         "mipfilter": "nearest",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-animation/model/cocosWalk/Tex/cocosfinish_01_emissive.png"
       }
@@ -165,7 +165,7 @@
       "displayName": "",
       "id": "9b782",
       "name": "UnnamedTexture-4.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -178,7 +178,7 @@
         "magfilter": "linear",
         "mipfilter": "nearest",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-animation/model/cocosWalk/Tex/cocosfinish_02_baseColor.png"
       }
@@ -189,7 +189,7 @@
       "displayName": "",
       "id": "99ea5",
       "name": "UnnamedTexture-6.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -202,7 +202,7 @@
         "magfilter": "linear",
         "mipfilter": "nearest",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-animation/model/cocosWalk/Tex/cocosfinish_02_normal.png"
       }
@@ -245,7 +245,7 @@
       "displayName": "",
       "id": "cacb8",
       "name": "cocosfinish.prefab",
-      "ver": "1.0.11",
+      "ver": "1.0.12",
       "imported": true,
       "files": [
         ".json"

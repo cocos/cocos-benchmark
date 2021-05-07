@@ -1,15 +1,13 @@
 {
-  "ver": "2.0.14",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "684fd8ef-4fc8-4d4d-bb74-5174186099fc",
-  "files": [
-    ".js",
-    ".trans"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/lobby/scripts/LobbyManager.js"
+    "moduleId": "project:///assets/lobby/scripts/LobbyManager.js",
+    "simulateGlobals": []
   }
 }
