@@ -61,7 +61,7 @@ export class BunnyMark extends Component {
     @property([SpriteFrame])
     frames: SpriteFrame[] = [];
     @property
-    levelCount = 10;
+    levelCount = 1;
     @property(LabelComponent)
     number: LabelComponent = null;
     @property(Node)
@@ -79,6 +79,8 @@ export class BunnyMark extends Component {
         maxY = cc.winSize.height / 2;
         minX = -maxX;
         minY = -maxY;
+
+		this.levelCount = 1;
 
         for (let i = 0; i < this.levelCount; i++) {
             bunnys[i] = [];
