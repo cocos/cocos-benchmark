@@ -201,7 +201,7 @@ export class BunnyMark extends Component {
                 bunny.anchorY = 1;
                 //bunny.alpha = 0.3 + Math.random() * 0.7;
                 lbunnys.push(data);
-                bunny.setScale(1.5, 1.5, 1.5);
+                bunny.setScale(1.0, 1.0, 1.0);
                 this._euler.set(0, 0, 360 * (Math.random() * 0.2 - 0.1));
                 bunny.eulerAngles = this._euler;
 
