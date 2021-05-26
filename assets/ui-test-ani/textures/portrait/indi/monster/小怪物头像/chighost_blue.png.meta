@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "3df26f5a-06be-4170-9bd9-efb344a78fc9",
+  "uuid": "87ff68f9-6da9-4ca4-85bf-ae6326544327",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "3df26f5a-06be-4170-9bd9-efb344a78fc9@6c48a",
+      "uuid": "87ff68f9-6da9-4ca4-85bf-ae6326544327@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "3df26f5a-06be-4170-9bd9-efb344a78fc9"
+        "imageUuidOrDatabaseUri": "87ff68f9-6da9-4ca4-85bf-ae6326544327"
       },
       "displayName": "chighost_blue",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "3df26f5a-06be-4170-9bd9-efb344a78fc9@6c48a",
+    "redirect": "87ff68f9-6da9-4ca4-85bf-ae6326544327@6c48a",
     "hasAlpha": true
   }
 }

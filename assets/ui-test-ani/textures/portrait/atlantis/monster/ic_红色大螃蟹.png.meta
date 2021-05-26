@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "c6c18d6d-8023-4fd7-8ffc-d540ed34ee54",
+  "uuid": "38a38a21-243b-4899-9edc-c3764661219e",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "c6c18d6d-8023-4fd7-8ffc-d540ed34ee54@6c48a",
+      "uuid": "38a38a21-243b-4899-9edc-c3764661219e@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "c6c18d6d-8023-4fd7-8ffc-d540ed34ee54"
+        "imageUuidOrDatabaseUri": "38a38a21-243b-4899-9edc-c3764661219e"
       },
       "displayName": "ic_红色大螃蟹",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "c6c18d6d-8023-4fd7-8ffc-d540ed34ee54@6c48a",
+    "redirect": "38a38a21-243b-4899-9edc-c3764661219e@6c48a",
     "hasAlpha": true
   }
 }

@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "9f517cb4-98f3-4eb9-a297-4bf59bc0531b",
+  "uuid": "aa0361d5-7feb-4cb9-b6dc-741c5cf6407c",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "9f517cb4-98f3-4eb9-a297-4bf59bc0531b@6c48a",
+      "uuid": "aa0361d5-7feb-4cb9-b6dc-741c5cf6407c@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "9f517cb4-98f3-4eb9-a297-4bf59bc0531b"
+        "imageUuidOrDatabaseUri": "aa0361d5-7feb-4cb9-b6dc-741c5cf6407c"
       },
       "displayName": "ic_阿努比斯",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "9f517cb4-98f3-4eb9-a297-4bf59bc0531b@6c48a",
+    "redirect": "aa0361d5-7feb-4cb9-b6dc-741c5cf6407c@6c48a",
     "hasAlpha": true
   }
 }

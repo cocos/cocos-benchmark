@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "431653e9-3e0a-45f9-bd1f-d6398c7488a2",
+  "uuid": "9c353bc7-ffa5-4efc-a876-8d3c0e09caf3",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "431653e9-3e0a-45f9-bd1f-d6398c7488a2@6c48a",
+      "uuid": "9c353bc7-ffa5-4efc-a876-8d3c0e09caf3@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "431653e9-3e0a-45f9-bd1f-d6398c7488a2"
+        "imageUuidOrDatabaseUri": "9c353bc7-ffa5-4efc-a876-8d3c0e09caf3"
       },
       "displayName": "ic_弓箭手",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "431653e9-3e0a-45f9-bd1f-d6398c7488a2@6c48a",
+    "redirect": "9c353bc7-ffa5-4efc-a876-8d3c0e09caf3@6c48a",
     "hasAlpha": true
   }
 }

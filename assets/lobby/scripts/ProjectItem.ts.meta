@@ -1,15 +1,13 @@
 {
-  "ver": "2.0.14",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "291f70a0-26a7-4d2b-b30f-2a7e7f7a30c2",
-  "files": [
-    ".js",
-    ".trans"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/lobby/scripts/ProjectItem.js"
+    "moduleId": "project:///assets/lobby/scripts/ProjectItem.js",
+    "simulateGlobals": []
   }
 }

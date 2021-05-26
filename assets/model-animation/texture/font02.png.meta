@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.17",
+  "ver": "1.0.21",
   "importer": "image",
   "imported": true,
   "uuid": "e8da3134-4b8b-4b4f-aa7a-ba49fb5d2e8a",
@@ -14,7 +14,7 @@
       "displayName": "font02",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -28,7 +28,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true
       }
     },
@@ -38,7 +38,7 @@
       "displayName": "font02",
       "id": "f9941",
       "name": "spriteFrame",
-      "ver": "1.0.8",
+      "ver": "1.0.9",
       "imported": true,
       "files": [
         ".json"
@@ -62,12 +62,14 @@
         "borderRight": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "e8da3134-4b8b-4b4f-aa7a-ba49fb5d2e8a@6c48a",
-        "atlasUuid": ""
+        "atlasUuid": "",
+        "packable": true
       }
     }
   },
   "userData": {
     "type": "sprite-frame",
-    "redirect": "e8da3134-4b8b-4b4f-aa7a-ba49fb5d2e8a@f9941"
+    "redirect": "e8da3134-4b8b-4b4f-aa7a-ba49fb5d2e8a@f9941",
+    "hasAlpha": true
   }
 }

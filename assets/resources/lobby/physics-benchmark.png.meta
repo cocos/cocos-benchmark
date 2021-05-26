@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.17",
+  "ver": "1.0.21",
   "importer": "image",
   "imported": true,
   "uuid": "bf5b99e0-d26c-4407-93eb-1b3f8920a579",
@@ -14,7 +14,7 @@
       "displayName": "physics-benchmark",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -27,7 +27,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "bf5b99e0-d26c-4407-93eb-1b3f8920a579"
       }
@@ -38,7 +38,7 @@
       "displayName": "physics-benchmark",
       "id": "f9941",
       "name": "spriteFrame",
-      "ver": "1.0.8",
+      "ver": "1.0.9",
       "imported": true,
       "files": [
         ".json"
@@ -62,12 +62,14 @@
         "borderRight": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "bf5b99e0-d26c-4407-93eb-1b3f8920a579@6c48a",
-        "atlasUuid": ""
+        "atlasUuid": "",
+        "packable": true
       }
     }
   },
   "userData": {
     "type": "sprite-frame",
-    "redirect": "bf5b99e0-d26c-4407-93eb-1b3f8920a579@f9941"
+    "redirect": "bf5b99e0-d26c-4407-93eb-1b3f8920a579@f9941",
+    "hasAlpha": true
   }
 }

@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "27721328-ed2d-416b-9a66-345012cff4cb",
+  "uuid": "0c00469b-7993-4b1c-b207-bef743f79ddf",
   "files": [
     ".png",
     ".json"
@@ -10,12 +10,12 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "27721328-ed2d-416b-9a66-345012cff4cb@6c48a",
+      "uuid": "0c00469b-7993-4b1c-b207-bef743f79ddf@6c48a",
       "displayName": "btn_rongyu",
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "imageUuidOrDatabaseUri": "27721328-ed2d-416b-9a66-345012cff4cb",
+        "imageUuidOrDatabaseUri": "0c00469b-7993-4b1c-b207-bef743f79ddf",
         "wrapModeS": "repeat",
         "wrapModeT": "repeat",
         "minfilter": "linear",
@@ -34,7 +34,7 @@
     "f9941": {
       "ver": "1.0.9",
       "importer": "sprite-frame",
-      "uuid": "27721328-ed2d-416b-9a66-345012cff4cb@f9941",
+      "uuid": "0c00469b-7993-4b1c-b207-bef743f79ddf@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -64,7 +64,7 @@
         "borderLeft": 0,
         "borderRight": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "27721328-ed2d-416b-9a66-345012cff4cb@6c48a",
+        "imageUuidOrDatabaseUri": "0c00469b-7993-4b1c-b207-bef743f79ddf@6c48a",
         "atlasUuid": "",
         "packable": true
       },
@@ -75,7 +75,7 @@
   },
   "userData": {
     "type": "sprite-frame",
-    "redirect": "27721328-ed2d-416b-9a66-345012cff4cb@f9941",
+    "redirect": "0c00469b-7993-4b1c-b207-bef743f79ddf@f9941",
     "hasAlpha": true
   }
 }

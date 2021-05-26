@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "e2e6cc66-3fd5-4b1c-9469-22327fd195de",
+  "uuid": "b396bc80-eac6-40d0-9f20-2e7df1b4bfa1",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "e2e6cc66-3fd5-4b1c-9469-22327fd195de@6c48a",
+      "uuid": "b396bc80-eac6-40d0-9f20-2e7df1b4bfa1@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "e2e6cc66-3fd5-4b1c-9469-22327fd195de"
+        "imageUuidOrDatabaseUri": "b396bc80-eac6-40d0-9f20-2e7df1b4bfa1"
       },
       "displayName": "sumpitaner_blue",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "e2e6cc66-3fd5-4b1c-9469-22327fd195de@6c48a",
+    "redirect": "b396bc80-eac6-40d0-9f20-2e7df1b4bfa1@6c48a",
     "hasAlpha": true
   }
 }

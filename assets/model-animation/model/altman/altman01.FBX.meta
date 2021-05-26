@@ -1,5 +1,5 @@
 {
-  "ver": "1.3.19",
+  "ver": "2.0.14",
   "importer": "fbx",
   "imported": true,
   "uuid": "5f35effe-a1a1-4c6a-8a36-5ad85ff66628",
@@ -11,11 +11,11 @@
       "displayName": "",
       "id": "c6922",
       "name": "altman01.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -28,7 +28,7 @@
       "displayName": "",
       "id": "1f586",
       "name": "idle.animation",
-      "ver": "1.0.13",
+      "ver": "1.0.14",
       "imported": true,
       "files": [
         ".bin",
@@ -52,7 +52,7 @@
       "displayName": "",
       "id": "cf5ee",
       "name": "run.animation",
-      "ver": "1.0.13",
+      "ver": "1.0.14",
       "imported": true,
       "files": [
         ".bin",
@@ -76,7 +76,7 @@
       "displayName": "",
       "id": "989ed",
       "name": "attack.animation",
-      "ver": "1.0.13",
+      "ver": "1.0.14",
       "imported": true,
       "files": [
         ".bin",
@@ -100,7 +100,7 @@
       "displayName": "",
       "id": "ee525",
       "name": "win.animation",
-      "ver": "1.0.13",
+      "ver": "1.0.14",
       "imported": true,
       "files": [
         ".bin",
@@ -124,7 +124,7 @@
       "displayName": "",
       "id": "5b2e9",
       "name": "died.animation",
-      "ver": "1.0.13",
+      "ver": "1.0.14",
       "imported": true,
       "files": [
         ".bin",
@@ -165,7 +165,7 @@
       "displayName": "",
       "id": "425ef",
       "name": "贴图 #2.image",
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "imported": true,
       "files": [
         ".png",
@@ -182,7 +182,7 @@
       "displayName": "",
       "id": "59f96",
       "name": "贴图 #2.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -195,7 +195,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "5f35effe-a1a1-4c6a-8a36-5ad85ff66628@425ef"
       }
@@ -206,7 +206,7 @@
       "displayName": "",
       "id": "cba0f",
       "name": "altman01.prefab",
-      "ver": "1.0.11",
+      "ver": "1.0.12",
       "imported": true,
       "files": [
         ".json"
@@ -282,6 +282,7 @@
       ]
     },
     "dumpMaterials": true,
-    "materialDumpDir": "db://assets/model-animation/model/altman"
+    "materialDumpDir": "db://assets/model-animation/model/altman",
+    "legacyFbxImporter": true
   }
 }

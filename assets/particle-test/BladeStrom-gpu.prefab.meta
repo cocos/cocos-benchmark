@@ -1,1 +1,13 @@
-{"ver":"1.0.28","importer":"prefab","imported":true,"uuid":"3f9a323c-b272-4f10-b71b-b98ae198922e","files":[".json"],"subMetas":{},"userData":{}}
+{
+  "ver": "1.1.27",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "3f9a323c-b272-4f10-b71b-b98ae198922e",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "BladeStrom-gpu"
+  }
+}

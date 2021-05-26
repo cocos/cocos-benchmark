@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "84499e83-3aaa-4e00-829b-fa02182e9ca3",
+  "uuid": "f6f8996f-63ea-47a6-8f90-6e8667ec4a46",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "84499e83-3aaa-4e00-829b-fa02182e9ca3@6c48a",
+      "uuid": "f6f8996f-63ea-47a6-8f90-6e8667ec4a46@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "84499e83-3aaa-4e00-829b-fa02182e9ca3"
+        "imageUuidOrDatabaseUri": "f6f8996f-63ea-47a6-8f90-6e8667ec4a46"
       },
       "displayName": "ic_shydra",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "84499e83-3aaa-4e00-829b-fa02182e9ca3@6c48a",
+    "redirect": "f6f8996f-63ea-47a6-8f90-6e8667ec4a46@6c48a",
     "hasAlpha": true
   }
 }

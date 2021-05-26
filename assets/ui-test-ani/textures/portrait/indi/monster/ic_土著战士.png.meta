@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "79bfd558-baab-416f-8c7b-fe170bb3f0e1",
+  "uuid": "4b976905-0906-4a69-8697-d0055a6769c3",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "79bfd558-baab-416f-8c7b-fe170bb3f0e1@6c48a",
+      "uuid": "4b976905-0906-4a69-8697-d0055a6769c3@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "79bfd558-baab-416f-8c7b-fe170bb3f0e1"
+        "imageUuidOrDatabaseUri": "4b976905-0906-4a69-8697-d0055a6769c3"
       },
       "displayName": "ic_土著战士",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "79bfd558-baab-416f-8c7b-fe170bb3f0e1@6c48a",
+    "redirect": "4b976905-0906-4a69-8697-d0055a6769c3@6c48a",
     "hasAlpha": true
   }
 }

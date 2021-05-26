@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "5bc5885b-d89d-4dac-acac-0435d6054b0f",
+  "uuid": "1ff6401f-2064-422b-a0ec-ef3ef164d5e7",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "5bc5885b-d89d-4dac-acac-0435d6054b0f@6c48a",
+      "uuid": "1ff6401f-2064-422b-a0ec-ef3ef164d5e7@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "5bc5885b-d89d-4dac-acac-0435d6054b0f"
+        "imageUuidOrDatabaseUri": "1ff6401f-2064-422b-a0ec-ef3ef164d5e7"
       },
       "displayName": "ic_塞壬女妖",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "5bc5885b-d89d-4dac-acac-0435d6054b0f@6c48a",
+    "redirect": "1ff6401f-2064-422b-a0ec-ef3ef164d5e7@6c48a",
     "hasAlpha": true
   }
 }

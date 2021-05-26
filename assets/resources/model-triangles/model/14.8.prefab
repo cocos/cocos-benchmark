@@ -292,12 +292,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "7dWBAukwxHJZ/ZNvUbihh0",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "7dWBAukwxHJZ/ZNvUbihh0"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -307,12 +302,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "871Dpy5HxNB7Zz3yJa79zF",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "871Dpy5HxNB7Zz3yJa79zF"
   },
   {
     "__type__": "cc.Node",
@@ -1140,12 +1130,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "7diXZmhzhMOLzCemZuCxkw",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "7diXZmhzhMOLzCemZuCxkw"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1155,12 +1140,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "a30e0lmMBNOJCXuA9i+2sB",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "a30e0lmMBNOJCXuA9i+2sB"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1170,12 +1150,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "f7cYQ7AY9GtaHC4jxiR3dT",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "f7cYQ7AY9GtaHC4jxiR3dT"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1185,12 +1160,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "3fertsss9FdpCJsoGwkvk+",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "3fertsss9FdpCJsoGwkvk+"
   },
   {
     "__type__": "cc.Node",
@@ -1376,12 +1346,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "e4srm/nkZNz7Y79Np9Qm3j",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "e4srm/nkZNz7Y79Np9Qm3j"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1391,12 +1356,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "b9kIJ4aVZB56SMXB2qiKD6",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "b9kIJ4aVZB56SMXB2qiKD6"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1406,12 +1366,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "ddTTy7pKZKiIyYbQHT3xQa",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "ddTTy7pKZKiIyYbQHT3xQa"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1421,12 +1376,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "50i0R+qBRAG4xxCffANqu0",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "50i0R+qBRAG4xxCffANqu0"
   },
   {
     "__type__": "cc.Node",
@@ -1612,12 +1562,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "85+5fP8dBLQpP8UQCEypNl",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "85+5fP8dBLQpP8UQCEypNl"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1627,12 +1572,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "99Gg3oPyJP7oA9w6sPKYGq",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "99Gg3oPyJP7oA9w6sPKYGq"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1642,12 +1582,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "90B1Eg+SpCA5dzdPZbNsxR",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "90B1Eg+SpCA5dzdPZbNsxR"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1657,12 +1592,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "7fQCsumZZNfaavW4GjBAZx",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "7fQCsumZZNfaavW4GjBAZx"
   },
   {
     "__type__": "cc.Node",
@@ -1848,12 +1778,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "aeRZViDPhD/YOISNe2tn1m",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "aeRZViDPhD/YOISNe2tn1m"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1863,12 +1788,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "73e03Azb1Ku48UgZYgtCju",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "73e03Azb1Ku48UgZYgtCju"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1878,12 +1798,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "50nmpCcB9MQ5oI+SmvIZ6t",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "50nmpCcB9MQ5oI+SmvIZ6t"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1893,12 +1808,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "69Pu1IMoZBRICFTPKYkpSe",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "69Pu1IMoZBRICFTPKYkpSe"
   },
   {
     "__type__": "cc.Node",
@@ -2039,12 +1949,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "d1TsgE7/hGKqAJ5xZR2a02",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "d1TsgE7/hGKqAJ5xZR2a02"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2054,12 +1959,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "284mjnoE5ICI2QFugg9kaR",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "284mjnoE5ICI2QFugg9kaR"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2069,12 +1969,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "1a3AmNGZJG44M5ZgN/9d0J",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "1a3AmNGZJG44M5ZgN/9d0J"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2084,12 +1979,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "66u35sAqlMe46N9q1l+pLE",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "66u35sAqlMe46N9q1l+pLE"
   },
   {
     "__type__": "cc.Node",
@@ -2140,12 +2030,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "85L81KdwdNO7O1kbHlV48O",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "85L81KdwdNO7O1kbHlV48O"
   },
   {
     "__type__": "cc.Node",
@@ -2196,12 +2081,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "25woA/rHBJhZrDoBwHI5U+",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "25woA/rHBJhZrDoBwHI5U+"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2211,12 +2091,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "dbhjtFpZVMHaiOiBwyw70S",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "dbhjtFpZVMHaiOiBwyw70S"
   },
   {
     "__type__": "cc.Node",
@@ -2267,12 +2142,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "18nL5dQexFy7Jpfm/H+AMH",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "18nL5dQexFy7Jpfm/H+AMH"
   },
   {
     "__type__": "cc.Node",
@@ -2323,12 +2193,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "5bzlFhRaVGfLdFDuPc3xde",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "5bzlFhRaVGfLdFDuPc3xde"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2338,12 +2203,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "a8g0/+Z11EZJiZCYViMzI1",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "a8g0/+Z11EZJiZCYViMzI1"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2353,12 +2213,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "c04dOgeVNMPqrBCMuhowUb",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "c04dOgeVNMPqrBCMuhowUb"
   },
   {
     "__type__": "cc.Node",
@@ -2748,12 +2603,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "e6QB9CY+xJ8J3fak3Jnl1H",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "e6QB9CY+xJ8J3fak3Jnl1H"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2763,12 +2613,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "28gm+/wTtNvoPKGBuvgmef",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "28gm+/wTtNvoPKGBuvgmef"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2778,12 +2623,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "c5/9kcIv9CrptvjJDV9kwA",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "c5/9kcIv9CrptvjJDV9kwA"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2793,12 +2633,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "0ecwB53KVKcaGxb0zSdNp3",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "0ecwB53KVKcaGxb0zSdNp3"
   },
   {
     "__type__": "cc.Node",
@@ -2984,12 +2819,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "95RsBEXE9EoZsekI1Dqx7P",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "95RsBEXE9EoZsekI1Dqx7P"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2999,12 +2829,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "4eQJBI8b9KVKyRQB2cWPov",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "4eQJBI8b9KVKyRQB2cWPov"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3014,12 +2839,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "a8U0Oo6XpK4YfFsMZeoAbX",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "a8U0Oo6XpK4YfFsMZeoAbX"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3029,12 +2849,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "7326ifn7dAwZnRUueVluKX",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "7326ifn7dAwZnRUueVluKX"
   },
   {
     "__type__": "cc.Node",
@@ -3220,12 +3035,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "f4P70EDX9A0oytjXQEZu3x",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "f4P70EDX9A0oytjXQEZu3x"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3235,12 +3045,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "01wxIv8+FC8ap07BwkAfr8",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "01wxIv8+FC8ap07BwkAfr8"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3250,12 +3055,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "b1vXusHu1NYql8FDPqzCHd",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "b1vXusHu1NYql8FDPqzCHd"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3265,12 +3065,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "08fp39f1tOcKPDg7nXhxPo",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "08fp39f1tOcKPDg7nXhxPo"
   },
   {
     "__type__": "cc.Node",
@@ -3456,12 +3251,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "10glBtr8xJTroQGOvnDpI2",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "10glBtr8xJTroQGOvnDpI2"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3471,12 +3261,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "8cIdZf5XpHzqsykLTOziPR",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "8cIdZf5XpHzqsykLTOziPR"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3486,12 +3271,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "33VOjCfn9H6ZAl/TcrqFNs",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "33VOjCfn9H6ZAl/TcrqFNs"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3501,12 +3281,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "818Dzmo+9PAIZUoddw3kvV",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "818Dzmo+9PAIZUoddw3kvV"
   },
   {
     "__type__": "cc.Node",
@@ -3647,12 +3422,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "f3FZN3DMFMKItLAgNhzD1I",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "f3FZN3DMFMKItLAgNhzD1I"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3662,12 +3432,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "d8m9d5MZxCH6hX4FSMQQga",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "d8m9d5MZxCH6hX4FSMQQga"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3677,12 +3442,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "2fpB5+WztCR7bAMcz8s6qn",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "2fpB5+WztCR7bAMcz8s6qn"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3692,12 +3452,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "f3F9NTlPRD0JFlJLBtwqA4",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "f3F9NTlPRD0JFlJLBtwqA4"
   },
   {
     "__type__": "cc.Node",
@@ -3748,12 +3503,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "96rpIeknVMuL00XDSlNkNH",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "96rpIeknVMuL00XDSlNkNH"
   },
   {
     "__type__": "cc.Node",
@@ -3804,12 +3554,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "e4HGToEopN7oaN+NdCTX4T",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "e4HGToEopN7oaN+NdCTX4T"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3819,12 +3564,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "2acZ1B2ohLVaUuOnSdWfD8",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "2acZ1B2ohLVaUuOnSdWfD8"
   },
   {
     "__type__": "cc.Node",
@@ -3875,12 +3615,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "96/kD47hlB6buk+6KD/XTr",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "96/kD47hlB6buk+6KD/XTr"
   },
   {
     "__type__": "cc.Node",
@@ -3931,12 +3666,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "d6YA7sMZ9KzJkHcTL4aWDr",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "d6YA7sMZ9KzJkHcTL4aWDr"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3946,12 +3676,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "dfu98TG+dMX59Og0sQzsbe",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "dfu98TG+dMX59Og0sQzsbe"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3961,12 +3686,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "a8M9uGeXVGqbmBSV33g0PL",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "a8M9uGeXVGqbmBSV33g0PL"
   },
   {
     "__type__": "cc.Node",
@@ -4062,12 +3782,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "97HcHyDw1BYKi9HA7ENtt3",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "97HcHyDw1BYKi9HA7ENtt3"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4077,12 +3792,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "b0ldxJX+FMNJ89EnP3MF7n",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "b0ldxJX+FMNJ89EnP3MF7n"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4092,12 +3802,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "2bIMOUzfZGEbasQeaFx2PX",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "2bIMOUzfZGEbasQeaFx2PX"
   },
   {
     "__type__": "cc.Node",
@@ -4148,12 +3853,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "de3THch9hH27HBJxI/a7CU",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "de3THch9hH27HBJxI/a7CU"
   },
   {
     "__type__": "cc.Node",
@@ -4204,12 +3904,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "ef9wP7CKpBjZ1x4vsv05Vt",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "ef9wP7CKpBjZ1x4vsv05Vt"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4219,12 +3914,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "4dZp1J7qdNeKImYpnfgjTp",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "4dZp1J7qdNeKImYpnfgjTp"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4234,12 +3924,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "de5Gd+lc5G2J8qUBl5HlVT",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "de5Gd+lc5G2J8qUBl5HlVT"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4249,12 +3934,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "5bWagq96ZEn6VsL6AjRaCr",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "5bWagq96ZEn6VsL6AjRaCr"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4264,12 +3944,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "42b/rLvaZHbactcnQ10jf8",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "42b/rLvaZHbactcnQ10jf8"
   },
   {
     "__type__": "cc.Node",
@@ -4416,12 +4091,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "eaNxmsi4BPI5XNpmqygRkk",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "eaNxmsi4BPI5XNpmqygRkk"
   },
   {
     "__type__": "cc.Node",
@@ -4517,12 +4187,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "7efTVjk8dKW7K6ls8X3jQj",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "7efTVjk8dKW7K6ls8X3jQj"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4532,12 +4197,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "69+DTsLddIA6pR3tOPSOP0",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "69+DTsLddIA6pR3tOPSOP0"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4547,12 +4207,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "99vpqQochIKb2iyoLdvwzf",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "99vpqQochIKb2iyoLdvwzf"
   },
   {
     "__type__": "cc.Node",
@@ -4603,12 +4258,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "4d2LyVgHlEvoqAcZAKFHWc",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "4d2LyVgHlEvoqAcZAKFHWc"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4618,12 +4268,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "feqDVyO8FBwbv6P5oG+KRf",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "feqDVyO8FBwbv6P5oG+KRf"
   },
   {
     "__type__": "cc.Node",
@@ -4770,12 +4415,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "39eyRwBSZOzK1Q/Aw7QEzN",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "39eyRwBSZOzK1Q/Aw7QEzN"
   },
   {
     "__type__": "cc.Node",
@@ -4871,12 +4511,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "dbbR/CPe1KwYOyFJeL2Fc2",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "dbbR/CPe1KwYOyFJeL2Fc2"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4886,12 +4521,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "47xjwMVmBH1q7nzwRdUI9r",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "47xjwMVmBH1q7nzwRdUI9r"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4901,12 +4531,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "9fEbarSFdIo57KGx4i3RAG",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "9fEbarSFdIo57KGx4i3RAG"
   },
   {
     "__type__": "cc.Node",
@@ -4957,12 +4582,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "a5o6y/ewpJtpQh+8MJcPFf",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "a5o6y/ewpJtpQh+8MJcPFf"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4972,12 +4592,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "8d/HxNwVFAbJNhdsTzU2mU",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "8d/HxNwVFAbJNhdsTzU2mU"
   },
   {
     "__type__": "cc.Node",
@@ -5028,12 +4643,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "1a1sDOW39J55VKiO1Qcq0w",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "1a1sDOW39J55VKiO1Qcq0w"
   },
   {
     "__type__": "cc.Node",
@@ -5084,12 +4694,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "2ffhoG/YpC147lS6f5vPi5",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "2ffhoG/YpC147lS6f5vPi5"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -5099,12 +4704,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "a6A2vBBw9Ce5ywca+yNRdz",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "a6A2vBBw9Ce5ywca+yNRdz"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -5114,12 +4714,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "4e0sOMSfBACLELl4Mfzndd",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "4e0sOMSfBACLELl4Mfzndd"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -5129,12 +4724,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "f8Z2pGoHpE0KRaTZEHZ0k1",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "f8Z2pGoHpE0KRaTZEHZ0k1"
   },
   {
     "__type__": "cc.Node",
@@ -5185,7 +4775,7 @@
     "_id": ""
   },
   {
-    "__type__": "cc.SkinningModelComponent",
+    "__type__": "cc.SkinnedMeshRenderer",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -5212,7 +4802,10 @@
     "_skinningRoot": {
       "__id__": 1
     },
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 225
+    }
   },
   {
     "__type__": "cc.ModelLightmapSettings",
@@ -5244,7 +4837,10 @@
     "instancingMaterial": {
       "__uuid__": "0879af65-93c4-4797-b3bd-7204f659d744"
     },
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 226
+    }
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -5254,12 +4850,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "03A/CrYnlByJlB6x9aPnTJ",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "03A/CrYnlByJlB6x9aPnTJ"
   },
   {
     "__type__": "cc.Node",
@@ -5310,7 +4901,7 @@
     "_id": ""
   },
   {
-    "__type__": "cc.SkinningModelComponent",
+    "__type__": "cc.SkinnedMeshRenderer",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -5355,7 +4946,10 @@
     "_skinningRoot": {
       "__id__": 1
     },
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 227
+    }
   },
   {
     "__type__": "cc.ModelLightmapSettings",
@@ -5387,7 +4981,10 @@
     "instancingMaterial": {
       "__uuid__": "1a0e7476-929d-4223-9fa3-0cce14c04730"
     },
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 228
+    }
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -5397,12 +4994,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "64abCeLt1NZa5Kf+HlMBR/",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "64abCeLt1NZa5Kf+HlMBR/"
   },
   {
     "__type__": "cc.Node",
@@ -5453,12 +5045,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "4c7i1vjRpBG55FNbbjBDe3",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "4c7i1vjRpBG55FNbbjBDe3"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -5468,12 +5055,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "7cQ0Zc/wdIS4Q4AyLhMyBh",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "7cQ0Zc/wdIS4Q4AyLhMyBh"
   },
   {
     "__type__": "cc.Node",
@@ -5668,12 +5250,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "81JNpcO6dCuacrQX+t3p/p",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "81JNpcO6dCuacrQX+t3p/p"
   },
   {
     "__type__": "cc.Node",
@@ -6000,12 +5577,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "c6gIqTAMRM1K4DG1i5YtzR",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "c6gIqTAMRM1K4DG1i5YtzR"
   },
   {
     "__type__": "cc.Node",
@@ -6056,12 +5628,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "49iUtcwkZFvpaHQzLi2H2j",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "49iUtcwkZFvpaHQzLi2H2j"
   },
   {
     "__type__": "cc.Node",
@@ -6202,12 +5769,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "3aLi+PnlhARKpMWA0CDkNe",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "3aLi+PnlhARKpMWA0CDkNe"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6217,12 +5779,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "59pxJNnxpK+JnmgS2TRDmn",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "59pxJNnxpK+JnmgS2TRDmn"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6232,12 +5789,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "5co8Wc4TZA8ZZih7gtLIhj",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "5co8Wc4TZA8ZZih7gtLIhj"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6247,12 +5799,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "85IiJ4IwRKlIQWQbFZQxZa",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "85IiJ4IwRKlIQWQbFZQxZa"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6262,12 +5809,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "behsEtOEhBPZNUYUz8UksI",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "behsEtOEhBPZNUYUz8UksI"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6277,12 +5819,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "170Q83OGdLMYYZYde/l4l5",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "170Q83OGdLMYYZYde/l4l5"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6292,12 +5829,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "f7NS+ZgddOnJ8RI7UQLIwA",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "f7NS+ZgddOnJ8RI7UQLIwA"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6307,12 +5839,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "89VM/0pVlNlYImlzjhb1vn",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "89VM/0pVlNlYImlzjhb1vn"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6322,12 +5849,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "9eXLlb+CBEurrYihrgLcBv",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "9eXLlb+CBEurrYihrgLcBv"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6337,12 +5859,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "5aY6WU1P9CQq9WS3y5/M1H",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "5aY6WU1P9CQq9WS3y5/M1H"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6352,12 +5869,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "985Vp9xltK0bKsW1DgFTst",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "985Vp9xltK0bKsW1DgFTst"
   },
   {
     "__type__": "cc.Node",
@@ -6408,7 +5920,7 @@
     "_id": ""
   },
   {
-    "__type__": "cc.SkinningModelComponent",
+    "__type__": "cc.SkinnedMeshRenderer",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -6435,7 +5947,10 @@
     "_skinningRoot": {
       "__id__": 1
     },
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 229
+    }
   },
   {
     "__type__": "cc.ModelLightmapSettings",
@@ -6467,7 +5982,10 @@
     "instancingMaterial": {
       "__uuid__": "3c095f45-531b-4735-b741-3331939d1979"
     },
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 230
+    }
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6477,12 +5995,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "30k320piRPj4LQUq0KcPJa",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "30k320piRPj4LQUq0KcPJa"
   },
   {
     "__type__": "cc.Node",
@@ -6533,12 +6046,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "f4IASSv0pNGIi4hhmGPL0U",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "f4IASSv0pNGIi4hhmGPL0U"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6548,12 +6056,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "ecvxrbaihOJ4GnWLbZRw1Q",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "ecvxrbaihOJ4GnWLbZRw1Q"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6563,12 +6066,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "d0usorH6dM6Y9Ti/VH3OGi",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "d0usorH6dM6Y9Ti/VH3OGi"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6578,12 +6076,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "892h1qyCtBJquTgodSoxQm",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "892h1qyCtBJquTgodSoxQm"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6593,12 +6086,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "d3e6xiCKBAyJGvw9SngYm7",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "d3e6xiCKBAyJGvw9SngYm7"
   },
   {
     "__type__": "0bf7bClfXBJuYDk+fw5iW3V",
@@ -6610,7 +6098,10 @@
     "_enabled": true,
     "triangles": 14.8,
     "vertices": 7.5,
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 231
+    }
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6620,11 +6111,34 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "6amciaLlFGt5A3/bw2sLa/",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "6amciaLlFGt5A3/bw2sLa/"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "68XtkGBZ9B87KIVV9SwZmm"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "702B1kfJ5AWZoaeH6bwbxc"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "7ewzLtetBO4oSLK3lsrtot"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "20AoDfm3tJA6/jhOE8vHJM"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "582UMzLJdFqJmbUUVIoNsd"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "50VEV/2KtBNr3+bwCux3pN"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "3aZ1Cmf3NNPo5EXXO6a4Pv"
   }
 ]

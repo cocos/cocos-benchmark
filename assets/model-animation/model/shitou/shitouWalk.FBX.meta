@@ -1,5 +1,5 @@
 {
-  "ver": "1.3.19",
+  "ver": "2.0.14",
   "importer": "fbx",
   "imported": true,
   "uuid": "c45af642-dea2-4669-8421-0ba86d05f198",
@@ -11,11 +11,11 @@
       "displayName": "",
       "id": "28081",
       "name": "003.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -45,11 +45,11 @@
       "displayName": "",
       "id": "44034",
       "name": "001.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -62,11 +62,11 @@
       "displayName": "",
       "id": "a7dbb",
       "name": "Object07.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -79,11 +79,11 @@
       "displayName": "",
       "id": "3a0f4",
       "name": "002.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -96,7 +96,7 @@
       "displayName": "",
       "id": "73b7f",
       "name": "Take 001.animation",
-      "ver": "1.0.13",
+      "ver": "1.0.14",
       "imported": true,
       "files": [
         ".bin",
@@ -137,7 +137,7 @@
       "displayName": "",
       "id": "10ed8",
       "name": "Map #59.image",
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "imported": true,
       "files": [
         ".png",
@@ -154,7 +154,7 @@
       "displayName": "",
       "id": "26d11",
       "name": "Map #59.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -167,7 +167,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "c45af642-dea2-4669-8421-0ba86d05f198@10ed8"
       }
@@ -178,7 +178,7 @@
       "displayName": "",
       "id": "804b6",
       "name": "shitouWalk.prefab",
-      "ver": "1.0.11",
+      "ver": "1.0.12",
       "imported": true,
       "files": [
         ".json"
@@ -235,6 +235,7 @@
       ]
     },
     "dumpMaterials": true,
-    "materialDumpDir": "db://assets/model-animation/model/shitou"
+    "materialDumpDir": "db://assets/model-animation/model/shitou",
+    "legacyFbxImporter": true
   }
 }

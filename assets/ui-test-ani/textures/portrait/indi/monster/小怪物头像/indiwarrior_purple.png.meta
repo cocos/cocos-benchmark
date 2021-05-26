@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "358e1ec6-1b8e-4857-8bc9-f102ec0fa341",
+  "uuid": "2f578cc2-a666-4d9e-88c6-f6bbd9bc3b2b",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "358e1ec6-1b8e-4857-8bc9-f102ec0fa341@6c48a",
+      "uuid": "2f578cc2-a666-4d9e-88c6-f6bbd9bc3b2b@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "358e1ec6-1b8e-4857-8bc9-f102ec0fa341"
+        "imageUuidOrDatabaseUri": "2f578cc2-a666-4d9e-88c6-f6bbd9bc3b2b"
       },
       "displayName": "indiwarrior_purple",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "358e1ec6-1b8e-4857-8bc9-f102ec0fa341@6c48a",
+    "redirect": "2f578cc2-a666-4d9e-88c6-f6bbd9bc3b2b@6c48a",
     "hasAlpha": true
   }
 }

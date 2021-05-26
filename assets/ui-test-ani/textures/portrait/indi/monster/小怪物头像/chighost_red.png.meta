@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "a477fa45-eda8-4a78-b2dc-ac334c040d5d",
+  "uuid": "61be97e9-e64a-4160-b5c7-d3927ccda60c",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "a477fa45-eda8-4a78-b2dc-ac334c040d5d@6c48a",
+      "uuid": "61be97e9-e64a-4160-b5c7-d3927ccda60c@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "a477fa45-eda8-4a78-b2dc-ac334c040d5d"
+        "imageUuidOrDatabaseUri": "61be97e9-e64a-4160-b5c7-d3927ccda60c"
       },
       "displayName": "chighost_red",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "a477fa45-eda8-4a78-b2dc-ac334c040d5d@6c48a",
+    "redirect": "61be97e9-e64a-4160-b5c7-d3927ccda60c@6c48a",
     "hasAlpha": true
   }
 }

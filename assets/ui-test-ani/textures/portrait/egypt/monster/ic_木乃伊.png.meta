@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "1b57d4d6-082c-4a79-abc0-86c9b934ff5c",
+  "uuid": "5e5ef450-0d05-4679-b46c-3187dec13053",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "1b57d4d6-082c-4a79-abc0-86c9b934ff5c@6c48a",
+      "uuid": "5e5ef450-0d05-4679-b46c-3187dec13053@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "1b57d4d6-082c-4a79-abc0-86c9b934ff5c"
+        "imageUuidOrDatabaseUri": "5e5ef450-0d05-4679-b46c-3187dec13053"
       },
       "displayName": "ic_木乃伊",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "1b57d4d6-082c-4a79-abc0-86c9b934ff5c@6c48a",
+    "redirect": "5e5ef450-0d05-4679-b46c-3187dec13053@6c48a",
     "hasAlpha": true
   }
 }

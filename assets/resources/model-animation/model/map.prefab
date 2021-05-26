@@ -147,7 +147,7 @@
     "_id": ""
   },
   {
-    "__type__": "cc.ModelComponent",
+    "__type__": "cc.MeshRenderer",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -168,7 +168,10 @@
     },
     "_shadowCastingMode": 0,
     "_enableMorph": true,
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 13
+    }
   },
   {
     "__type__": "cc.ModelLightmapSettings",
@@ -193,12 +196,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "61HDYwb3BLQZBDNV2/YnMz",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "61HDYwb3BLQZBDNV2/YnMz"
   },
   {
     "__type__": "cc.Node",
@@ -246,7 +244,7 @@
     "_id": ""
   },
   {
-    "__type__": "cc.ModelComponent",
+    "__type__": "cc.MeshRenderer",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -267,7 +265,10 @@
     },
     "_shadowCastingMode": 0,
     "_enableMorph": true,
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 14
+    }
   },
   {
     "__type__": "cc.ModelLightmapSettings",
@@ -292,12 +293,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "84l6ga9fxP/aTufR2dr6er",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "84l6ga9fxP/aTufR2dr6er"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -307,12 +303,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "80xcrngxBECoEm+GrHG+9k",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "80xcrngxBECoEm+GrHG+9k"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -322,11 +313,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "e2iWwlSQROMIBoRBseTbd4",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "e2iWwlSQROMIBoRBseTbd4"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "10S9AZ7UNAkZUPPkv8tjAh"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "8f41jss+NOTbTSvI7OOtnV"
   }
 ]

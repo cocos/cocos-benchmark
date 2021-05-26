@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.17",
+  "ver": "1.0.21",
   "importer": "image",
   "imported": true,
   "uuid": "b638b78a-4516-492b-9e90-4457f9737b6b",
@@ -14,7 +14,7 @@
       "displayName": "Leaves_baseColor",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -27,7 +27,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "b638b78a-4516-492b-9e90-4457f9737b6b"
       }
@@ -35,6 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "b638b78a-4516-492b-9e90-4457f9737b6b@6c48a"
+    "redirect": "b638b78a-4516-492b-9e90-4457f9737b6b@6c48a",
+    "hasAlpha": true
   }
 }

@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.17",
+  "ver": "1.0.21",
   "importer": "image",
   "imported": true,
   "uuid": "e90ad74a-b668-4e2c-bf91-51a2a91b02aa",
@@ -14,7 +14,7 @@
       "displayName": "soldier01",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -27,7 +27,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "e90ad74a-b668-4e2c-bf91-51a2a91b02aa"
       }
@@ -35,6 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "e90ad74a-b668-4e2c-bf91-51a2a91b02aa@6c48a"
+    "redirect": "e90ad74a-b668-4e2c-bf91-51a2a91b02aa@6c48a",
+    "hasAlpha": false
   }
 }

@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "97ab5c2b-0b55-4bd9-8e72-4785f7f145ea",
+  "uuid": "8363299a-f02f-4d07-922a-8e71ad21fbf7",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "97ab5c2b-0b55-4bd9-8e72-4785f7f145ea@6c48a",
+      "uuid": "8363299a-f02f-4d07-922a-8e71ad21fbf7@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "97ab5c2b-0b55-4bd9-8e72-4785f7f145ea"
+        "imageUuidOrDatabaseUri": "8363299a-f02f-4d07-922a-8e71ad21fbf7"
       },
       "displayName": "ic_bloodwind",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "97ab5c2b-0b55-4bd9-8e72-4785f7f145ea@6c48a",
+    "redirect": "8363299a-f02f-4d07-922a-8e71ad21fbf7@6c48a",
     "hasAlpha": true
   }
 }

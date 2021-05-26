@@ -93,13 +93,13 @@
       "base",
       "gfx-webgl",
       "gfx-webgl2",
-      "profiler",
-      "tween",
       "3d",
+      "2d",
+      "ui",
       "particle",
       "primitive",
-      "2d",
-      "ui"
+      "profiler",
+      "tween"
     ],
     "noDeprecatedFeatures": {
       "value": false,

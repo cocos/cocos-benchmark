@@ -1,15 +1,13 @@
 {
-  "ver": "2.0.14",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "0bf7b0a5-7d70-49b9-80e4-f9fc39896dd5",
-  "files": [
-    ".js",
-    ".trans"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/model-triangles/ModelInfo.js"
+    "moduleId": "project:///assets/model-triangles/ModelInfo.js",
+    "simulateGlobals": []
   }
 }

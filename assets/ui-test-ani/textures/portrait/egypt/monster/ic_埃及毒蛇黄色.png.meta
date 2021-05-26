@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "4cbd61e3-a8eb-454a-b092-74381faf3e0e",
+  "uuid": "da45a471-268a-4c73-be1d-ceac9f628f00",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "4cbd61e3-a8eb-454a-b092-74381faf3e0e@6c48a",
+      "uuid": "da45a471-268a-4c73-be1d-ceac9f628f00@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "4cbd61e3-a8eb-454a-b092-74381faf3e0e"
+        "imageUuidOrDatabaseUri": "da45a471-268a-4c73-be1d-ceac9f628f00"
       },
       "displayName": "ic_埃及毒蛇黄色",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "4cbd61e3-a8eb-454a-b092-74381faf3e0e@6c48a",
+    "redirect": "da45a471-268a-4c73-be1d-ceac9f628f00@6c48a",
     "hasAlpha": true
   }
 }

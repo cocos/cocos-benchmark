@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "6c1c03e7-0a86-4f2e-a2aa-605d8e33256c",
+  "uuid": "fabee200-7d97-4e2a-b1fd-7c3bd598d09d",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "6c1c03e7-0a86-4f2e-a2aa-605d8e33256c@6c48a",
+      "uuid": "fabee200-7d97-4e2a-b1fd-7c3bd598d09d@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "6c1c03e7-0a86-4f2e-a2aa-605d8e33256c"
+        "imageUuidOrDatabaseUri": "fabee200-7d97-4e2a-b1fd-7c3bd598d09d"
       },
       "displayName": "ic_木乃伊变色",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "6c1c03e7-0a86-4f2e-a2aa-605d8e33256c@6c48a",
+    "redirect": "fabee200-7d97-4e2a-b1fd-7c3bd598d09d@6c48a",
     "hasAlpha": true
   }
 }

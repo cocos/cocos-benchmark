@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "e1927522-8733-4102-ba65-8997db419b93",
+  "uuid": "101db029-e1e7-4c22-87ea-05bb801b1a6f",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "e1927522-8733-4102-ba65-8997db419b93@6c48a",
+      "uuid": "101db029-e1e7-4c22-87ea-05bb801b1a6f@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "e1927522-8733-4102-ba65-8997db419b93"
+        "imageUuidOrDatabaseUri": "101db029-e1e7-4c22-87ea-05bb801b1a6f"
       },
       "displayName": "ic_蛇人",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "e1927522-8733-4102-ba65-8997db419b93@6c48a",
+    "redirect": "101db029-e1e7-4c22-87ea-05bb801b1a6f@6c48a",
     "hasAlpha": true
   }
 }
