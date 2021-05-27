@@ -183,6 +183,8 @@ export class BunnyMark extends Component {
     addOnce() {
         let amountPerLevel = Math.floor(amount / this.levelCount);
         let parent = this.root as Node;
+		
+		console.log("levelCount", this.levelCount);
 
         let bunny: Node, bunnysp, i;
         // Add bunnys
@@ -201,9 +203,9 @@ export class BunnyMark extends Component {
                 bunny.anchorY = 1;
                 //bunny.alpha = 0.3 + Math.random() * 0.7;
                 lbunnys.push(data);
-                bunny.setScale(1.0, 1.0, 1.0);
-                this._euler.set(0, 0, 360 * (Math.random() * 0.2 - 0.1));
-                bunny.eulerAngles = this._euler;
+                //bunny.setScale(1.0, 1.0, 1.0);
+				//this._euler.set(0, 0, 360 * (Math.random() * 0.2 - 0.1));
+                //bunny.eulerAngles = this._euler;
 
                 bunny.parent = parent;
                 count++;
