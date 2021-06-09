@@ -1,5 +1,5 @@
 {
-  "ver": "1.3.19",
+  "ver": "2.0.14",
   "importer": "gltf",
   "imported": true,
   "uuid": "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5",
@@ -11,7 +11,7 @@
       "displayName": "",
       "id": "50743",
       "name": "UnnamedTexture-5.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -24,7 +24,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_002_metallicRoughness.png"
       }
@@ -35,7 +35,7 @@
       "displayName": "",
       "id": "55257",
       "name": "UnnamedTexture-12.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -48,7 +48,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_001_baseColor.png"
       }
@@ -59,11 +59,11 @@
       "displayName": "",
       "id": "56f4a",
       "name": "defaultMaterial-0.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -76,11 +76,11 @@
       "displayName": "",
       "id": "09509",
       "name": "defaultMaterial-1.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -93,11 +93,11 @@
       "displayName": "",
       "id": "ac4af",
       "name": "defaultMaterial-2.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -110,11 +110,11 @@
       "displayName": "",
       "id": "c8dc3",
       "name": "defaultMaterial-3.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -127,7 +127,7 @@
       "displayName": "",
       "id": "3effa",
       "name": "UnnamedTexture-0.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -140,7 +140,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_baseColor.png"
       }
@@ -151,7 +151,7 @@
       "displayName": "",
       "id": "221a5",
       "name": "UnnamedTexture-1.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -164,7 +164,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_metallicRoughness.png"
       }
@@ -175,7 +175,7 @@
       "displayName": "",
       "id": "0089c",
       "name": "UnnamedTexture-2.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -188,7 +188,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_emissive.jpeg"
       }
@@ -199,7 +199,7 @@
       "displayName": "",
       "id": "9b633",
       "name": "UnnamedTexture-3.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -212,7 +212,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_normal.png"
       }
@@ -223,7 +223,7 @@
       "displayName": "",
       "id": "9b782",
       "name": "UnnamedTexture-4.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -236,7 +236,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_002_baseColor.png"
       }
@@ -247,7 +247,7 @@
       "displayName": "",
       "id": "99ea5",
       "name": "UnnamedTexture-6.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -260,7 +260,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_002_emissive.jpeg"
       }
@@ -271,7 +271,7 @@
       "displayName": "",
       "id": "006bd",
       "name": "UnnamedTexture-7.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -284,7 +284,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_002_normal.png"
       }
@@ -295,7 +295,7 @@
       "displayName": "",
       "id": "531b0",
       "name": "UnnamedTexture-8.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -308,7 +308,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_003_baseColor.png"
       }
@@ -319,7 +319,7 @@
       "displayName": "",
       "id": "9c3d2",
       "name": "UnnamedTexture-9.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -332,7 +332,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_003_metallicRoughness.png"
       }
@@ -343,7 +343,7 @@
       "displayName": "",
       "id": "f7e17",
       "name": "UnnamedTexture-10.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -356,7 +356,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_003_emissive.jpeg"
       }
@@ -367,7 +367,7 @@
       "displayName": "",
       "id": "a2905",
       "name": "UnnamedTexture-11.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -380,7 +380,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_003_normal.png"
       }
@@ -391,7 +391,7 @@
       "displayName": "",
       "id": "809d9",
       "name": "UnnamedTexture-13.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -404,7 +404,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_001_metallicRoughness.png"
       }
@@ -415,7 +415,7 @@
       "displayName": "",
       "id": "b4841",
       "name": "UnnamedTexture-14.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -428,7 +428,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_001_emissive.jpeg"
       }
@@ -439,7 +439,7 @@
       "displayName": "",
       "id": "3c999",
       "name": "UnnamedTexture-15.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -452,7 +452,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/ruger_mark_lv_free_model/textures/Material_001_normal.png"
       }
@@ -463,7 +463,7 @@
       "displayName": "",
       "id": "d1932",
       "name": "scene.prefab",
-      "ver": "1.0.11",
+      "ver": "1.0.12",
       "imported": true,
       "files": [
         ".json"
@@ -562,6 +562,7 @@
         "694da6fa-9c4f-46c3-96f6-357c4ab0aaf5@d1932"
       ]
     },
-    "dumpMaterials": true
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/model-triangles/model/ruger_mark_lv_free_model/Materials_scene"
   }
 }

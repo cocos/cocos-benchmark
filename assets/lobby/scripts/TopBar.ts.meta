@@ -1,15 +1,13 @@
 {
-  "ver": "2.0.14",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "800b4ca5-5df4-4975-9201-912fff478d92",
-  "files": [
-    ".js",
-    ".trans"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/lobby/scripts/TopBar.js"
+    "moduleId": "project:///assets/lobby/scripts/TopBar.js",
+    "simulateGlobals": []
   }
 }

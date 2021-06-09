@@ -1,5 +1,5 @@
 {
-  "ver": "1.3.19",
+  "ver": "2.0.14",
   "importer": "gltf",
   "imported": true,
   "uuid": "900996a8-07d8-4115-8643-d76eee0a9baa",
@@ -28,11 +28,11 @@
       "displayName": "",
       "id": "709d0",
       "name": "M_MED_Marshmellow_DJ.mo-0.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -45,11 +45,11 @@
       "displayName": "",
       "id": "235da",
       "name": "M_MED_Marshmellow_DJ.mo-1.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -62,11 +62,11 @@
       "displayName": "",
       "id": "a412e",
       "name": "M_MED_Marshmallow_DJ_FaceAcc.mo-2.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -79,7 +79,7 @@
       "displayName": "",
       "id": "e29b9",
       "name": "Take 01.animation",
-      "ver": "1.0.13",
+      "ver": "1.0.14",
       "imported": true,
       "files": [
         ".bin",
@@ -120,7 +120,7 @@
       "displayName": "",
       "id": "3effa",
       "name": "UnnamedTexture-0.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -133,7 +133,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/marshmallow_doing_shimmer/textures/M_MED_Marshmellow_DJ_Body_baseColor.png"
       }
@@ -144,7 +144,7 @@
       "displayName": "",
       "id": "221a5",
       "name": "UnnamedTexture-1.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -157,7 +157,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/marshmallow_doing_shimmer/textures/M_MED_Marshmellow_DJ_Hat_baseColor.png"
       }
@@ -168,7 +168,7 @@
       "displayName": "",
       "id": "0089c",
       "name": "UnnamedTexture-2.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -181,7 +181,7 @@
         "magfilter": "linear",
         "mipfilter": "linear",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model-triangles/model/marshmallow_doing_shimmer/textures/M_MED_Marshmellow_DJ_Bandolier_baseColor.png"
       }
@@ -192,7 +192,7 @@
       "displayName": "",
       "id": "d1932",
       "name": "scene.prefab",
-      "ver": "1.0.11",
+      "ver": "1.0.12",
       "imported": true,
       "files": [
         ".json"
@@ -255,6 +255,7 @@
         "900996a8-07d8-4115-8643-d76eee0a9baa@d1932"
       ]
     },
-    "dumpMaterials": true
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/model-triangles/model/marshmallow_doing_shimmer/Materials_scene"
   }
 }

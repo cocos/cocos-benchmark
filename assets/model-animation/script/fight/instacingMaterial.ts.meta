@@ -1,15 +1,13 @@
 {
-  "ver": "2.0.14",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "bcf19597-43f1-4d4a-869a-3c4a8f15b61b",
-  "files": [
-    ".js",
-    ".trans"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/model-animation/script/fight/instacingMaterial.js"
+    "moduleId": "project:///assets/model-animation/script/fight/instacingMaterial.js",
+    "simulateGlobals": []
   }
 }

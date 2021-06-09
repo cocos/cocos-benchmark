@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "6cd0aa66-4b81-42b7-95ad-1a82cc30a835",
+  "uuid": "ca3c638c-afe7-4821-b799-58629d2fa76d",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "6cd0aa66-4b81-42b7-95ad-1a82cc30a835@6c48a",
+      "uuid": "ca3c638c-afe7-4821-b799-58629d2fa76d@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "6cd0aa66-4b81-42b7-95ad-1a82cc30a835"
+        "imageUuidOrDatabaseUri": "ca3c638c-afe7-4821-b799-58629d2fa76d"
       },
       "displayName": "ic_黑色触手",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "6cd0aa66-4b81-42b7-95ad-1a82cc30a835@6c48a",
+    "redirect": "ca3c638c-afe7-4821-b799-58629d2fa76d@6c48a",
     "hasAlpha": true
   }
 }

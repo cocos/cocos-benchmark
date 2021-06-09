@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "f8dbb1b3-bed5-4acb-8307-fb94ce08d0dd",
+  "uuid": "1d0152da-56ce-4996-8506-2782668db270",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "f8dbb1b3-bed5-4acb-8307-fb94ce08d0dd@6c48a",
+      "uuid": "1d0152da-56ce-4996-8506-2782668db270@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "f8dbb1b3-bed5-4acb-8307-fb94ce08d0dd"
+        "imageUuidOrDatabaseUri": "1d0152da-56ce-4996-8506-2782668db270"
       },
       "displayName": "ic_sninetales",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "f8dbb1b3-bed5-4acb-8307-fb94ce08d0dd@6c48a",
+    "redirect": "1d0152da-56ce-4996-8506-2782668db270@6c48a",
     "hasAlpha": true
   }
 }

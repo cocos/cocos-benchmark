@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "c273d0b6-7ca5-4ca2-a8e1-53b9c1366680",
+  "uuid": "994c77ed-dd67-4b0f-95b3-885d43496120",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "c273d0b6-7ca5-4ca2-a8e1-53b9c1366680@6c48a",
+      "uuid": "994c77ed-dd67-4b0f-95b3-885d43496120@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "c273d0b6-7ca5-4ca2-a8e1-53b9c1366680"
+        "imageUuidOrDatabaseUri": "994c77ed-dd67-4b0f-95b3-885d43496120"
       },
       "displayName": "ic_机械触手",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "c273d0b6-7ca5-4ca2-a8e1-53b9c1366680@6c48a",
+    "redirect": "994c77ed-dd67-4b0f-95b3-885d43496120@6c48a",
     "hasAlpha": true
   }
 }

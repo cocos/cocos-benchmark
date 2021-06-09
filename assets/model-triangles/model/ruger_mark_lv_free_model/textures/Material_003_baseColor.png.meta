@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.17",
+  "ver": "1.0.21",
   "importer": "image",
   "imported": true,
   "uuid": "516461a1-c333-49da-ac2a-0641839e2d5b",
@@ -14,7 +14,7 @@
       "displayName": "Material_003_baseColor",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -27,7 +27,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "516461a1-c333-49da-ac2a-0641839e2d5b"
       }
@@ -35,6 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "516461a1-c333-49da-ac2a-0641839e2d5b@6c48a"
+    "redirect": "516461a1-c333-49da-ac2a-0641839e2d5b@6c48a",
+    "hasAlpha": true
   }
 }

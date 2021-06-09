@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "c96e50ac-ef08-432a-8658-124800b484ef",
+  "uuid": "375f9b36-c641-4848-a446-6546efc87d87",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "c96e50ac-ef08-432a-8658-124800b484ef@6c48a",
+      "uuid": "375f9b36-c641-4848-a446-6546efc87d87@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "c96e50ac-ef08-432a-8658-124800b484ef"
+        "imageUuidOrDatabaseUri": "375f9b36-c641-4848-a446-6546efc87d87"
       },
       "displayName": "ic_cipacret",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "c96e50ac-ef08-432a-8658-124800b484ef@6c48a",
+    "redirect": "375f9b36-c641-4848-a446-6546efc87d87@6c48a",
     "hasAlpha": true
   }
 }

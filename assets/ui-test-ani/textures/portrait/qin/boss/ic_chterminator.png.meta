@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "e6e4f4d0-edad-4eaa-9427-208b91c3b9b6",
+  "uuid": "b6b64c6c-c1bd-4572-b404-3272e3d50765",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "e6e4f4d0-edad-4eaa-9427-208b91c3b9b6@6c48a",
+      "uuid": "b6b64c6c-c1bd-4572-b404-3272e3d50765@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "e6e4f4d0-edad-4eaa-9427-208b91c3b9b6"
+        "imageUuidOrDatabaseUri": "b6b64c6c-c1bd-4572-b404-3272e3d50765"
       },
       "displayName": "ic_chterminator",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "e6e4f4d0-edad-4eaa-9427-208b91c3b9b6@6c48a",
+    "redirect": "b6b64c6c-c1bd-4572-b404-3272e3d50765@6c48a",
     "hasAlpha": true
   }
 }

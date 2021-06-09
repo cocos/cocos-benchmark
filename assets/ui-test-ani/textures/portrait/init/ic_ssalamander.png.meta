@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "7c038c21-7242-48d4-b962-aa8b5cb384b9",
+  "uuid": "ff10b87e-582b-47d0-af6d-273af7407505",
   "files": [
     ".png",
     ".json"
@@ -10,12 +10,12 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "7c038c21-7242-48d4-b962-aa8b5cb384b9@6c48a",
+      "uuid": "ff10b87e-582b-47d0-af6d-273af7407505@6c48a",
       "displayName": "ic_ssalamander",
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "imageUuidOrDatabaseUri": "7c038c21-7242-48d4-b962-aa8b5cb384b9",
+        "imageUuidOrDatabaseUri": "ff10b87e-582b-47d0-af6d-273af7407505",
         "wrapModeS": "repeat",
         "wrapModeT": "repeat",
         "minfilter": "linear",
@@ -34,7 +34,7 @@
     "f9941": {
       "ver": "1.0.9",
       "importer": "sprite-frame",
-      "uuid": "7c038c21-7242-48d4-b962-aa8b5cb384b9@f9941",
+      "uuid": "ff10b87e-582b-47d0-af6d-273af7407505@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -64,7 +64,7 @@
         "borderLeft": 0,
         "borderRight": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "7c038c21-7242-48d4-b962-aa8b5cb384b9@6c48a",
+        "imageUuidOrDatabaseUri": "ff10b87e-582b-47d0-af6d-273af7407505@6c48a",
         "atlasUuid": "",
         "packable": true
       },
@@ -75,7 +75,7 @@
   },
   "userData": {
     "type": "sprite-frame",
-    "redirect": "7c038c21-7242-48d4-b962-aa8b5cb384b9@f9941",
+    "redirect": "ff10b87e-582b-47d0-af6d-273af7407505@f9941",
     "hasAlpha": true
   }
 }

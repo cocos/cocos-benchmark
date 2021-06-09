@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "823df80f-a173-41ca-bb1f-3219ed7425b7",
+  "uuid": "23255941-3e9e-420a-be8e-04201945bd20",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "823df80f-a173-41ca-bb1f-3219ed7425b7@6c48a",
+      "uuid": "23255941-3e9e-420a-be8e-04201945bd20@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "823df80f-a173-41ca-bb1f-3219ed7425b7"
+        "imageUuidOrDatabaseUri": "23255941-3e9e-420a-be8e-04201945bd20"
       },
       "displayName": "ic_甲壳虫绿",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "823df80f-a173-41ca-bb1f-3219ed7425b7@6c48a",
+    "redirect": "23255941-3e9e-420a-be8e-04201945bd20@6c48a",
     "hasAlpha": true
   }
 }

@@ -1,15 +1,13 @@
 {
-  "ver": "2.0.14",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "a324f04d-602b-4db7-a025-c88962e16e49",
-  "files": [
-    ".js",
-    ".trans"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/model-animation/script/fight/mapManager.js"
+    "moduleId": "project:///assets/model-animation/script/fight/mapManager.js",
+    "simulateGlobals": []
   }
 }

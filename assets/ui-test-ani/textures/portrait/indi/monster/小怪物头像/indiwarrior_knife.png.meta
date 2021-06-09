@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "4d2cd84d-fde9-498d-8261-68f590bc9b09",
+  "uuid": "b6ca2bcc-32cc-4491-a9ad-8a16781ade32",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "4d2cd84d-fde9-498d-8261-68f590bc9b09@6c48a",
+      "uuid": "b6ca2bcc-32cc-4491-a9ad-8a16781ade32@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "4d2cd84d-fde9-498d-8261-68f590bc9b09"
+        "imageUuidOrDatabaseUri": "b6ca2bcc-32cc-4491-a9ad-8a16781ade32"
       },
       "displayName": "indiwarrior_knife",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "4d2cd84d-fde9-498d-8261-68f590bc9b09@6c48a",
+    "redirect": "b6ca2bcc-32cc-4491-a9ad-8a16781ade32@6c48a",
     "hasAlpha": true
   }
 }

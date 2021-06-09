@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "52c11025-13af-4d70-98eb-085e5a9e81b6",
+  "uuid": "a652218b-60e2-4522-a484-db700fea9043",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "52c11025-13af-4d70-98eb-085e5a9e81b6@6c48a",
+      "uuid": "a652218b-60e2-4522-a484-db700fea9043@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "52c11025-13af-4d70-98eb-085e5a9e81b6"
+        "imageUuidOrDatabaseUri": "a652218b-60e2-4522-a484-db700fea9043"
       },
       "displayName": "ic_蓝炮台龟",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "52c11025-13af-4d70-98eb-085e5a9e81b6@6c48a",
+    "redirect": "a652218b-60e2-4522-a484-db700fea9043@6c48a",
     "hasAlpha": true
   }
 }

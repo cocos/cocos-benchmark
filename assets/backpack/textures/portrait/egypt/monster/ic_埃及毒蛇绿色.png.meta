@@ -9,7 +9,7 @@
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.20",
+      "ver": "1.0.21",
       "importer": "texture",
       "uuid": "aa86a5f6-1b5d-4f39-8aac-8d4b9f646314@6c48a",
       "imported": true,
@@ -24,7 +24,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "aa86a5f6-1b5d-4f39-8aac-8d4b9f646314"
       },

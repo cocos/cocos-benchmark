@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "b30a989a-7d94-431f-8e3d-3289c1583da8",
+  "uuid": "39c1779d-bc04-4dec-9b52-ee531249ae4d",
   "files": [
     ".png",
     ".json"
@@ -10,12 +10,12 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "b30a989a-7d94-431f-8e3d-3289c1583da8@6c48a",
+      "uuid": "39c1779d-bc04-4dec-9b52-ee531249ae4d@6c48a",
       "displayName": "btn_chuzhan",
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "imageUuidOrDatabaseUri": "b30a989a-7d94-431f-8e3d-3289c1583da8",
+        "imageUuidOrDatabaseUri": "39c1779d-bc04-4dec-9b52-ee531249ae4d",
         "wrapModeS": "repeat",
         "wrapModeT": "repeat",
         "minfilter": "linear",
@@ -34,7 +34,7 @@
     "f9941": {
       "ver": "1.0.9",
       "importer": "sprite-frame",
-      "uuid": "b30a989a-7d94-431f-8e3d-3289c1583da8@f9941",
+      "uuid": "39c1779d-bc04-4dec-9b52-ee531249ae4d@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -64,7 +64,7 @@
         "borderLeft": 0,
         "borderRight": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b30a989a-7d94-431f-8e3d-3289c1583da8@6c48a",
+        "imageUuidOrDatabaseUri": "39c1779d-bc04-4dec-9b52-ee531249ae4d@6c48a",
         "atlasUuid": "",
         "packable": true
       },
@@ -75,7 +75,7 @@
   },
   "userData": {
     "type": "sprite-frame",
-    "redirect": "b30a989a-7d94-431f-8e3d-3289c1583da8@f9941",
+    "redirect": "39c1779d-bc04-4dec-9b52-ee531249ae4d@f9941",
     "hasAlpha": true
   }
 }

@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "10e5b9bb-8f58-467d-9e43-f99403e88f3b",
+  "uuid": "45f70763-4dc2-4954-9b8b-2b4e6e9453b6",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "10e5b9bb-8f58-467d-9e43-f99403e88f3b@6c48a",
+      "uuid": "45f70763-4dc2-4954-9b8b-2b4e6e9453b6@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "10e5b9bb-8f58-467d-9e43-f99403e88f3b"
+        "imageUuidOrDatabaseUri": "45f70763-4dc2-4954-9b8b-2b4e6e9453b6"
       },
       "displayName": "ic_棕色巨型蜘蛛",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "10e5b9bb-8f58-467d-9e43-f99403e88f3b@6c48a",
+    "redirect": "45f70763-4dc2-4954-9b8b-2b4e6e9453b6@6c48a",
     "hasAlpha": true
   }
 }

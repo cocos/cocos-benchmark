@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "2c84d042-ef14-43b8-9650-4b6155790a83",
+  "uuid": "06ee9448-0470-4748-9ec3-ccc59d096dd3",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "2c84d042-ef14-43b8-9650-4b6155790a83@6c48a",
+      "uuid": "06ee9448-0470-4748-9ec3-ccc59d096dd3@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "2c84d042-ef14-43b8-9650-4b6155790a83"
+        "imageUuidOrDatabaseUri": "06ee9448-0470-4748-9ec3-ccc59d096dd3"
       },
       "displayName": "ic_机械炮台龟",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "2c84d042-ef14-43b8-9650-4b6155790a83@6c48a",
+    "redirect": "06ee9448-0470-4748-9ec3-ccc59d096dd3@6c48a",
     "hasAlpha": true
   }
 }

@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "158b13c3-4f0d-4813-9c33-bbc7be0ca3f9",
+  "uuid": "c61120c8-446e-4ca7-be78-8fe5ef2ce478",
   "files": [
     ".png",
     ".json"
@@ -10,12 +10,12 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "158b13c3-4f0d-4813-9c33-bbc7be0ca3f9@6c48a",
+      "uuid": "c61120c8-446e-4ca7-be78-8fe5ef2ce478@6c48a",
       "displayName": "att_earth",
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "imageUuidOrDatabaseUri": "158b13c3-4f0d-4813-9c33-bbc7be0ca3f9",
+        "imageUuidOrDatabaseUri": "c61120c8-446e-4ca7-be78-8fe5ef2ce478",
         "wrapModeS": "repeat",
         "wrapModeT": "repeat",
         "minfilter": "linear",
@@ -34,7 +34,7 @@
     "f9941": {
       "ver": "1.0.9",
       "importer": "sprite-frame",
-      "uuid": "158b13c3-4f0d-4813-9c33-bbc7be0ca3f9@f9941",
+      "uuid": "c61120c8-446e-4ca7-be78-8fe5ef2ce478@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -64,7 +64,7 @@
         "borderLeft": 0,
         "borderRight": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "158b13c3-4f0d-4813-9c33-bbc7be0ca3f9@6c48a",
+        "imageUuidOrDatabaseUri": "c61120c8-446e-4ca7-be78-8fe5ef2ce478@6c48a",
         "atlasUuid": "",
         "packable": true
       },
@@ -75,7 +75,7 @@
   },
   "userData": {
     "type": "sprite-frame",
-    "redirect": "158b13c3-4f0d-4813-9c33-bbc7be0ca3f9@f9941",
+    "redirect": "c61120c8-446e-4ca7-be78-8fe5ef2ce478@f9941",
     "hasAlpha": true
   }
 }

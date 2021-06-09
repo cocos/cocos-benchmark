@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "1c9c510d-6818-4d1c-b8da-80083c43d2ae",
+  "uuid": "68b08e2c-33a4-4bfb-b2fa-111d75ea6cc9",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "1c9c510d-6818-4d1c-b8da-80083c43d2ae@6c48a",
+      "uuid": "68b08e2c-33a4-4bfb-b2fa-111d75ea6cc9@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "1c9c510d-6818-4d1c-b8da-80083c43d2ae"
+        "imageUuidOrDatabaseUri": "68b08e2c-33a4-4bfb-b2fa-111d75ea6cc9"
       },
       "displayName": "snakeman_yellow",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "1c9c510d-6818-4d1c-b8da-80083c43d2ae@6c48a",
+    "redirect": "68b08e2c-33a4-4bfb-b2fa-111d75ea6cc9@6c48a",
     "hasAlpha": true
   }
 }

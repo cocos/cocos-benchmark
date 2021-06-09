@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "c431afb0-8e19-40e9-9177-9b4ea38eb468",
+  "uuid": "9e5b3151-f8f2-45be-9c21-90008431e1bd",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "c431afb0-8e19-40e9-9177-9b4ea38eb468@6c48a",
+      "uuid": "9e5b3151-f8f2-45be-9c21-90008431e1bd@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "c431afb0-8e19-40e9-9177-9b4ea38eb468"
+        "imageUuidOrDatabaseUri": "9e5b3151-f8f2-45be-9c21-90008431e1bd"
       },
       "displayName": "murloc_sred",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "c431afb0-8e19-40e9-9177-9b4ea38eb468@6c48a",
+    "redirect": "9e5b3151-f8f2-45be-9c21-90008431e1bd@6c48a",
     "hasAlpha": true
   }
 }

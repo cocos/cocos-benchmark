@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "a65ccbfc-46b5-4c44-b9ed-14cd621166a9",
+  "uuid": "74a34d4e-e2f7-4108-88c6-1ff0100ef0ac",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "a65ccbfc-46b5-4c44-b9ed-14cd621166a9@6c48a",
+      "uuid": "74a34d4e-e2f7-4108-88c6-1ff0100ef0ac@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "a65ccbfc-46b5-4c44-b9ed-14cd621166a9"
+        "imageUuidOrDatabaseUri": "74a34d4e-e2f7-4108-88c6-1ff0100ef0ac"
       },
       "displayName": "ic_shadopharaoh",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "a65ccbfc-46b5-4c44-b9ed-14cd621166a9@6c48a",
+    "redirect": "74a34d4e-e2f7-4108-88c6-1ff0100ef0ac@6c48a",
     "hasAlpha": true
   }
 }

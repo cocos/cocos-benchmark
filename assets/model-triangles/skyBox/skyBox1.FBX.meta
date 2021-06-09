@@ -1,5 +1,5 @@
 {
-  "ver": "1.3.19",
+  "ver": "2.0.14",
   "importer": "fbx",
   "imported": true,
   "uuid": "97856fc0-86c9-4ee5-8625-03b2e5e7af82",
@@ -11,7 +11,7 @@
       "displayName": "",
       "id": "31667",
       "name": "skyBox1.jpg.image",
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "imported": true,
       "files": [
         ".jpg",
@@ -28,11 +28,11 @@
       "displayName": "",
       "id": "7d128",
       "name": "skyBox01.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -45,7 +45,7 @@
       "displayName": "",
       "id": "bc797",
       "name": "贴图 #8.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -58,7 +58,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "97856fc0-86c9-4ee5-8625-03b2e5e7af82@31667"
       }
@@ -69,7 +69,7 @@
       "displayName": "",
       "id": "9ba3e",
       "name": "skyBox1.prefab",
-      "ver": "1.0.11",
+      "ver": "1.0.12",
       "imported": true,
       "files": [
         ".json"
@@ -104,6 +104,7 @@
       ]
     },
     "dumpMaterials": true,
-    "materialDumpDir": "db://assets/model-triangles/skyBox"
+    "materialDumpDir": "db://assets/model-triangles/skyBox",
+    "legacyFbxImporter": true
   }
 }

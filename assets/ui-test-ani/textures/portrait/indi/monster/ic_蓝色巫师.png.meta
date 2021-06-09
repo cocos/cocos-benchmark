@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "db68e56f-b77d-41d1-b5bb-f600a7df3de7",
+  "uuid": "8c57de37-0b01-447b-b292-d90aaf034946",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "db68e56f-b77d-41d1-b5bb-f600a7df3de7@6c48a",
+      "uuid": "8c57de37-0b01-447b-b292-d90aaf034946@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "db68e56f-b77d-41d1-b5bb-f600a7df3de7"
+        "imageUuidOrDatabaseUri": "8c57de37-0b01-447b-b292-d90aaf034946"
       },
       "displayName": "ic_蓝色巫师",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "db68e56f-b77d-41d1-b5bb-f600a7df3de7@6c48a",
+    "redirect": "8c57de37-0b01-447b-b292-d90aaf034946@6c48a",
     "hasAlpha": true
   }
 }

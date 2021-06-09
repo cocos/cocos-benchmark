@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "116b799f-09ea-47ad-964a-013f0b472788",
+  "uuid": "14ce9ec8-eabe-4552-a40b-6236bd3b0c01",
   "files": [
     ".png",
     ".json"
@@ -10,12 +10,12 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "116b799f-09ea-47ad-964a-013f0b472788@6c48a",
+      "uuid": "14ce9ec8-eabe-4552-a40b-6236bd3b0c01@6c48a",
       "displayName": "text_diamond_gift",
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "imageUuidOrDatabaseUri": "116b799f-09ea-47ad-964a-013f0b472788",
+        "imageUuidOrDatabaseUri": "14ce9ec8-eabe-4552-a40b-6236bd3b0c01",
         "wrapModeS": "repeat",
         "wrapModeT": "repeat",
         "minfilter": "linear",
@@ -34,7 +34,7 @@
     "f9941": {
       "ver": "1.0.9",
       "importer": "sprite-frame",
-      "uuid": "116b799f-09ea-47ad-964a-013f0b472788@f9941",
+      "uuid": "14ce9ec8-eabe-4552-a40b-6236bd3b0c01@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -64,7 +64,7 @@
         "borderLeft": 0,
         "borderRight": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "116b799f-09ea-47ad-964a-013f0b472788@6c48a",
+        "imageUuidOrDatabaseUri": "14ce9ec8-eabe-4552-a40b-6236bd3b0c01@6c48a",
         "atlasUuid": "",
         "packable": true
       },
@@ -75,7 +75,7 @@
   },
   "userData": {
     "type": "sprite-frame",
-    "redirect": "116b799f-09ea-47ad-964a-013f0b472788@f9941",
+    "redirect": "14ce9ec8-eabe-4552-a40b-6236bd3b0c01@f9941",
     "hasAlpha": true
   }
 }

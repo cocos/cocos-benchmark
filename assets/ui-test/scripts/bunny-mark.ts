@@ -61,7 +61,7 @@ export class BunnyMark extends Component {
     @property([SpriteFrame])
     frames: SpriteFrame[] = [];
     @property
-    levelCount = 10;
+    levelCount = 1;
     @property(LabelComponent)
     number: LabelComponent = null;
     @property(Node)
@@ -79,6 +79,8 @@ export class BunnyMark extends Component {
         maxY = cc.winSize.height / 2;
         minX = -maxX;
         minY = -maxY;
+
+		this.levelCount = 1;
 
         for (let i = 0; i < this.levelCount; i++) {
             bunnys[i] = [];
@@ -181,6 +183,8 @@ export class BunnyMark extends Component {
     addOnce() {
         let amountPerLevel = Math.floor(amount / this.levelCount);
         let parent = this.root as Node;
+		
+		console.log("levelCount", this.levelCount);
 
         let bunny: Node, bunnysp, i;
         // Add bunnys
@@ -199,9 +203,9 @@ export class BunnyMark extends Component {
                 bunny.anchorY = 1;
                 //bunny.alpha = 0.3 + Math.random() * 0.7;
                 lbunnys.push(data);
-                bunny.setScale(1.5, 1.5, 1.5);
-                this._euler.set(0, 0, 360 * (Math.random() * 0.2 - 0.1));
-                bunny.eulerAngles = this._euler;
+                //bunny.setScale(1.0, 1.0, 1.0);
+				//this._euler.set(0, 0, 360 * (Math.random() * 0.2 - 0.1));
+                //bunny.eulerAngles = this._euler;
 
                 bunny.parent = parent;
                 count++;

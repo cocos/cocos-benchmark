@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "abffcd97-8f0f-4f61-a061-f5fca72d25ca",
+  "uuid": "3170d738-08db-4f83-8606-33a42d332a26",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "abffcd97-8f0f-4f61-a061-f5fca72d25ca@6c48a",
+      "uuid": "3170d738-08db-4f83-8606-33a42d332a26@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "abffcd97-8f0f-4f61-a061-f5fca72d25ca"
+        "imageUuidOrDatabaseUri": "3170d738-08db-4f83-8606-33a42d332a26"
       },
       "displayName": "indiwarrio",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "abffcd97-8f0f-4f61-a061-f5fca72d25ca@6c48a",
+    "redirect": "3170d738-08db-4f83-8606-33a42d332a26@6c48a",
     "hasAlpha": true
   }
 }

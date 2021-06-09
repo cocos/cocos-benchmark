@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "9f76084f-009a-4f33-aa6c-d08bd9a29c01",
+  "uuid": "f232138a-c0bf-4cf9-9144-53ba7413fc48",
   "files": [
     ".png",
     ".json"
@@ -10,12 +10,12 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "9f76084f-009a-4f33-aa6c-d08bd9a29c01@6c48a",
+      "uuid": "f232138a-c0bf-4cf9-9144-53ba7413fc48@6c48a",
       "displayName": "ic_mermaidqueen",
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "imageUuidOrDatabaseUri": "9f76084f-009a-4f33-aa6c-d08bd9a29c01",
+        "imageUuidOrDatabaseUri": "f232138a-c0bf-4cf9-9144-53ba7413fc48",
         "wrapModeS": "repeat",
         "wrapModeT": "repeat",
         "minfilter": "linear",
@@ -34,7 +34,7 @@
     "f9941": {
       "ver": "1.0.9",
       "importer": "sprite-frame",
-      "uuid": "9f76084f-009a-4f33-aa6c-d08bd9a29c01@f9941",
+      "uuid": "f232138a-c0bf-4cf9-9144-53ba7413fc48@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -64,7 +64,7 @@
         "borderLeft": 0,
         "borderRight": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "9f76084f-009a-4f33-aa6c-d08bd9a29c01@6c48a",
+        "imageUuidOrDatabaseUri": "f232138a-c0bf-4cf9-9144-53ba7413fc48@6c48a",
         "atlasUuid": "",
         "packable": true
       },
@@ -75,7 +75,7 @@
   },
   "userData": {
     "type": "sprite-frame",
-    "redirect": "9f76084f-009a-4f33-aa6c-d08bd9a29c01@f9941",
+    "redirect": "f232138a-c0bf-4cf9-9144-53ba7413fc48@f9941",
     "hasAlpha": true
   }
 }

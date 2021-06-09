@@ -1,5 +1,5 @@
 {
-  "ver": "1.3.19",
+  "ver": "2.0.14",
   "importer": "fbx",
   "imported": true,
   "uuid": "a0b17fba-bcf9-4bc3-9b02-15321efc0259",
@@ -11,11 +11,11 @@
       "displayName": "",
       "id": "46540",
       "name": "Box001.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -28,11 +28,11 @@
       "displayName": "",
       "id": "6c5bb",
       "name": "body1.mesh",
-      "ver": "1.0.9",
+      "ver": "1.1.0",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
+        ".bin",
+        ".json"
       ],
       "subMetas": {},
       "userData": {
@@ -45,7 +45,7 @@
       "displayName": "",
       "id": "73b7f",
       "name": "Take 001.animation",
-      "ver": "1.0.13",
+      "ver": "1.0.14",
       "imported": true,
       "files": [
         ".bin",
@@ -86,7 +86,7 @@
       "displayName": "",
       "id": "155a5",
       "name": "face1.png.image",
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "imported": true,
       "files": [
         ".png",
@@ -103,7 +103,7 @@
       "displayName": "",
       "id": "2816c",
       "name": "贴图 #18.texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -116,7 +116,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "a0b17fba-bcf9-4bc3-9b02-15321efc0259@155a5"
       }
@@ -127,7 +127,7 @@
       "displayName": "",
       "id": "d4cb6",
       "name": "dance1.prefab",
-      "ver": "1.0.11",
+      "ver": "1.0.12",
       "imported": true,
       "files": [
         ".json"
@@ -180,6 +180,8 @@
         "a0b17fba-bcf9-4bc3-9b02-15321efc0259@d4cb6"
       ]
     },
-    "dumpMaterials": true
+    "dumpMaterials": true,
+    "legacyFbxImporter": true,
+    "materialDumpDir": "db://assets/model-animation/model/dance/Materials_dance1"
   }
 }

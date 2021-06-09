@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.17",
+  "ver": "1.0.21",
   "importer": "image",
   "imported": true,
   "uuid": "a90d28e0-b420-41d7-adfb-765453d761d0",
@@ -14,7 +14,7 @@
       "displayName": "M_Med_CuChulainn_Hat_metallicRoughness",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.19",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -27,7 +27,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "a90d28e0-b420-41d7-adfb-765453d761d0"
       }
@@ -35,6 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "a90d28e0-b420-41d7-adfb-765453d761d0@6c48a"
+    "redirect": "a90d28e0-b420-41d7-adfb-765453d761d0@6c48a",
+    "hasAlpha": false
   }
 }

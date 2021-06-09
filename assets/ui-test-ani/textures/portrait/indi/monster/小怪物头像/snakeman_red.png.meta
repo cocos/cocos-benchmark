@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "15001946-ccf1-42f9-b7ec-44a5748ffbdf",
+  "uuid": "2e125a91-5a09-4bc4-967b-7db87040fb63",
   "files": [
     ".png",
     ".json"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.21",
       "importer": "texture",
-      "uuid": "15001946-ccf1-42f9-b7ec-44a5748ffbdf@6c48a",
+      "uuid": "2e125a91-5a09-4bc4-967b-7db87040fb63@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,7 +26,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "15001946-ccf1-42f9-b7ec-44a5748ffbdf"
+        "imageUuidOrDatabaseUri": "2e125a91-5a09-4bc4-967b-7db87040fb63"
       },
       "displayName": "snakeman_red",
       "id": "6c48a",
@@ -35,7 +35,7 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "15001946-ccf1-42f9-b7ec-44a5748ffbdf@6c48a",
+    "redirect": "2e125a91-5a09-4bc4-967b-7db87040fb63@6c48a",
     "hasAlpha": true
   }
 }

@@ -1,15 +1,13 @@
 {
-  "ver": "2.0.14",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "e72d0dfa-49ee-409b-853b-a4728d383f3d",
-  "files": [
-    ".js",
-    ".trans"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/particle-test/ParticleTest.js"
+    "moduleId": "project:///assets/particle-test/ParticleTest.js",
+    "simulateGlobals": []
   }
 }
