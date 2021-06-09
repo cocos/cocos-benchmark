@@ -1,4 +1,4 @@
-import { _decorator, Prefab, Label, Component, instantiate, Node } from 'cc';
+import { _decorator, Prefab, Label, Component, instantiate, Node, profiler } from 'cc';
 const { ccclass, property } = _decorator;
 
 let bunnyType = 0;
@@ -18,6 +18,9 @@ export class BunnyTransformAnimationTest extends Component {
 
     onLoad () {
         this.reset();
+        if (!profiler._stats) {
+            profiler.showStats();
+        }
     }
 
     reset () {
