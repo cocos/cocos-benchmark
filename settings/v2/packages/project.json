@@ -30,5 +30,13 @@
       "1": 6,
       "2": 7
     }
+  },
+  "general": {
+    "designResolution": {
+      "width": 960,
+      "height": 640,
+      "fitHeight": true,
+      "fitWidth": true
+    }
   }
 }

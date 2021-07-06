@@ -1,9 +1,13 @@
 
-import { _decorator, Component, Node, director } from 'cc';
+import { _decorator, Component, Node, director, view } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('LoadScene')
 export class LoadScene extends Component {
+
+    onLoad () {
+        view.setDesignResolutionSize(640, 960, 2);
+    }
     public loadBunny () {
         director.loadScene('BunnyTest');
     }
