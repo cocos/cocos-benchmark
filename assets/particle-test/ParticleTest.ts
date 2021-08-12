@@ -97,7 +97,7 @@ export class TestParticle extends Component {
             return;
         }
 
-        if (num < 0) {num = 0};
+        if (num < 0) {num = 0;}
 
         if (num % 2 !== 0) {
             num = num + 1;  // 一个prefab有两个粒子，需要偶数
@@ -129,7 +129,7 @@ export class TestParticle extends Component {
             return;
         }
 
-        if (num < 0) {num = 0};
+        if (num < 0) {num = 0;}
 
         if (num % 2 !== 0) {
             num = num + 1;  // 一个prefab有两个粒子，需要偶数
