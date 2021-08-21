@@ -29,7 +29,7 @@ export class TestParticle extends Component {
 
     set particleNum(value: number) {
         this._particleNum = value;
-        this.numLabel.string = "粒子节点数量："+this._particleNum;
+        this.numLabel.string = "发射器数量："+this._particleNum;
     }
 
     get cpuParticleNum() {
