@@ -83,10 +83,10 @@
         "_value": false
       },
       "spine": {
-        "_value": false
+        "_value": true
       },
       "dragon-bones": {
-        "_value": false
+        "_value": true
       }
     },
     "includeModules": [
@@ -99,7 +99,9 @@
       "particle",
       "primitive",
       "profiler",
-      "tween"
+      "tween",
+      "spine",
+      "dragon-bones"
     ],
     "noDeprecatedFeatures": {
       "value": false,
