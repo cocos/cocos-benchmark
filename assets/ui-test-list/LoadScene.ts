@@ -20,6 +20,9 @@ export class LoadScene extends Component {
     public loadUI () {
         director.loadScene('UITest');
     }
+    public loadSpine () {
+        director.loadScene('spine');
+    }
 }
 
 /**

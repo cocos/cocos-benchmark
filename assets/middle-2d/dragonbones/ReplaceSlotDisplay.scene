@@ -87,7 +87,7 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -133,7 +133,7 @@
       "y": 0.5,
       "z": 0.5
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -241,7 +241,7 @@
       "y": 1,
       "z": 0.5
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -356,7 +356,7 @@
       "y": 1,
       "z": 0.5
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -402,7 +402,7 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -678,7 +678,7 @@
       "y": 1,
       "z": 0.5
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -724,7 +724,7 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -990,14 +990,14 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
       "z": 0
     },
-    "_id": "fdJtsNrmpOC7qAlc9W93xp"
+    "_id": "7e7APRP3VN7qqaDaDI1nc2"
   },
   {
     "__type__": "cc.Camera",
@@ -1036,9 +1036,9 @@
     "_shutter": 7,
     "_iso": 0,
     "_screenScale": 1,
-    "_visibility": 42008576,
+    "_visibility": 42467328,
     "_targetTexture": null,
-    "_id": "24xmMFy7lMwZY4nAlW6QZK"
+    "_id": "9bmRUI0CVDeqoZT21BsRYZ"
   },
   {
     "__type__": "cc.UITransform",
@@ -1205,7 +1205,7 @@
     },
     "_autoAdapt": true,
     "_pcf": 0,
-    "_bias": 0.00001,
+    "_bias": 0.1,
     "_near": 1,
     "_far": 30,
     "_aspect": 1,

@@ -1,7 +1,6 @@
 #///////////////////////////
 # Cocos Creator 3D Project
 #///////////////////////////
-*.meta
 library/
 temp/
 local/
