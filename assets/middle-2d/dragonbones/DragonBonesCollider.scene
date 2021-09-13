@@ -78,7 +78,7 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -130,7 +130,7 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -290,7 +290,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "9eqvPleG5FzLwAMJ4JH0Rx",
+    "fileId": "20Vh1XDgFCaLQh46pN7bEr",
     "prefabRootNode": null,
     "mountedChildren": [
       {
@@ -327,7 +327,7 @@
   {
     "__type__": "cc.TargetInfo",
     "localID": [
-      "67eGJTAFBLx54M6cVuMp1+"
+      "91pTiOKIdHt6zeKQHrl6Yj"
     ]
   },
   {
@@ -370,7 +370,7 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -523,7 +523,7 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -644,12 +644,12 @@
     "propertyPath": [
       "_layer"
     ],
-    "value": 65536
+    "value": 524288
   },
   {
     "__type__": "cc.TargetInfo",
     "localID": [
-      "67eGJTAFBLx54M6cVuMp1+"
+      "91pTiOKIdHt6zeKQHrl6Yj"
     ]
   },
   {
@@ -665,7 +665,7 @@
   {
     "__type__": "cc.TargetInfo",
     "localID": [
-      "2cmrkQ7v9MAKVPhM1HE5zx"
+      "6fr9MEfyZFVoCmfdDCmeNo"
     ]
   },
   {
@@ -688,7 +688,7 @@
   {
     "__type__": "cc.TargetInfo",
     "localID": [
-      "2cmrkQ7v9MAKVPhM1HE5zx"
+      "6fr9MEfyZFVoCmfdDCmeNo"
     ]
   },
   {
@@ -739,14 +739,14 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
       "z": 0
     },
-    "_id": "8f/kIajQNOsaa5o6ea0YFy"
+    "_id": "25HHCYmjlFmJzhZDSDxW0K"
   },
   {
     "__type__": "cc.Camera",
@@ -785,9 +785,9 @@
     "_shutter": 7,
     "_iso": 0,
     "_screenScale": 1,
-    "_visibility": 42008576,
+    "_visibility": 42467328,
     "_targetTexture": null,
-    "_id": "c3i0G5pkJE1KpOa4ssC+sJ"
+    "_id": "36FxzB4UBM0p3nvwdOvOEI"
   },
   {
     "__type__": "cc.UITransform",
@@ -937,7 +937,7 @@
     },
     "_autoAdapt": true,
     "_pcf": 0,
-    "_bias": 0.00001,
+    "_bias": 0.1,
     "_near": 1,
     "_far": 30,
     "_aspect": 1,

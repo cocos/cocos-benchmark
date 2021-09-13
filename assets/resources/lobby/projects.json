@@ -58,11 +58,5 @@
         "sceneUrl": "ui-test-ani/scene/BunnyTransformAnimationTest.scene",
         "coverImgUrl": "lobby/uiTransAni/spriteFrame",
         "tips": "用于ui位移动画测试"
-    },
-    {
-        "name": "middle-2d-test",
-        "sceneUrl": "middle-2d/start.scene",
-        "coverImgUrl": "lobby/middle2d/spriteFrame",
-        "tips": "用于2d中间件测试"
     }
 ]

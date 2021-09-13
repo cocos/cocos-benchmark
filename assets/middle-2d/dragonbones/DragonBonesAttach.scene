@@ -233,7 +233,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": "b7diUaqsdFk6flsOCfK2cj"
+    "_id": "13+S6/RV9Bc7L2eT1RGcJr"
   },
   {
     "__type__": "cc.Camera",
@@ -274,7 +274,7 @@
     "_screenScale": 1,
     "_visibility": 42467328,
     "_targetTexture": null,
-    "_id": "2bBVqmOtpFTbykJt4HveSx"
+    "_id": "8fvUPEW7JBOpRNQ+5yXcA/"
   },
   {
     "__type__": "cc.UITransform",
@@ -424,7 +424,7 @@
     },
     "_autoAdapt": true,
     "_pcf": 0,
-    "_bias": 0.00001,
+    "_bias": 0.1,
     "_near": 1,
     "_far": 30,
     "_aspect": 1,

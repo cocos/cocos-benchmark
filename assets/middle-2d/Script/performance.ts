@@ -53,4 +53,8 @@ export class Performance extends Component {
         director.loadScene('start');
     }
 
+    backToTestList () {
+        director.loadScene('test-list');
+    }
+
 }

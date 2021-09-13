@@ -1,0 +1,14 @@
+{
+  "ver": "4.0.22",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "dae37572-299f-4205-b012-63844a3ee8b2",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/Script/performance.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

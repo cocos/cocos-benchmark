@@ -82,7 +82,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "36Xx86DTBHMILspogJgBUO"
+    "fileId": "66YjJIiZ1BlKEz/gYgUoCS"
   },
   {
     "__type__": "dragonBones.ArmatureDisplay",
@@ -135,7 +135,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "2cmrkQ7v9MAKVPhM1HE5zx"
+    "fileId": "6fr9MEfyZFVoCmfdDCmeNo"
   },
   {
     "__type__": "dragonBones.ArmatureDisplay.DragonBoneSocket",
@@ -313,7 +313,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "beHRVOstlDKazM++xg6WOp"
+    "fileId": "640nLj2d5C5oJvjbPtxnXU"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -364,7 +364,7 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -420,7 +420,7 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -501,7 +501,7 @@
     },
     "_autoAdapt": true,
     "_pcf": 0,
-    "_bias": 0.00001,
+    "_bias": 0.1,
     "_near": 1,
     "_far": 30,
     "_aspect": 1,
@@ -575,14 +575,14 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 65536,
+    "_layer": 524288,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
       "z": 0
     },
-    "_id": "aazhatTM5FqqxfbmRVz/Rl"
+    "_id": "f7MzyQRqtPmr4c4EYZ1664"
   },
   {
     "__type__": "cc.Camera",
@@ -623,13 +623,13 @@
     "_shutter": 7,
     "_iso": 0,
     "_screenScale": 1,
-    "_visibility": 42008576,
+    "_visibility": 42467328,
     "_targetTexture": null,
-    "_id": "ec6dE8TiFF44GbhyH3kKYr"
+    "_id": "c5sYPwCaxEl4VpsVHYUXbm"
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "d0ZTtjxzdGlI9NUYKEXLdO"
+    "fileId": "eeMYkwSmBC4LRaZHEfSsm5"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -639,7 +639,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "34YbOM3jhH8oGb81EjDraT"
+    "fileId": "c2d21jHqZNn6OKLZhdcSZo"
   },
   {
     "__type__": "cc.UITransform",
@@ -744,7 +744,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "dagmzWqepETKanQTCFRxNX"
+    "fileId": "f50iFwUJtEbY7asdlZMHCc"
   },
   {
     "__type__": "dragonBones.ArmatureDisplay",
@@ -797,7 +797,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "80ZjdcvFRPaKBXnj15iKHB"
+    "fileId": "b4SpU1vB1KWYHIYvM28Vbo"
   },
   {
     "__type__": "dragonBones.ArmatureDisplay.DragonBoneSocket",
@@ -982,7 +982,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "19diD2prBH5J+AnL9P+sqH"
+    "fileId": "65pfz+wVpNqITQkxZ63mUV"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1019,6 +1019,6 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "67eGJTAFBLx54M6cVuMp1+"
+    "fileId": "91pTiOKIdHt6zeKQHrl6Yj"
   }
 ]
