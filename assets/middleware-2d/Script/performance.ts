@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, director, instantiate, Prefab, isPropertyModifier, Label , view, Vec3} from 'cc';
+import { _decorator, Component, Node, director, instantiate, Prefab, Label , view, Vec3} from 'cc';
 const { ccclass, property } = _decorator;
 
 
@@ -32,7 +32,6 @@ export class Performance extends Component {
             pos.x = (Math.random() - 0.5) * viewSize.width;
             pos.y = (Math.random() - 0.5) * viewSize.height;
             node.setPosition(pos);
-            node.setScale(0.3, 0.3, 1.0);
             this.container!.addChild(node);
             this.objArr.push(node);
         }

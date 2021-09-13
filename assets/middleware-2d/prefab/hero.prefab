@@ -67,7 +67,6 @@
     "__prefab": {
       "__id__": 3
     },
-    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 143.4,
@@ -107,16 +106,17 @@
       "a": 255
     },
     "loop": true,
-    "_premultipliedAlpha": true,
-    "timeScale": 1,
+    "_premultipliedAlpha": false,
+    "_timeScale": 1,
     "_useTint": false,
-    "_preCacheMode": 1,
-    "_cacheMode": 1,
-    "_defaultCacheMode": 1,
+    "_preCacheMode": 0,
+    "_cacheMode": 0,
+    "_defaultCacheMode": 0,
     "_debugBones": false,
     "_debugSlots": false,
     "_skeletonData": {
-      "__uuid__": "365a7fd4-3af3-4805-a080-88639b038d8e"
+      "__uuid__": "365a7fd4-3af3-4805-a080-88639b038d8e",
+      "__expectedType__": "sp.SkeletonData"
     },
     "defaultSkin": "default",
     "defaultAnimation": "sk_2",
