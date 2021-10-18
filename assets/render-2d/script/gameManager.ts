@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node, Event, Toggle, EditBox, view, Label, CCInteger } from 'cc';
+import { _decorator, Component, Node, Event, Toggle, EditBox, view, Label, CCInteger, profiler } from 'cc';
 import { EnvironmentManager } from './environmentManager';
 import { EquipmentManager } from './equipmentManager';
 import { MonsterManager } from './monsterManager';
@@ -65,6 +65,9 @@ export class GameManager extends Component {
         GameManager.minX = -GameManager.maxX;
         GameManager.maxY = visibleSize.height / 2;
         GameManager.minY = -GameManager.maxY;
+        if (!profiler._stats) {
+            profiler.showStats();
+        }
     }
 
     start () {
