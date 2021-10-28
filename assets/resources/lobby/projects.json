@@ -24,6 +24,12 @@
         "tips": "用于粒子测试"
     },
     {
+        "name": "render-2d-test",
+        "sceneUrl": "render-2d/render-test-2d.scene",
+        "coverImgUrl": "lobby/render-2d-test/spriteFrame",
+        "tips": "用于2d渲染测试"
+    },
+    {
         "name": "ui-sprite-test",
         "sceneUrl": "ui-test/BunnyTest.scene",
         "coverImgUrl": "lobby/bunny-test/spriteFrame",
