@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Prefab, instantiate, LabelComponent, EditBoxComponent } from 'cc';
+import { _decorator, Component, Node, Prefab, instantiate, LabelComponent, EditBoxComponent, profiler } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('TestParticle')
@@ -51,11 +51,13 @@ export class TestParticle extends Component {
         this.gpuParticleNumInput.string = value.toString();
         this.particleNum = this._cpuParticleNum + this._gpuParticleNum;
     }
-    
-    
+
     start () {
         this.updateCPUParticleNum(10);
         this.gpuParticleNum = 0;
+        if (!profiler._stats) {
+            profiler.showStats();
+        }
     }
 
     randomPositionX () {
