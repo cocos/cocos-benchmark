@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, director, instantiate, Prefab, Label , view, Vec3} from 'cc';
+import { _decorator, Component, Node, director, instantiate, Prefab, Label , view, Vec3, profiler} from 'cc';
 const { ccclass, property } = _decorator;
 
 
@@ -22,6 +22,9 @@ export class Performance extends Component {
     start () {
         this.objArr = [];
         this.num!.string = "0";
+        if (!profiler._stats) {
+            profiler.showStats();
+        }
     }
 
     add () {
@@ -47,7 +50,7 @@ export class Performance extends Component {
         }
         this.num!.string = this.objArr.length +"";
     }
- 
+
     back () {
         director.loadScene('start');
     }
