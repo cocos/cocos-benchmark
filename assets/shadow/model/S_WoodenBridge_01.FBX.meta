@@ -1,0 +1,265 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee",
+  "files": [],
+  "subMetas": {
+    "53659": {
+      "importer": "gltf-mesh",
+      "uuid": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@53659",
+      "displayName": "",
+      "id": "53659",
+      "name": "UCX_S_WoodenBridge_01.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "88008": {
+      "importer": "gltf-scene",
+      "uuid": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@88008",
+      "displayName": "",
+      "id": "88008",
+      "name": "S_WoodenBridge_01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "93312": {
+      "importer": "texture",
+      "uuid": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@93312",
+      "displayName": "",
+      "id": "93312",
+      "name": "T_Wood_01_N.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@ea5f2"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2c203": {
+      "importer": "gltf-mesh",
+      "uuid": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@2c203",
+      "displayName": "",
+      "id": "2c203",
+      "name": "S_WoodenBridge_01_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5646c": {
+      "importer": "gltf-embeded-image",
+      "uuid": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@5646c",
+      "displayName": "",
+      "id": "5646c",
+      "name": "T_Wood_02_N.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea5f2": {
+      "importer": "gltf-embeded-image",
+      "uuid": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@ea5f2",
+      "displayName": "",
+      "id": "ea5f2",
+      "name": "T_Wood_01_N.image",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b4d9c": {
+      "importer": "gltf-embeded-image",
+      "uuid": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@b4d9c",
+      "displayName": "",
+      "id": "b4d9c",
+      "name": "T_Wood_03_N.image",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d2c15": {
+      "importer": "texture",
+      "uuid": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@d2c15",
+      "displayName": "",
+      "id": "d2c15",
+      "name": "T_Wood_02_N.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@5646c"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43f72": {
+      "importer": "texture",
+      "uuid": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@43f72",
+      "displayName": "",
+      "id": "43f72",
+      "name": "T_Wood_03_N.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@b4d9c"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7b420": {
+      "importer": "gltf-material",
+      "uuid": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@7b420",
+      "displayName": "",
+      "id": "7b420",
+      "name": "MI_Wood_02.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8bb0d": {
+      "importer": "gltf-material",
+      "uuid": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@8bb0d",
+      "displayName": "",
+      "id": "8bb0d",
+      "name": "M_Wood_01.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ba7c7": {
+      "importer": "gltf-material",
+      "uuid": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@ba7c7",
+      "displayName": "",
+      "id": "ba7c7",
+      "name": "MI_Wood_01.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "T_Wood_02_N",
+        "uri": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@5646c"
+      },
+      {
+        "name": "T_Wood_01_N",
+        "uri": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@ea5f2"
+      },
+      {
+        "name": "T_Wood_03_N",
+        "uri": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@b4d9c"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@88008",
+    "assetFinder": {
+      "meshes": [
+        "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@2c203",
+        "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@53659"
+      ],
+      "skeletons": [],
+      "textures": [
+        "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@d2c15",
+        "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@93312",
+        "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@43f72"
+      ],
+      "materials": [
+        "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@7b420",
+        "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@8bb0d",
+        "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@ba7c7"
+      ],
+      "scenes": [
+        "f18ed05c-d49c-4116-b869-8fbc8c4c2bee@88008"
+      ]
+    }
+  }
+}
