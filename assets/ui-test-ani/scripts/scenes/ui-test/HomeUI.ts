@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Animation, Enum } from "cc";
+import { _decorator, Component, Node, Animation, Enum, profiler } from "cc";
 const { ccclass, property } = _decorator;
 import { BackPackUIComp } from "./BackPackUIComp";
 import { ShopUI } from "./ShopUI";
@@ -19,6 +19,9 @@ export class HomeUI extends Component {
 
     // use this for initialization
     onLoad() {
+        if (!profiler._stats) {
+            profiler.showStats();
+        }
         this.curPanel = PanelType.Home;
         this.menuAnim.play('menu_reset');
     }
