@@ -229,7 +229,10 @@ export class Helper extends Component {
 
     onNumberInputEnd() {
         let num = Number.parseInt(this.numberInput.string);
-
+        if(!num) {
+            num = 0;
+            this.numberInput.string = '0';
+        }
         this.updateModelNumber(num);
     }
 }
