@@ -1,9 +1,11 @@
 {
-  "ver": "2.0.14",
+  "ver": "2.1.12",
   "importer": "fbx",
   "imported": true,
   "uuid": "74a2d32b-4771-4f65-8390-558bebd33fa7",
-  "files": [],
+  "files": [
+    "__original-animation-0.cconb"
+  ],
   "subMetas": {
     "30732": {
       "importer": "gltf-skeleton",
@@ -62,11 +64,10 @@
       "displayName": "",
       "id": "73b7f",
       "name": "Take 001.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.16",
       "imported": true,
       "files": [
-        ".bin",
-        ".json"
+        ".cconb"
       ],
       "subMetas": {},
       "userData": {

@@ -1,5 +1,5 @@
 {
-  "__version__": "1.0.5",
+  "__version__": "1.0.6",
   "modules": {
     "cache": {
       "base": {
@@ -87,21 +87,33 @@
       },
       "dragon-bones": {
         "_value": true
+      },
+      "animation": {
+        "_value": true
+      },
+      "skeletal-animation": {
+        "_value": true
+      },
+      "marionette": {
+        "_value": true
       }
     },
     "includeModules": [
+      "2d",
+      "3d",
+      "animation",
       "base",
+      "dragon-bones",
       "gfx-webgl",
       "gfx-webgl2",
-      "3d",
-      "2d",
-      "ui",
+      "marionette",
       "particle",
       "primitive",
       "profiler",
-      "tween",
+      "skeletal-animation",
       "spine",
-      "dragon-bones"
+      "tween",
+      "ui"
     ],
     "noDeprecatedFeatures": {
       "value": false,

@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.23",
   "importer": "image",
   "imported": true,
   "uuid": "516461a1-c333-49da-ac2a-0641839e2d5b",
@@ -36,6 +36,10 @@
   "userData": {
     "type": "texture",
     "redirect": "516461a1-c333-49da-ac2a-0641839e2d5b@6c48a",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "compressSettings": {
+      "useCompressTexture": true
+    }
   }
 }

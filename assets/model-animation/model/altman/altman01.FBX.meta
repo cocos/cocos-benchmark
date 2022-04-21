@@ -1,9 +1,11 @@
 {
-  "ver": "2.0.14",
+  "ver": "2.1.12",
   "importer": "fbx",
   "imported": true,
   "uuid": "5f35effe-a1a1-4c6a-8a36-5ad85ff66628",
-  "files": [],
+  "files": [
+    "__original-animation-0.cconb"
+  ],
   "subMetas": {
     "c6922": {
       "importer": "gltf-mesh",
@@ -28,11 +30,10 @@
       "displayName": "",
       "id": "1f586",
       "name": "idle.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.16",
       "imported": true,
       "files": [
-        ".bin",
-        ".json"
+        ".cconb"
       ],
       "subMetas": {},
       "userData": {
@@ -52,11 +53,10 @@
       "displayName": "",
       "id": "cf5ee",
       "name": "run.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.16",
       "imported": true,
       "files": [
-        ".bin",
-        ".json"
+        ".cconb"
       ],
       "subMetas": {},
       "userData": {
@@ -76,11 +76,10 @@
       "displayName": "",
       "id": "989ed",
       "name": "attack.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.16",
       "imported": true,
       "files": [
-        ".bin",
-        ".json"
+        ".cconb"
       ],
       "subMetas": {},
       "userData": {
@@ -100,11 +99,10 @@
       "displayName": "",
       "id": "ee525",
       "name": "win.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.16",
       "imported": true,
       "files": [
-        ".bin",
-        ".json"
+        ".cconb"
       ],
       "subMetas": {},
       "userData": {
@@ -124,11 +122,10 @@
       "displayName": "",
       "id": "5b2e9",
       "name": "died.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.16",
       "imported": true,
       "files": [
-        ".bin",
-        ".json"
+        ".cconb"
       ],
       "subMetas": {},
       "userData": {

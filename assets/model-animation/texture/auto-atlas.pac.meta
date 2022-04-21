@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.5",
+  "ver": "1.0.6",
   "importer": "auto-atlas",
   "imported": true,
   "uuid": "1aca11c1-90e8-4fd3-b989-169d5362a7d3",
@@ -32,6 +32,9 @@
     "compressSettings": {
       "useCompressTexture": true,
       "presetId": "presetId1619329746492"
-    }
+    },
+    "removeTextureInBundle": false,
+    "removeImageInBundle": false,
+    "removeSpriteAtlasInBundle": false
   }
 }

@@ -1,5 +1,5 @@
 {
-  "__version__": "1.0.1",
+  "__version__": "1.0.2",
   "layer": [
     {
       "name": "canvas_17",
@@ -37,6 +37,11 @@
       "height": 640,
       "fitHeight": true,
       "fitWidth": true
+    }
+  },
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
     }
   }
 }

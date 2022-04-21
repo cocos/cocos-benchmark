@@ -8,7 +8,8 @@
       "__id__": 1
     },
     "optimizationPolicy": 0,
-    "asyncLoadAssets": false
+    "asyncLoadAssets": false,
+    "persistent": false
   },
   {
     "__type__": "cc.Node",
@@ -20,17 +21,17 @@
         "__id__": 2
       },
       {
-        "__id__": 144
+        "__id__": 145
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 150
+        "__id__": 152
       }
     ],
     "_prefab": {
-      "__id__": 152
+      "__id__": 155
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -78,7 +79,7 @@
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 143
+      "__id__": 144
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -3844,7 +3845,7 @@
       }
     ],
     "_prefab": {
-      "__id__": 142
+      "__id__": 143
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -3904,7 +3905,7 @@
     },
     "_id": "",
     "__prefab": {
-      "__id__": 153
+      "__id__": 142
     }
   },
   {
@@ -3921,6 +3922,10 @@
     "_castShadow": false,
     "_recieveShadow": false,
     "_lightmapSize": 64
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "e3aTEnbpxLF6eMOGoQuDor"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3951,13 +3956,13 @@
     },
     "_children": [
       {
-        "__id__": 145
+        "__id__": 146
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 149
+      "__id__": 151
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -3992,17 +3997,17 @@
     "_name": "Box001",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 144
+      "__id__": 145
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 146
+        "__id__": 147
       }
     ],
     "_prefab": {
-      "__id__": 148
+      "__id__": 150
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -4037,7 +4042,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 145
+      "__id__": 146
     },
     "_enabled": true,
     "_materials": [
@@ -4047,7 +4052,7 @@
     ],
     "_visFlags": 0,
     "lightmapSettings": {
-      "__id__": 147
+      "__id__": 148
     },
     "_mesh": {
       "__uuid__": "a0b17fba-bcf9-4bc3-9b02-15321efc0259@46540"
@@ -4056,7 +4061,7 @@
     "_enableMorph": true,
     "_id": "",
     "__prefab": {
-      "__id__": 154
+      "__id__": 149
     }
   },
   {
@@ -4073,6 +4078,10 @@
     "_castShadow": false,
     "_recieveShadow": false,
     "_lightmapSize": 64
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "feOUyMtJdGV6MD3SyRks2x"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4114,20 +4123,24 @@
     "_useBakedAnimation": true,
     "_sockets": [
       {
-        "__id__": 151
+        "__id__": 153
       }
     ],
     "_id": "",
     "__prefab": {
-      "__id__": 155
+      "__id__": 154
     }
   },
   {
     "__type__": "cc.SkeletalAnimationComponent.Socket",
     "path": "RootNode/Bip002/Bip01 Pelvis001/Bip01 Spine002/Bip01 Spine003/Bip01 Neck001/Bip01 Head001/Bip01 HeadNub001",
     "target": {
-      "__id__": 144
+      "__id__": 145
     }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "37v0VC5ZpG469CmICVgY0c"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4138,17 +4151,5 @@
       "__id__": 0
     },
     "fileId": "bem97j/KJK9J7yHm/LpKbH"
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "e3aTEnbpxLF6eMOGoQuDor"
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "feOUyMtJdGV6MD3SyRks2x"
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "37v0VC5ZpG469CmICVgY0c"
   }
 ]

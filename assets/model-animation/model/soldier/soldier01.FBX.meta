@@ -1,9 +1,11 @@
 {
-  "ver": "2.0.14",
+  "ver": "2.1.12",
   "importer": "fbx",
   "imported": true,
   "uuid": "57d4c4ef-3199-4596-bf79-7c065964ca9c",
-  "files": [],
+  "files": [
+    "__original-animation-0.cconb"
+  ],
   "subMetas": {
     "6868c": {
       "importer": "gltf-mesh",
@@ -28,11 +30,10 @@
       "displayName": "",
       "id": "1f586",
       "name": "idle.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.16",
       "imported": true,
       "files": [
-        ".bin",
-        ".json"
+        ".cconb"
       ],
       "subMetas": {},
       "userData": {
@@ -52,11 +53,10 @@
       "displayName": "",
       "id": "cf5ee",
       "name": "run.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.16",
       "imported": true,
       "files": [
-        ".bin",
-        ".json"
+        ".cconb"
       ],
       "subMetas": {},
       "userData": {
@@ -76,11 +76,10 @@
       "displayName": "",
       "id": "989ed",
       "name": "attack.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.16",
       "imported": true,
       "files": [
-        ".bin",
-        ".json"
+        ".cconb"
       ],
       "subMetas": {},
       "userData": {
@@ -100,11 +99,10 @@
       "displayName": "",
       "id": "ee525",
       "name": "win.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.16",
       "imported": true,
       "files": [
-        ".bin",
-        ".json"
+        ".cconb"
       ],
       "subMetas": {},
       "userData": {
@@ -124,11 +122,10 @@
       "displayName": "",
       "id": "5b2e9",
       "name": "died.animation",
-      "ver": "1.0.14",
+      "ver": "1.0.16",
       "imported": true,
       "files": [
-        ".bin",
-        ".json"
+        ".cconb"
       ],
       "subMetas": {},
       "userData": {
@@ -159,22 +156,22 @@
         "jointsLength": 6
       }
     },
-    "fa1d4": {
+    "c4b7a": {
       "importer": "gltf-embeded-image",
-      "uuid": "57d4c4ef-3199-4596-bf79-7c065964ca9c@fa1d4",
+      "uuid": "57d4c4ef-3199-4596-bf79-7c065964ca9c@c4b7a",
       "displayName": "",
-      "id": "fa1d4",
-      "name": "soldier01.jpg.image",
+      "id": "c4b7a",
+      "name": "贴图 #6.image",
+      "userData": {
+        "gltfIndex": 0
+      },
       "ver": "1.0.3",
       "imported": true,
       "files": [
-        ".jpg",
+        ".png",
         ".json"
       ],
-      "subMetas": {},
-      "userData": {
-        "gltfIndex": 0
-      }
+      "subMetas": {}
     },
     "291d4": {
       "importer": "texture",
@@ -197,7 +194,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "57d4c4ef-3199-4596-bf79-7c065964ca9c@fa1d4"
+        "imageUuidOrDatabaseUri": "57d4c4ef-3199-4596-bf79-7c065964ca9c@c4b7a"
       }
     },
     "33dba": {
@@ -220,8 +217,8 @@
   "userData": {
     "imageMetas": [
       {
-        "name": "soldier01.jpg",
-        "uri": "57d4c4ef-3199-4596-bf79-7c065964ca9c@fa1d4"
+        "name": "贴图 #6",
+        "uri": "57d4c4ef-3199-4596-bf79-7c065964ca9c@c4b7a"
       }
     ],
     "animationImportSettings": [
