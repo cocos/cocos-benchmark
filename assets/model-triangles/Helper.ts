@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, CameraComponent, Prefab, instantiate, LabelComponent, Vec3, SliderComponent, EventTouch, profiler, ToggleContainerComponent, ToggleComponent, Tween, CCString, EditBoxComponent, clamp, BatchingUtility, ModelComponent, resources } from 'cc';
+import { _decorator, Component, Node, CameraComponent, Prefab, instantiate, LabelComponent, Vec3, SliderComponent, EventTouch, profiler, ToggleContainerComponent, ToggleComponent, Tween, CCString, EditBoxComponent, clamp, BatchingUtility, ModelComponent, resources, assetManager } from 'cc';
 import { ModelInfo } from './ModelInfo';
 const { ccclass, property } = _decorator;
 
@@ -103,9 +103,13 @@ export class Helper extends Component {
     onBtnChanged(toggle: ToggleComponent){
         //x: -8~8
         //z: -16~2
+        const prevModelName = this.currModelName;
         this.currModelName = toggle.node.name;
         const count = this.modelRoot.children.length;
         this.onBtnClear();
+        let prefebToDelete = this.prefabList.get(prevModelName);
+        this.prefabList.delete(prevModelName);
+        assetManager.releaseAsset(prefebToDelete);
         if(!this.prefabList.get(this.currModelName)){
             this.btn.active = false;
             resources.load(this.resPath+`${this.currModelName}`, Prefab, (err: any, asset: Prefab)=>{
