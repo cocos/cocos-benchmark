@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, CameraComponent, Prefab, loader, instantiate, LabelComponent, Vec3, SliderComponent, EventTouch, profiler, ToggleContainerComponent, ToggleComponent, Tween, CCString, EditBoxComponent, clamp, BatchingUtility, ModelComponent } from 'cc';
+import { _decorator, Component, Node, CameraComponent, Prefab, instantiate, LabelComponent, Vec3, SliderComponent, EventTouch, profiler, ToggleContainerComponent, ToggleComponent, Tween, CCString, EditBoxComponent, clamp, BatchingUtility, ModelComponent, resources, assetManager } from 'cc';
 import { ModelInfo } from './ModelInfo';
 const { ccclass, property } = _decorator;
 
@@ -63,7 +63,7 @@ export class Helper extends Component {
     }
 
     start () {
-        loader.loadRes(this.resPath + '9.8', Prefab, (err: any, asset: Prefab) => {
+        resources.load(this.resPath + '9.8', Prefab, (err: any, asset: Prefab) => {
             if(err){
                 console.warn(err);
                 return;
@@ -71,7 +71,6 @@ export class Helper extends Component {
 
             this.currModelName = asset.data.name;
             this.prefabList.set(asset.data.name, asset);
-            this.onBtnAdd();
             this.btn.active = true;
         });
 
@@ -104,12 +103,16 @@ export class Helper extends Component {
     onBtnChanged(toggle: ToggleComponent){
         //x: -8~8
         //z: -16~2
+        const prevModelName = this.currModelName;
         this.currModelName = toggle.node.name;
         const count = this.modelRoot.children.length;
         this.onBtnClear();
+        let prefebToDelete = this.prefabList.get(prevModelName);
+        this.prefabList.delete(prevModelName);
+        assetManager.releaseAsset(prefebToDelete);
         if(!this.prefabList.get(this.currModelName)){
             this.btn.active = false;
-            loader.loadRes(this.resPath+`${this.currModelName}`, Prefab, (err: any, asset: Prefab)=>{
+            resources.load(this.resPath+`${this.currModelName}`, Prefab, (err: any, asset: Prefab)=>{
                 if(err){
                     console.warn(err);
                     return;
