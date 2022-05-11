@@ -48,7 +48,7 @@ export class playerManager extends Component {
     tweenCamera: Tween;
     posCameraOrigin: Vec3;
 
-    isEnableInstancing = false;
+    isEnableInstancing = false; //默认是否开启CPU Instancing
 
     private _prevPeopleRate: number = 0; //人数除以30等于多少倍
 
@@ -124,8 +124,8 @@ export class playerManager extends Component {
                     this.arrModel.push(prefab);
 
                     if (this.arrModel.length === this.arrName.length) {
-                        this.addPlayerGroup();
-
+                        // this.addPlayerGroup();
+                        this.updatePlayerNumber(80);
                         this.isStart = true;
                     }
                 }
