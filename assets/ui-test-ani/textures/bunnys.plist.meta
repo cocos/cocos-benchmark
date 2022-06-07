@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.6",
+  "ver": "1.0.7",
   "importer": "sprite-atlas",
   "imported": true,
   "uuid": "e0ea533c-e4d1-45f2-9338-08ae3ecb76fe",
@@ -35,7 +35,7 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "ae5d9a0a-1576-498f-90da-d0a24217b766@6c48a"
       },
-      "ver": "1.0.9",
+      "ver": "1.0.10",
       "imported": true,
       "files": [
         ".json"
@@ -69,7 +69,7 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "ae5d9a0a-1576-498f-90da-d0a24217b766@6c48a"
       },
-      "ver": "1.0.9",
+      "ver": "1.0.10",
       "imported": true,
       "files": [
         ".json"
@@ -103,7 +103,7 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "ae5d9a0a-1576-498f-90da-d0a24217b766@6c48a"
       },
-      "ver": "1.0.9",
+      "ver": "1.0.10",
       "imported": true,
       "files": [
         ".json"
@@ -137,7 +137,7 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "ae5d9a0a-1576-498f-90da-d0a24217b766@6c48a"
       },
-      "ver": "1.0.9",
+      "ver": "1.0.10",
       "imported": true,
       "files": [
         ".json"
@@ -171,7 +171,7 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "ae5d9a0a-1576-498f-90da-d0a24217b766@6c48a"
       },
-      "ver": "1.0.9",
+      "ver": "1.0.10",
       "imported": true,
       "files": [
         ".json"

@@ -1,12 +1,11 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "cd886442-671b-4723-9ee0-c144e512bab5",
   "files": [],
   "subMetas": {},
   "userData": {
-    "importAsPlugin": false,
     "moduleId": "project:///assets/ui-test/scripts/bunny-mark.js",
     "simulateGlobals": []
   }

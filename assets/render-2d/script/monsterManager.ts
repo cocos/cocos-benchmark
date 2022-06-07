@@ -1,5 +1,6 @@
 
 import { _decorator, Component, Node, Prefab, instantiate } from 'cc';
+import { boundingBox } from './boundingBox';
 import { GameManager } from './gameManager';
 const { ccclass, property } = _decorator;
 
@@ -34,8 +35,8 @@ export class MonsterManager extends Component {
                 const pfSprite = this.monPrefabs[i%this.monPrefabs.length];
                 let sprite = instantiate(pfSprite) as Node;
                 sprite.parent = this.node;
-                this.randomX = Math.random() * (GameManager.maxX - GameManager.minX) + GameManager.minX;
-                this.randomY = Math.random() * (GameManager.maxY - GameManager.minY) + GameManager.minY;
+                this.randomX = Math.random() * (boundingBox.maxX - boundingBox.minX) + boundingBox.minX;
+                this.randomY = Math.random() * (boundingBox.maxY - boundingBox.minY) + boundingBox.minY;
                 sprite.setPosition(this.randomX, this.randomY, 0);
                 this.monList.push(sprite);
             }

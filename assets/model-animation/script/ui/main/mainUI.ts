@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, profiler, LabelComponent, SpriteFrame, SpriteComponent, EditBoxComponent } from 'cc';
+import { _decorator, Component, Node, profiler, LabelComponent, SpriteFrame, SpriteComponent, EditBoxComponent, game, director, Director } from 'cc';
 import { playerManager } from '../../fight/playerManager';
 import { confirmBox } from './confirmBox';
 import { constants } from '../../framework/util/constants';
@@ -90,6 +90,8 @@ export class mainUI extends Component {
         return this.manager.enableShadow;
     }
 
+    private _profilerEnabled = false;
+
     shareGame (title, imageUrl) {
         if (!window.wx) {
             return;
@@ -139,16 +141,14 @@ export class mainUI extends Component {
 
         this.shareGame("更多精彩游戏等你来发现！", "https://res.592you.com/game-shares/cake/imgs/40.jpg");
 
-        if (!profiler._stats) {
-            console.log('showStats');
+        if (!profiler.isShowingStats()) {
+            this._profilerEnabled = false;
             profiler.showStats();
+            profiler._meshRenderer.model.enabled = false;
         }
-
-        //@ts-ignore
-        // if (profiler._rootNode) {
-        //     //@ts-ignore
-        //     profiler._rootNode.active = false;
-        // }
+        else {
+            this._profilerEnabled = true;
+        }
         
         this.lbVersion.string = 'Version: ' + constants.VERSION;
 
@@ -234,7 +234,7 @@ export class mainUI extends Component {
             //drawcall
             this.lbDrawcall.string = profiler._stats.draws.counter.value.toString();
             this.lbInstancing.string = profiler._stats.instances.counter.value.toString();
-            this.lbTriangle.string = profiler._stats.tricount.counter.value.toString();
+            this.lbTriangle.string = profiler._stats.tricount.counter.value.toString();       //this.manager.artTriangle.toString();
             this.lbGFXMem.string = profiler._stats.textureMemory.counter.value.toFixed(1).toString();
             this.lbGameLogic.string = profiler._stats.logic.counter.value.toFixed(2).toString();
             this.lbArtTriangle.string = this.manager.artTriangle.toString();
@@ -249,9 +249,9 @@ export class mainUI extends Component {
 
     onDestroy() {
         // @ts-ignore
-        if (profiler._rootNode) {
+        if (this._profilerEnabled) {
             // @ts-ignore
-            profiler._rootNode.active = true;
+            profiler.showStats();
         }
     }
 }

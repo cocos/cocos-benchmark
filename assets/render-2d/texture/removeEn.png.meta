@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.23",
   "importer": "image",
   "imported": true,
   "uuid": "2cb97918-e420-4e49-81c2-a5bb0dbe230c",
@@ -14,7 +14,7 @@
       "displayName": "removeEn",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -38,7 +38,7 @@
       "displayName": "removeEn",
       "id": "f9941",
       "name": "spriteFrame",
-      "ver": "1.0.9",
+      "ver": "1.0.10",
       "imported": true,
       "files": [
         ".json"
@@ -70,6 +70,7 @@
   "userData": {
     "type": "sprite-frame",
     "redirect": "2cb97918-e420-4e49-81c2-a5bb0dbe230c@f9941",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

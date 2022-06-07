@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.23",
   "importer": "image",
   "imported": true,
   "uuid": "ae5d9a0a-1576-498f-90da-d0a24217b766",
@@ -24,7 +24,7 @@
         "anisotropy": 1,
         "isUuid": true
       },
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -35,6 +35,7 @@
   "userData": {
     "type": "texture",
     "hasAlpha": true,
-    "redirect": "ae5d9a0a-1576-498f-90da-d0a24217b766@6c48a"
+    "redirect": "ae5d9a0a-1576-498f-90da-d0a24217b766@6c48a",
+    "fixAlphaTransparencyArtifacts": false
   }
 }

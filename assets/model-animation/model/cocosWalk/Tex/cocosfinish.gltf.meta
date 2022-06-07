@@ -1,5 +1,5 @@
 {
-  "ver": "2.0.14",
+  "ver": "2.2.0",
   "importer": "gltf",
   "imported": true,
   "uuid": "e5fec1c3-4633-4960-b441-d7150a716c4a",
@@ -11,7 +11,7 @@
       "displayName": "",
       "id": "50743",
       "name": "UnnamedTexture-5.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -69,7 +69,7 @@
       "displayName": "",
       "id": "3effa",
       "name": "UnnamedTexture-0.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -93,7 +93,7 @@
       "displayName": "",
       "id": "221a5",
       "name": "UnnamedTexture-1.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -117,7 +117,7 @@
       "displayName": "",
       "id": "0089c",
       "name": "UnnamedTexture-2.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -141,7 +141,7 @@
       "displayName": "",
       "id": "9b633",
       "name": "UnnamedTexture-3.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -165,7 +165,7 @@
       "displayName": "",
       "id": "9b782",
       "name": "UnnamedTexture-4.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -189,7 +189,7 @@
       "displayName": "",
       "id": "99ea5",
       "name": "UnnamedTexture-6.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
