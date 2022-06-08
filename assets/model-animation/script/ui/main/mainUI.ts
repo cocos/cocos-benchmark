@@ -127,7 +127,7 @@ export class mainUI extends Component {
         })
     }
 
-    start () {
+    onLoad () {
         if (window.cocosAnalytics) {
             window.cocosAnalytics.init({
                 appID: "697959573",              // 游戏ID
@@ -144,11 +144,13 @@ export class mainUI extends Component {
         if (!profiler.isShowingStats()) {
             this._profilerEnabled = false;
             profiler.showStats();
-            profiler._meshRenderer.model.enabled = false;
         }
         else {
             this._profilerEnabled = true;
         }
+        this.schedule(()=>{
+            profiler._meshRenderer.model.enabled = false;
+        });
         
         this.lbVersion.string = 'Version: ' + constants.VERSION;
 
