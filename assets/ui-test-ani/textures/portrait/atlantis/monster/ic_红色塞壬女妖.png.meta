@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.23",
   "importer": "image",
   "imported": true,
   "uuid": "7dcde66e-27e1-48c8-996e-5ac9cfbe69d3",
@@ -9,7 +9,7 @@
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "7dcde66e-27e1-48c8-996e-5ac9cfbe69d3@6c48a",
       "imported": true,
@@ -36,6 +36,7 @@
   "userData": {
     "type": "texture",
     "redirect": "7dcde66e-27e1-48c8-996e-5ac9cfbe69d3@6c48a",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

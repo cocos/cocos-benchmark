@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.23",
   "importer": "image",
   "imported": true,
   "uuid": "2bb0eaff-dd9e-4e51-b08b-f4d0b2f70c9d",
@@ -14,7 +14,7 @@
       "displayName": "altman02",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -36,6 +36,7 @@
   "userData": {
     "type": "texture",
     "redirect": "2bb0eaff-dd9e-4e51-b08b-f4d0b2f70c9d@6c48a",
-    "hasAlpha": false
+    "hasAlpha": false,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

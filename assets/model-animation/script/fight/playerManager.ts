@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Prefab, instantiate, CameraComponent, Tween, Vec3, easing, game, CCString, profiler, SkinningModelComponent, SkeletalAnimationComponent } from 'cc';
+import { _decorator, Component, Node, Prefab, instantiate, CameraComponent, Tween, Vec3, easing, game, CCString, profiler, SkinningModelComponent, SkeletalAnimationComponent, MeshRenderer, Mesh, director } from 'cc';
 import { player } from './player';
 import { SubPackageManager } from '../framework/util/subPackageManager';
 import ResManager from '../framework/util/resManager';
@@ -20,6 +20,7 @@ export class playerManager extends Component {
     // @property
     // serializableDummy = 0;
     arrModel: Prefab[] = [];
+    modelTriCount: Record<string, number> = {};
 
     @property([CCString])
     arrName: string[] = [];
@@ -48,7 +49,7 @@ export class playerManager extends Component {
     tweenCamera: Tween;
     posCameraOrigin: Vec3;
 
-    isEnableInstancing = false;
+    isEnableInstancing = true;
 
     private _prevPeopleRate: number = 0; //人数除以30等于多少倍
 
@@ -71,13 +72,7 @@ export class playerManager extends Component {
 
     set enableShadow (value: boolean) {
         this.isEnableShadow = value;
-
-        this.node.children.forEach((nodePlayer)=>{
-            let playerScript = nodePlayer.getComponent(player);
-            if (playerScript) {
-                playerScript.changeShadow(value);
-            }
-        })
+        director.getScene()!.globals.shadows.enabled = value;
     }
 
     get enableShadow () {
@@ -122,6 +117,15 @@ export class playerManager extends Component {
             ResManager.getModel(name, (err, prefab)=>{
                 if (!err) {
                     this.arrModel.push(prefab);
+ 
+                    let model = instantiate(prefab) as Node;
+                    let meshRenderers = model.getComponentsInChildren(MeshRenderer);
+                    let artTriangle = 0;
+                    for (let i = 0; i < meshRenderers.length; i++) {
+                        artTriangle += getFaceCount(meshRenderers[i].mesh!);
+                        // this.artVertex += getVertexCount(meshRenderers[i].mesh!);
+                    }
+                    this.modelTriCount[model.name] = artTriangle;
 
                     if (this.arrModel.length === this.arrName.length) {
                         this.addPlayerGroup();
@@ -169,15 +173,16 @@ export class playerManager extends Component {
         if (num > this.people) {
             const addNum = num - this.people;
             for (let i = 0; i < addNum; i++) {
-                const pfModel = this.arrModel[i%this.arrModel.length];
+                const index = i%this.arrModel.length;
+                const pfModel = this.arrModel[index];
                 let model = instantiate(pfModel) as Node;
                 model.parent = this.node;
     
                 let playerScript = model.getComponent(player);
                 playerScript.show(this);
-    
-                this.artTriangle += playerScript.triangle;
-                this.artVertex += playerScript.vertex;
+                // this.artTriangle += playerScript.triangle;
+                // this.artVertex += playerScript.vertex;
+                this.artTriangle += this.modelTriCount[model.name];
             }
 
             this.people = num;
@@ -218,8 +223,9 @@ export class playerManager extends Component {
                 }
     
                 let playerScript = nodePlayer.getComponent(player);
-                this.artTriangle -= playerScript.triangle;
-                this.artVertex -= playerScript.vertex;
+                // this.artTriangle -= playerScript.triangle;
+                // this.artVertex -= playerScript.vertex;
+                this.artTriangle -= this.modelTriCount[nodePlayer.name];
     
                 nodePlayer.destroy();
             }
@@ -288,4 +294,23 @@ export class playerManager extends Component {
     // update (deltaTime: number) {
     //     // Your update function goes here.
     // }
+
+}
+
+
+function getSubMeshVertexCount(mesh: Mesh, subMeshIndex: number) {
+    return mesh.struct.vertexBundles[mesh.struct.primitives[subMeshIndex].vertexBundelIndices[0]].view.count;
+}
+
+function getVertexCount(mesh: Mesh) {
+    return mesh.struct.primitives.reduce((result, _primitive, primitiveIndex) => {
+        return result + getSubMeshVertexCount(mesh, primitiveIndex);
+    }, 0);
+}
+
+function getFaceCount(mesh: Mesh) {
+    return mesh.struct.primitives.reduce((result, primitive, primitiveIndex) => {
+        const indexCount = primitive.indexView ? primitive.indexView.count : getSubMeshVertexCount(mesh, primitiveIndex);
+        return result + indexCount / 3;
+    }, 0);
 }

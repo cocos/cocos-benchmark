@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.23",
   "importer": "image",
   "imported": true,
   "uuid": "9139ca58-28b1-4529-a0a7-9e7820afbc9a",
@@ -14,7 +14,7 @@
       "displayName": "Test_metallicRoughness",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -36,6 +36,7 @@
   "userData": {
     "type": "texture",
     "redirect": "9139ca58-28b1-4529-a0a7-9e7820afbc9a@6c48a",
-    "hasAlpha": false
+    "hasAlpha": false,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

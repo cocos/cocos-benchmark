@@ -7,5 +7,5 @@ export class constants {
         PERFORMANCE_PARAMETER: 'performanceParameter' //性能参数
     }
 
-    static VERSION = '0.2.5';
+    static VERSION = '0.2.6';
 }

@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.23",
   "importer": "image",
   "imported": true,
   "uuid": "deb43347-cbf0-45ed-b61c-1c0ae1dbc627",
@@ -16,15 +16,15 @@
       "name": "texture",
       "userData": {
         "imageUuidOrDatabaseUri": "deb43347-cbf0-45ed-b61c-1c0ae1dbc627",
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
         "anisotropy": 1,
         "isUuid": true
       },
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -32,7 +32,7 @@
       "subMetas": {}
     },
     "f9941": {
-      "ver": "1.0.9",
+      "ver": "1.0.10",
       "importer": "sprite-frame",
       "uuid": "deb43347-cbf0-45ed-b61c-1c0ae1dbc627@f9941",
       "imported": true,
@@ -76,6 +76,7 @@
   "userData": {
     "type": "sprite-frame",
     "redirect": "deb43347-cbf0-45ed-b61c-1c0ae1dbc627@f9941",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

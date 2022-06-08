@@ -1,36 +1,38 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "",
+    "_name": "dance1",
     "_objFlags": 0,
     "_native": "",
     "data": {
       "__id__": 1
     },
     "optimizationPolicy": 0,
+    "persistent": false,
     "asyncLoadAssets": false
   },
   {
     "__type__": "cc.Node",
     "_name": "dance1",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": null,
     "_children": [
       {
         "__id__": 2
       },
       {
-        "__id__": 144
+        "__id__": 145
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 150
+        "__id__": 152
       }
     ],
     "_prefab": {
-      "__id__": 152
+      "__id__": 155
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -78,7 +80,7 @@
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 143
+      "__id__": 144
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -3844,7 +3846,7 @@
       }
     ],
     "_prefab": {
-      "__id__": 142
+      "__id__": 143
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -3882,30 +3884,40 @@
       "__id__": 139
     },
     "_enabled": true,
+    "__prefab": {
+      "__id__": 141
+    },
     "_materials": [
       {
-        "__uuid__": "8587868b-6a21-48c5-a72e-9343c640c4d5"
+        "__uuid__": "8587868b-6a21-48c5-a72e-9343c640c4d5",
+        "__expectedType__": "cc.Material"
       }
     ],
     "_visFlags": 0,
     "lightmapSettings": {
-      "__id__": 141
+      "__id__": 142
     },
     "_mesh": {
-      "__uuid__": "a0b17fba-bcf9-4bc3-9b02-15321efc0259@6c5bb"
+      "__uuid__": "a0b17fba-bcf9-4bc3-9b02-15321efc0259@6c5bb",
+      "__expectedType__": "cc.Mesh"
     },
     "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 1,
+    "_shadowBias": 0,
+    "_shadowNormalBias": 0,
     "_enableMorph": true,
     "_skeleton": {
-      "__uuid__": "a0b17fba-bcf9-4bc3-9b02-15321efc0259@438fe"
+      "__uuid__": "a0b17fba-bcf9-4bc3-9b02-15321efc0259@438fe",
+      "__expectedType__": "cc.Skeleton"
     },
     "_skinningRoot": {
       "__id__": 1
     },
-    "_id": "",
-    "__prefab": {
-      "__id__": 153
-    }
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "e3aTEnbpxLF6eMOGoQuDor"
   },
   {
     "__type__": "cc.ModelLightmapSettings",
@@ -3919,6 +3931,7 @@
     },
     "_bakeable": false,
     "_castShadow": false,
+    "_receiveShadow": false,
     "_recieveShadow": false,
     "_lightmapSize": 64
   },
@@ -3951,13 +3964,13 @@
     },
     "_children": [
       {
-        "__id__": 145
+        "__id__": 146
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 149
+      "__id__": 151
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -3992,17 +4005,17 @@
     "_name": "Box001",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 144
+      "__id__": 145
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 146
+        "__id__": 147
       }
     ],
     "_prefab": {
-      "__id__": 148
+      "__id__": 150
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -4037,27 +4050,36 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 145
+      "__id__": 146
     },
     "_enabled": true,
+    "__prefab": {
+      "__id__": 148
+    },
     "_materials": [
       {
-        "__uuid__": "12f21a29-3d52-4089-a341-5f9587558f1d"
+        "__uuid__": "12f21a29-3d52-4089-a341-5f9587558f1d",
+        "__expectedType__": "cc.Material"
       }
     ],
     "_visFlags": 0,
     "lightmapSettings": {
-      "__id__": 147
+      "__id__": 149
     },
     "_mesh": {
-      "__uuid__": "a0b17fba-bcf9-4bc3-9b02-15321efc0259@46540"
+      "__uuid__": "a0b17fba-bcf9-4bc3-9b02-15321efc0259@46540",
+      "__expectedType__": "cc.Mesh"
     },
     "_shadowCastingMode": 0,
+    "_shadowReceivingMode": 1,
+    "_shadowBias": 0,
+    "_shadowNormalBias": 0,
     "_enableMorph": true,
-    "_id": "",
-    "__prefab": {
-      "__id__": 154
-    }
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "feOUyMtJdGV6MD3SyRks2x"
   },
   {
     "__type__": "cc.ModelLightmapSettings",
@@ -4071,6 +4093,7 @@
     },
     "_bakeable": false,
     "_castShadow": false,
+    "_receiveShadow": false,
     "_recieveShadow": false,
     "_lightmapSize": 64
   },
@@ -4102,31 +4125,37 @@
       "__id__": 1
     },
     "_enabled": true,
+    "__prefab": {
+      "__id__": 153
+    },
     "playOnLoad": true,
     "_clips": [
       {
-        "__uuid__": "a0b17fba-bcf9-4bc3-9b02-15321efc0259@73b7f"
+        "__uuid__": "a0b17fba-bcf9-4bc3-9b02-15321efc0259@73b7f",
+        "__expectedType__": "cc.AnimationClip"
       }
     ],
     "_defaultClip": {
-      "__uuid__": "a0b17fba-bcf9-4bc3-9b02-15321efc0259@73b7f"
+      "__uuid__": "a0b17fba-bcf9-4bc3-9b02-15321efc0259@73b7f",
+      "__expectedType__": "cc.AnimationClip"
     },
     "_useBakedAnimation": true,
     "_sockets": [
       {
-        "__id__": 151
+        "__id__": 154
       }
     ],
-    "_id": "",
-    "__prefab": {
-      "__id__": 155
-    }
+    "_id": ""
   },
   {
-    "__type__": "cc.SkeletalAnimationComponent.Socket",
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "37v0VC5ZpG469CmICVgY0c"
+  },
+  {
+    "__type__": "cc.SkeletalAnimation.Socket",
     "path": "RootNode/Bip002/Bip01 Pelvis001/Bip01 Spine002/Bip01 Spine003/Bip01 Neck001/Bip01 Head001/Bip01 HeadNub001",
     "target": {
-      "__id__": 144
+      "__id__": 145
     }
   },
   {
@@ -4138,17 +4167,5 @@
       "__id__": 0
     },
     "fileId": "bem97j/KJK9J7yHm/LpKbH"
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "e3aTEnbpxLF6eMOGoQuDor"
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "feOUyMtJdGV6MD3SyRks2x"
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "37v0VC5ZpG469CmICVgY0c"
   }
 ]

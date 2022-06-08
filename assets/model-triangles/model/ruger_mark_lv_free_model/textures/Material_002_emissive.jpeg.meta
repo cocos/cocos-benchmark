@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.23",
   "importer": "image",
   "imported": true,
   "uuid": "96baecb1-cd96-4dcf-a04c-b7522bf5f078",
@@ -14,7 +14,7 @@
       "displayName": "Material_002_emissive",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -36,6 +36,7 @@
   "userData": {
     "type": "texture",
     "redirect": "96baecb1-cd96-4dcf-a04c-b7522bf5f078@6c48a",
-    "hasAlpha": false
+    "hasAlpha": false,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

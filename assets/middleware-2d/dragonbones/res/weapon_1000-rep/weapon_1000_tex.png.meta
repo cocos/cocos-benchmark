@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.23",
   "importer": "image",
   "imported": true,
   "uuid": "d73fcc14-2837-4597-a433-df16cf894347",
@@ -24,7 +24,7 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "d73fcc14-2837-4597-a433-df16cf894347"
       },
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -35,6 +35,7 @@
   "userData": {
     "hasAlpha": true,
     "type": "texture",
-    "redirect": "d73fcc14-2837-4597-a433-df16cf894347@6c48a"
+    "redirect": "d73fcc14-2837-4597-a433-df16cf894347@6c48a",
+    "fixAlphaTransparencyArtifacts": false
   }
 }

@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.23",
   "importer": "image",
   "imported": true,
   "uuid": "dae54a92-a537-4942-a94e-a202838ce65f",
@@ -14,15 +14,15 @@
       "displayName": "exitLeft",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
       ],
       "subMetas": {},
       "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
@@ -33,7 +33,7 @@
       }
     },
     "f9941": {
-      "ver": "1.0.9",
+      "ver": "1.0.10",
       "importer": "sprite-frame",
       "uuid": "dae54a92-a537-4942-a94e-a202838ce65f@f9941",
       "imported": true,
@@ -77,6 +77,7 @@
   "userData": {
     "type": "sprite-frame",
     "redirect": "dae54a92-a537-4942-a94e-a202838ce65f@f9941",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

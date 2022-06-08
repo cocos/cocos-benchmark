@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.23",
   "importer": "image",
   "imported": true,
   "uuid": "d67a02b0-ffdc-44e2-bf72-1a686c30fc2e",
@@ -14,7 +14,7 @@
       "displayName": "kulou__Archer_mobile",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -36,6 +36,7 @@
   "userData": {
     "type": "texture",
     "redirect": "d67a02b0-ffdc-44e2-bf72-1a686c30fc2e@6c48a",
-    "hasAlpha": false
+    "hasAlpha": false,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

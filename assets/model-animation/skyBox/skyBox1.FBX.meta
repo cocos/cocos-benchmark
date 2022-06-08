@@ -1,5 +1,5 @@
 {
-  "ver": "2.0.14",
+  "ver": "2.2.0",
   "importer": "fbx",
   "imported": true,
   "uuid": "bb27c7ee-e663-4d6c-9e1d-cf2cf4cd5439",
@@ -45,7 +45,7 @@
       "displayName": "",
       "id": "bc797",
       "name": "贴图 #8.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -105,6 +105,9 @@
     },
     "dumpMaterials": true,
     "materialDumpDir": "db://assets/model-animation/skyBox",
-    "legacyFbxImporter": true
+    "legacyFbxImporter": true,
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
   }
 }
