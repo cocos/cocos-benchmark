@@ -38,7 +38,7 @@ export class mainUI extends Component {
     lbArtTriangle: LabelComponent = null;
 
     @property (LabelComponent)
-    lbVertex: LabelComponent = null;
+    lbModelTriangle: LabelComponent = null;
 
     @property (LabelComponent)
     lbPeople: LabelComponent = null;
@@ -234,11 +234,12 @@ export class mainUI extends Component {
             //drawcall
             this.lbDrawcall.string = profiler._stats.draws.counter.value.toString();
             this.lbInstancing.string = profiler._stats.instances.counter.value.toString();
-            this.lbTriangle.string = profiler._stats.tricount.counter.value.toString();       //this.manager.artTriangle.toString();
+            this.lbTriangle.string = profiler._stats.tricount.counter.value.toString();
             this.lbGFXMem.string = profiler._stats.textureMemory.counter.value.toFixed(1).toString();
             this.lbGameLogic.string = profiler._stats.logic.counter.value.toFixed(2).toString();
             this.lbArtTriangle.string = this.manager.artTriangle.toString();
-            this.lbVertex.string = this.manager.artVertex.toString();
+            // this.lbVertex.string = this.manager.artVertex.toString();
+            this.lbModelTriangle.string = this.manager.artTriangle.toString();
             this.lbPeople.string = this.manager.people.toString();
         }
 

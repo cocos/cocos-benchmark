@@ -1097,7 +1097,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 100,
+      "y": 120,
       "z": 0
     },
     "_lrot": {
@@ -1412,7 +1412,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 60,
+      "y": 80,
       "z": 0
     },
     "_lrot": {
@@ -1727,7 +1727,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 20,
+      "y": 40,
       "z": 0
     },
     "_lrot": {
@@ -2042,7 +2042,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": -20,
+      "y": 0,
       "z": 0
     },
     "_lrot": {
@@ -2357,7 +2357,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": -60,
+      "y": -40,
       "z": 0
     },
     "_lrot": {
@@ -3276,7 +3276,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "artVertex",
+    "_name": "ModelTriangle",
     "_objFlags": 0,
     "_parent": {
       "__id__": 48
@@ -3289,7 +3289,7 @@
         "__id__": 116
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 119
@@ -3301,7 +3301,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
+      "x": 2.497,
       "y": -80,
       "z": 0
     },
@@ -3347,7 +3347,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -49.5,
+      "x": -37.016,
       "y": 0,
       "z": 0
     },
@@ -3384,7 +3384,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 120,
+      "width": 150,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -3413,11 +3413,11 @@
       "b": 255,
       "a": 255
     },
-    "_string": "Vertex",
+    "_string": "ModelTriangle",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 28,
-    "_fontSize": 28,
+    "_actualFontSize": 23,
+    "_fontSize": 30,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 2,
@@ -3434,7 +3434,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "artVertexValue",
+    "_name": "ModelTriangleValue",
     "_objFlags": 0,
     "_parent": {
       "__id__": 112
@@ -3452,7 +3452,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 60,
+      "x": 60.019,
       "y": 0,
       "z": 0
     },
@@ -3548,7 +3548,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 219,
+      "width": 249,
       "height": 40
     },
     "_anchorPoint": {
@@ -3617,7 +3617,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": -100,
+      "y": -120,
       "z": 0
     },
     "_lrot": {
@@ -3916,7 +3916,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 230,
-      "height": 240
+      "height": 280
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3969,7 +3969,7 @@
     "_target": null,
     "_left": 45,
     "_right": 0,
-    "_top": 80,
+    "_top": 60,
     "_bottom": 0,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
@@ -4919,8 +4919,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 432.59999999999997,
-      "y": -130,
+      "x": 422.57200000000006,
+      "y": -129.724,
       "z": 0
     },
     "_lrot": {
@@ -4973,7 +4973,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -55,
-      "y": 40,
+      "y": 80,
       "z": 0
     },
     "_lrot": {
@@ -5355,7 +5355,7 @@
         "__id__": 174
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 179
@@ -5763,7 +5763,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -52.607,
-      "y": -40,
+      "y": -80,
       "z": 0
     },
     "_lrot": {
@@ -6142,7 +6142,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 274,
-      "height": 160
+      "height": 240
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -6194,9 +6194,9 @@
     "_alignFlags": 36,
     "_target": null,
     "_left": 0,
-    "_right": -34.8,
+    "_right": -24.77200000000002,
     "_top": 0,
-    "_bottom": 142,
+    "_bottom": 118.27600000000001,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
     "_isAbsLeft": true,
@@ -6804,7 +6804,7 @@
     "lbArtTriangle": {
       "__id__": 109
     },
-    "lbVertex": {
+    "lbModelTriangle": {
       "__id__": 118
     },
     "lbPeople": {
@@ -7370,7 +7370,7 @@
       "a": 255
     },
     "_normalSprite": {
-      "__uuid__": "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+      "__uuid__": "f53c9f6b-541e-4f81-966b-b37983083a5c@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_hoverSprite": {
@@ -7664,7 +7664,7 @@
       "a": 255
     },
     "_normalSprite": {
-      "__uuid__": "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+      "__uuid__": "1e1a0ada-1f99-4176-90f4-b17920ea473d@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_hoverSprite": {
@@ -7847,8 +7847,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1280,
-      "height": 720
+      "width": 960,
+      "height": 640
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
