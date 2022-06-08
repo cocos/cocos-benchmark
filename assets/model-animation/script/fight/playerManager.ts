@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Prefab, instantiate, CameraComponent, Tween, Vec3, easing, game, CCString, profiler, SkinningModelComponent, SkeletalAnimationComponent, MeshRenderer, Mesh } from 'cc';
+import { _decorator, Component, Node, Prefab, instantiate, CameraComponent, Tween, Vec3, easing, game, CCString, profiler, SkinningModelComponent, SkeletalAnimationComponent, MeshRenderer, Mesh, director } from 'cc';
 import { player } from './player';
 import { SubPackageManager } from '../framework/util/subPackageManager';
 import ResManager from '../framework/util/resManager';
@@ -72,13 +72,7 @@ export class playerManager extends Component {
 
     set enableShadow (value: boolean) {
         this.isEnableShadow = value;
-
-        this.node.children.forEach((nodePlayer)=>{
-            let playerScript = nodePlayer.getComponent(player);
-            if (playerScript) {
-                playerScript.changeShadow(value);
-            }
-        })
+        director.getScene()!.globals.shadows.enabled = value;
     }
 
     get enableShadow () {

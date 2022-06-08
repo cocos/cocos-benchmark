@@ -3301,7 +3301,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 2.497,
+      "x": 0,
       "y": -80,
       "z": 0
     },
@@ -3347,7 +3347,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -37.016,
+      "x": -49.5,
       "y": 0,
       "z": 0
     },
@@ -3384,7 +3384,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 150,
+      "width": 120,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -3413,10 +3413,10 @@
       "b": 255,
       "a": 255
     },
-    "_string": "ModelTriangle",
+    "_string": "ModelTris",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 23,
+    "_actualFontSize": 27,
     "_fontSize": 30,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -3452,7 +3452,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 60.019,
+      "x": 60,
       "y": 0,
       "z": 0
     },
@@ -3548,7 +3548,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 249,
+      "width": 219,
       "height": 40
     },
     "_anchorPoint": {
