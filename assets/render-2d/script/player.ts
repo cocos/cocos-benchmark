@@ -1,5 +1,6 @@
 
 import { _decorator, Component, Node } from 'cc';
+import { boundingBox } from './boundingBox';
 import { GameManager } from './gameManager';
 const { ccclass } = _decorator;
 
@@ -16,7 +17,7 @@ export class Player extends Component {
     }
 
     show () {
-        this.node.setPosition(GameManager.minX + 10, GameManager.maxY * 0.7, 0);
+        this.node.setPosition(boundingBox.minX + 10, boundingBox.maxY * 0.7, 0);
     }
 
     move () {
@@ -25,20 +26,20 @@ export class Player extends Component {
         let x = this.node.position.x + speedX;
         let y = this.node.position.y - speedY;
 
-        if (x > GameManager.maxX) {
+        if (x > boundingBox.maxX) {
             speedX = -1 * speedX;
-            x = GameManager.maxX;
-        } else if (x < GameManager.minX) {
+            x = boundingBox.maxX;
+        } else if (x < boundingBox.minX) {
             speedX = -1 * speedX;
-            x = GameManager.minX;
+            x = boundingBox.minX;
         }
 
-        if (y < GameManager.minY) {
+        if (y < boundingBox.minY) {
             speedY = -1 * speedY;
-            y = GameManager.minY;
-        } else if (y > GameManager.maxY) {
+            y = boundingBox.minY;
+        } else if (y > boundingBox.maxY) {
             speedY = -1 * speedY;
-            y = GameManager.maxY;
+            y = boundingBox.maxY;
         }
         this.speedX = speedX;
         this.speedY = speedY;
