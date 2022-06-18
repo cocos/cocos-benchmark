@@ -6822,7 +6822,9 @@
     "lbArtTriangle": {
       "__id__": 110
     },
-    "lbModelTriangle": null,
+    "lbModelTriangle": {
+      "__id__": 119
+    },
     "lbPeople": {
       "__id__": 128
     },
@@ -8015,7 +8017,7 @@
     "_priority": 1073741824,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 339.28767123287673,
+    "_orthoHeight": 335.86776859504135,
     "_near": 1,
     "_far": 2000,
     "_color": {
