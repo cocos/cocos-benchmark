@@ -1,5 +1,6 @@
 
 import { _decorator, Component, Node, Event, Toggle, EditBox, view, Label, CCInteger, profiler } from 'cc';
+import { boundingBox } from './boundingBox';
 import { EnvironmentManager } from './environmentManager';
 import { EquipmentManager } from './equipmentManager';
 import { MonsterManager } from './monsterManager';
@@ -16,10 +17,18 @@ enum ObjectType {
 @ccclass('GameManager')
 export class GameManager extends Component {
 
-    static maxX = 0;
-    static minX = 0;
-    static maxY = 0;
-    static minY = 0;
+    static get maxX () {
+        return boundingBox.maxX;
+    }
+    static get minX () {
+        return boundingBox.minX;
+    }
+    static get minY () {
+        return boundingBox.minY;
+    }
+    static get maxY () {
+        return boundingBox.maxY;
+    }
 
     @property (PlayerManager)
     playerManager: PlayerManager | null = null;
@@ -61,10 +70,10 @@ export class GameManager extends Component {
 
     onLoad () {
         const visibleSize = view.getVisibleSize();
-        GameManager.maxX = visibleSize.width / 2;
-        GameManager.minX = -GameManager.maxX;
-        GameManager.maxY = visibleSize.height / 2;
-        GameManager.minY = -GameManager.maxY;
+        boundingBox.maxX = visibleSize.width / 2;
+        boundingBox.minX = -boundingBox.maxX;
+        boundingBox.maxY = visibleSize.height / 2;
+        boundingBox.minY = -boundingBox.maxY;
         if (!profiler._stats) {
             profiler.showStats();
         }
