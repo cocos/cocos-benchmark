@@ -61,7 +61,7 @@ export class Test extends cc.Component {
                 this.nodePool.put(node);
             }
 
-            this.label.string = "池大小：" + this.nodePool.size() + " 此次耗时：" + (Date.now() - time);
+            this.label.string = "池大小：" + this.nodePool.size() + " \n此次耗时：" + (Date.now() - time);
             console.log("池大小：" + this.nodePool.size() + " 此次耗时：" + (Date.now() - time))
         });
     }
@@ -94,8 +94,8 @@ export class Test extends cc.Component {
                     this.nodePool.put(node);
                 }
 
-                this.label.string = "池大小：" + this.nodePool.size() + "  累计" +  n + "次耗时：" + (Date.now() - time) + "  平均耗时：" + (Date.now() - time)/n;
-                console.log("池大小：" + this.nodePool.size() + "  累计" +  n + "次耗时：" + (Date.now() - time) + "  平均耗时：" + (Date.now() - time)/n)
+                this.label.string = "池大小：" + this.nodePool.size() + "\n累计" +  n + "次耗时：" + (Date.now() - time) + "\n平均耗时：" + ((Date.now() - time)/n).toFixed(2);
+                console.log("池大小：" + this.nodePool.size() + "  累计" +  n + "次耗时：" + (Date.now() - time) + "  平均耗时：" + ((Date.now() - time)/n).toFixed(2))
                 sumTime += (Date.now() - time);
             });
         }
