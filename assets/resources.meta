@@ -11,7 +11,8 @@
     "priority": 8,
     "compressionType": {},
     "isRemoteBundle": {
-      "wechatgame": true
+      "wechatgame": true,
+      "bytedance-mini-game": true
     }
   }
 }
