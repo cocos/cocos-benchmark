@@ -1,0 +1,81 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6669e9a9-9d0a-40b3-91e3-a4de4acdcb18",
+  "files": [],
+  "subMetas": {
+    "6b9ac": {
+      "importer": "gltf-mesh",
+      "uuid": "6669e9a9-9d0a-40b3-91e3-a4de4acdcb18@6b9ac",
+      "displayName": "",
+      "id": "6b9ac",
+      "name": "FX_Mod_PiaoDai002.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "6669e9a9-9d0a-40b3-91e3-a4de4acdcb18@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "34ab2": {
+      "importer": "gltf-scene",
+      "uuid": "6669e9a9-9d0a-40b3-91e3-a4de4acdcb18@34ab2",
+      "displayName": "",
+      "id": "34ab2",
+      "name": "FX_Mod_PiaoDai002.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": true,
+    "redirect": "6669e9a9-9d0a-40b3-91e3-a4de4acdcb18@34ab2",
+    "assetFinder": {
+      "meshes": [
+        "6669e9a9-9d0a-40b3-91e3-a4de4acdcb18@6b9ac"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "6669e9a9-9d0a-40b3-91e3-a4de4acdcb18@ea6e2"
+      ],
+      "scenes": [
+        "6669e9a9-9d0a-40b3-91e3-a4de4acdcb18@34ab2"
+      ]
+    },
+    "useVertexColors": false,
+    "disableMeshSplit": true,
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

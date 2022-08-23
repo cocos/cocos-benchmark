@@ -23,6 +23,9 @@ export class LoadScene extends Component {
     public loadSpine () {
         director.loadScene('spine');
     }
+    public loadparticle(){
+        director.loadScene('performance');
+    }
 }
 
 /**
