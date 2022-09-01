@@ -1,4 +1,4 @@
-import { _decorator, Component, SpriteFrame, Sprite, Animation } from 'cc';
+import { _decorator, Component, SpriteFrame, Sprite, Animation, macro } from 'cc';
 const { ccclass, property } = _decorator;
 
 let maxX = 0;
@@ -13,17 +13,10 @@ export class PrefabAnimationBunny extends Component {
     @property(Sprite)
     sprite: Sprite = null;
 
-    @property(Animation)
-    ani: Animation = null;
-    
-    private aniType = 0;
+    frameType = 0;
 
     start () {
-        if (this.aniType === 0) {
-            this.ani.play('bunnyTransform');
-        } else if (this.aniType === 1) {
-            this.ani.play('bunnyFrame');
-        }
+        this.schedule(this.changeSprite, 1, macro.REPEAT_FOREVER, 1);
     }
 
     init (bunnyType: any, aniType: any) {
@@ -38,6 +31,13 @@ export class PrefabAnimationBunny extends Component {
         let y = Math.random() * (maxY - minY) + minY;
         this.node.setPosition(x, y, 0);
         // this.node.anchorY = 1;
+    }
+
+    changeSprite () {
+        this.frameType++;
+        let type = this.frameType % 5;
+        let bunnySpriteFrame = this.bunnySpriteFrames[type];
+        this.sprite.spriteFrame = bunnySpriteFrame;
     }
 
 }
