@@ -10,7 +10,7 @@
   },
   {
     "__type__": "cc.Scene",
-    "_name": "BunnyFrameAnimationTest",
+    "_name": "BunnyFrameNoRender",
     "_objFlags": 0,
     "_parent": null,
     "_children": [
@@ -25,7 +25,7 @@
     "_globals": {
       "__id__": 46
     },
-    "_id": "2ae4df02-008d-479c-841f-c3b98a827612"
+    "_id": "b164cffb-93b6-4d71-8441-8893b07e959b"
   },
   {
     "__type__": "cc.Node",
@@ -72,8 +72,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 320,
-      "y": 480,
+      "x": 480,
+      "y": 320,
       "z": 0
     },
     "_lrot": {
@@ -154,7 +154,7 @@
     "_priority": 1073741824,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 480,
+    "_orthoHeight": 320,
     "_near": 1,
     "_far": 2000,
     "_color": {
@@ -269,8 +269,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -140,
-      "y": -360,
+      "x": -300,
+      "y": -200,
       "z": 0
     },
     "_lrot": {
@@ -411,8 +411,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 220,
-      "y": -309.079,
+      "x": 380,
+      "y": -149.079,
       "z": 0
     },
     "_lrot": {
@@ -1211,8 +1211,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -269,
-      "y": 432,
+      "x": -429,
+      "y": 272,
       "z": 0
     },
     "_lrot": {
@@ -1426,8 +1426,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 640,
-      "height": 960
+      "width": 960,
+      "height": 640
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1490,7 +1490,7 @@
     "_enabled": true,
     "__prefab": null,
     "prefabBunny": {
-      "__uuid__": "b9396210-faa4-4b19-a345-600d45034336",
+      "__uuid__": "d3aaf500-48c2-4eb7-8945-63b9b74a51c0",
       "__expectedType__": "cc.Prefab"
     },
     "number": {
@@ -1499,7 +1499,7 @@
     "root": {
       "__id__": 5
     },
-    "compType": "PrefabAnimationBunny",
+    "compType": "PrefabAnimationBunnyNoRender",
     "_id": "81k06pVzJJ+5KKhooUK/J8"
   },
   {

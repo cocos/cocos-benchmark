@@ -13,6 +13,8 @@ export class BunnyFrameAnimationTest extends Component {
     public number:Label | null = null;
     @property(Node)
     public root:Node | null = null;
+    @property(String)
+    public compType: string = 'PrefabAnimationBunny';
 
     private bunnys: Node[] = [];
 
@@ -36,7 +38,7 @@ export class BunnyFrameAnimationTest extends Component {
         if (this.bunnys.length < totalCount) {
            for (i = 0; i < amount; i++) {
                bunny = instantiate(this.prefabBunny);
-               bunny.getComponent("PrefabAnimationBunny").init(bunnyType, 1);
+               bunny.getComponent(this.compType)!.init(bunnyType, 1);
                this.root!.addChild(bunny);
                this.bunnys.push(bunny);
                count++;
