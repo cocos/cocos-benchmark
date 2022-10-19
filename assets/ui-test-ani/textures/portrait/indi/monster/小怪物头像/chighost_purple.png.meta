@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "f2a55cb7-1928-41c2-9f78-033ec71fe28d",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "f2a55cb7-1928-41c2-9f78-033ec71fe28d@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "f2a55cb7-1928-41c2-9f78-033ec71fe28d"
+        "imageUuidOrDatabaseUri": "f2a55cb7-1928-41c2-9f78-033ec71fe28d",
+        "visible": true
       },
       "displayName": "chighost_purple",
       "id": "6c48a",
@@ -36,6 +37,7 @@
   "userData": {
     "type": "texture",
     "redirect": "f2a55cb7-1928-41c2-9f78-033ec71fe28d@6c48a",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

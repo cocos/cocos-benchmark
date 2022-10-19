@@ -1,5 +1,5 @@
 {
-  "ver": "2.0.14",
+  "ver": "2.3.0",
   "importer": "gltf",
   "imported": true,
   "uuid": "48b1ef87-f613-4387-b6c1-481599e812b2",
@@ -11,7 +11,7 @@
       "displayName": "",
       "id": "50743",
       "name": "UnnamedTexture-5.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -38,8 +38,8 @@
       "ver": "1.0.3",
       "imported": true,
       "files": [
-        ".png",
-        ".json"
+        ".json",
+        ".png"
       ],
       "subMetas": {},
       "userData": {
@@ -89,8 +89,8 @@
       "ver": "1.0.3",
       "imported": true,
       "files": [
-        ".png",
-        ".json"
+        ".json",
+        ".png"
       ],
       "subMetas": {},
       "userData": {
@@ -106,8 +106,8 @@
       "ver": "1.0.3",
       "imported": true,
       "files": [
-        ".png",
-        ".json"
+        ".json",
+        ".png"
       ],
       "subMetas": {},
       "userData": {
@@ -123,8 +123,8 @@
       "ver": "1.0.3",
       "imported": true,
       "files": [
-        ".png",
-        ".json"
+        ".json",
+        ".png"
       ],
       "subMetas": {},
       "userData": {
@@ -140,8 +140,8 @@
       "ver": "1.0.3",
       "imported": true,
       "files": [
-        ".png",
-        ".json"
+        ".json",
+        ".png"
       ],
       "subMetas": {},
       "userData": {
@@ -157,8 +157,8 @@
       "ver": "1.0.3",
       "imported": true,
       "files": [
-        ".png",
-        ".json"
+        ".json",
+        ".png"
       ],
       "subMetas": {},
       "userData": {
@@ -174,8 +174,8 @@
       "ver": "1.0.3",
       "imported": true,
       "files": [
-        ".png",
-        ".json"
+        ".json",
+        ".png"
       ],
       "subMetas": {},
       "userData": {
@@ -188,7 +188,7 @@
       "displayName": "",
       "id": "3effa",
       "name": "UnnamedTexture-0.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -212,7 +212,7 @@
       "displayName": "",
       "id": "221a5",
       "name": "UnnamedTexture-1.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -236,7 +236,7 @@
       "displayName": "",
       "id": "0089c",
       "name": "UnnamedTexture-2.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -260,7 +260,7 @@
       "displayName": "",
       "id": "9b633",
       "name": "UnnamedTexture-3.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -284,7 +284,7 @@
       "displayName": "",
       "id": "9b782",
       "name": "UnnamedTexture-4.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -308,7 +308,7 @@
       "displayName": "",
       "id": "99ea5",
       "name": "UnnamedTexture-6.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
