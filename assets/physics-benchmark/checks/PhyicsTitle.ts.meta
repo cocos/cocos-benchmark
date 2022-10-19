@@ -1,12 +1,11 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "c0199339-b778-4165-a7ad-417108cf6cbc",
   "files": [],
   "subMetas": {},
   "userData": {
-    "importAsPlugin": false,
     "moduleId": "project:///assets/physics-benchmark/checks/PhyicsTitle.js",
     "simulateGlobals": []
   }

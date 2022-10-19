@@ -1,11 +1,11 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "51c8290c-5d30-4c85-be5f-2ffe7711dd38",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
@@ -14,7 +14,7 @@
       "displayName": "M_Med_CuChulainn_BodyNoCape_baseColor",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -29,13 +29,15 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "51c8290c-5d30-4c85-be5f-2ffe7711dd38"
+        "imageUuidOrDatabaseUri": "51c8290c-5d30-4c85-be5f-2ffe7711dd38",
+        "visible": true
       }
     }
   },
   "userData": {
     "type": "texture",
     "redirect": "51c8290c-5d30-4c85-be5f-2ffe7711dd38@6c48a",
-    "hasAlpha": false
+    "hasAlpha": false,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

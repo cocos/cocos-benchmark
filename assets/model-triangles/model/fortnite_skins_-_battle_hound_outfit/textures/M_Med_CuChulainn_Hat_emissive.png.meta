@@ -1,11 +1,11 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "b47d68df-fd18-4247-9710-ce6b2d0a067f",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
@@ -14,7 +14,7 @@
       "displayName": "M_Med_CuChulainn_Hat_emissive",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -29,13 +29,15 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b47d68df-fd18-4247-9710-ce6b2d0a067f"
+        "imageUuidOrDatabaseUri": "b47d68df-fd18-4247-9710-ce6b2d0a067f",
+        "visible": true
       }
     }
   },
   "userData": {
     "type": "texture",
     "redirect": "b47d68df-fd18-4247-9710-ce6b2d0a067f@6c48a",
-    "hasAlpha": false
+    "hasAlpha": false,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

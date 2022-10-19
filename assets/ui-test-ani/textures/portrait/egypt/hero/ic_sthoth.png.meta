@@ -1,11 +1,11 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "28c35b35-b4a8-4185-9f3b-fbe4a8665853",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
@@ -22,9 +22,10 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "anisotropy": 1,
-        "isUuid": true
+        "isUuid": true,
+        "visible": false
       },
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -32,7 +33,7 @@
       "subMetas": {}
     },
     "f9941": {
-      "ver": "1.0.9",
+      "ver": "1.0.11",
       "importer": "sprite-frame",
       "uuid": "28c35b35-b4a8-4185-9f3b-fbe4a8665853@f9941",
       "imported": true,
@@ -66,7 +67,65 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "28c35b35-b4a8-4185-9f3b-fbe4a8665853@6c48a",
         "atlasUuid": "",
-        "packable": true
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -55.5,
+            -55,
+            0,
+            55.5,
+            -55,
+            0,
+            -55.5,
+            55,
+            0,
+            55.5,
+            55,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            15,
+            142,
+            126,
+            142,
+            15,
+            32,
+            126,
+            32
+          ],
+          "nuv": [
+            0.1,
+            0.21333333333333335,
+            0.84,
+            0.21333333333333335,
+            0.1,
+            0.9466666666666667,
+            0.84,
+            0.9466666666666667
+          ],
+          "minPos": [
+            -55.5,
+            -55,
+            0
+          ],
+          "maxPos": [
+            55.5,
+            55,
+            0
+          ]
+        }
       },
       "displayName": "ic_sthoth",
       "id": "f9941",
@@ -76,6 +135,7 @@
   "userData": {
     "type": "sprite-frame",
     "redirect": "28c35b35-b4a8-4185-9f3b-fbe4a8665853@f9941",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

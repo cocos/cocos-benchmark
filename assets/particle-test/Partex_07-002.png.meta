@@ -1,11 +1,11 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "0ef5ffbe-2804-49b6-a86b-488d9a5cc6fa",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
@@ -14,7 +14,7 @@
       "displayName": "Partex_07-002",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -29,13 +29,15 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "0ef5ffbe-2804-49b6-a86b-488d9a5cc6fa"
+        "imageUuidOrDatabaseUri": "0ef5ffbe-2804-49b6-a86b-488d9a5cc6fa",
+        "visible": true
       }
     }
   },
   "userData": {
     "type": "texture",
     "redirect": "0ef5ffbe-2804-49b6-a86b-488d9a5cc6fa@6c48a",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "3f65f08c-5073-43b2-8fbc-1c1ca78f0d25",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "3f65f08c-5073-43b2-8fbc-1c1ca78f0d25@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "3f65f08c-5073-43b2-8fbc-1c1ca78f0d25"
+        "imageUuidOrDatabaseUri": "3f65f08c-5073-43b2-8fbc-1c1ca78f0d25",
+        "visible": true
       },
       "displayName": "ic_scipacret",
       "id": "6c48a",
@@ -36,6 +37,7 @@
   "userData": {
     "type": "texture",
     "redirect": "3f65f08c-5073-43b2-8fbc-1c1ca78f0d25@6c48a",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

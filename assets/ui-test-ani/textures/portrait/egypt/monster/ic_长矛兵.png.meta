@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "fd9dcb51-3f98-4d73-81f2-48d017796c0c",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "fd9dcb51-3f98-4d73-81f2-48d017796c0c@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "fd9dcb51-3f98-4d73-81f2-48d017796c0c"
+        "imageUuidOrDatabaseUri": "fd9dcb51-3f98-4d73-81f2-48d017796c0c",
+        "visible": true
       },
       "displayName": "ic_长矛兵",
       "id": "6c48a",
@@ -36,6 +37,7 @@
   "userData": {
     "type": "texture",
     "redirect": "fd9dcb51-3f98-4d73-81f2-48d017796c0c@6c48a",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

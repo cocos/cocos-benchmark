@@ -1,11 +1,11 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "dc82d35f-a717-4437-a4e0-b84e64a596a9",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
@@ -14,7 +14,7 @@
       "displayName": "M_MED_Marshmellow_DJ_Body_baseColor",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -29,13 +29,15 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "dc82d35f-a717-4437-a4e0-b84e64a596a9"
+        "imageUuidOrDatabaseUri": "dc82d35f-a717-4437-a4e0-b84e64a596a9",
+        "visible": true
       }
     }
   },
   "userData": {
     "type": "texture",
     "redirect": "dc82d35f-a717-4437-a4e0-b84e64a596a9@6c48a",
-    "hasAlpha": false
+    "hasAlpha": false,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "a10210f0-3112-45b8-97b1-3f45b4ee4c0e",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "a10210f0-3112-45b8-97b1-3f45b4ee4c0e@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "a10210f0-3112-45b8-97b1-3f45b4ee4c0e"
+        "imageUuidOrDatabaseUri": "a10210f0-3112-45b8-97b1-3f45b4ee4c0e",
+        "visible": true
       },
       "displayName": "indiwarrior_red",
       "id": "6c48a",
@@ -36,6 +37,7 @@
   "userData": {
     "type": "texture",
     "redirect": "a10210f0-3112-45b8-97b1-3f45b4ee4c0e@6c48a",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

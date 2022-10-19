@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "b5d0f874-58f1-42dd-a36a-abbbad65e696",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "b5d0f874-58f1-42dd-a36a-abbbad65e696@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b5d0f874-58f1-42dd-a36a-abbbad65e696"
+        "imageUuidOrDatabaseUri": "b5d0f874-58f1-42dd-a36a-abbbad65e696",
+        "visible": true
       },
       "displayName": "ic_阿努比斯绿色",
       "id": "6c48a",
@@ -36,6 +37,7 @@
   "userData": {
     "type": "texture",
     "redirect": "b5d0f874-58f1-42dd-a36a-abbbad65e696@6c48a",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }
