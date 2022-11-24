@@ -1,0 +1,83 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1e092ca2-2260-49c3-803c-7be99821e0a1",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "38fa1": {
+      "importer": "gltf-animation",
+      "uuid": "1e092ca2-2260-49c3-803c-7be99821e0a1@38fa1",
+      "displayName": "",
+      "id": "38fa1",
+      "name": "Walk Right.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "8c12c": {
+      "importer": "gltf-scene",
+      "uuid": "1e092ca2-2260-49c3-803c-7be99821e0a1@8c12c",
+      "displayName": "",
+      "id": "8c12c",
+      "name": "XBot@Walk Right.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Walk Right",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "1e092ca2-2260-49c3-803c-7be99821e0a1@8c12c",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "1e092ca2-2260-49c3-803c-7be99821e0a1@8c12c"
+      ]
+    }
+  }
+}
