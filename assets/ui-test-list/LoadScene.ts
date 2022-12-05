@@ -11,10 +11,13 @@ export class LoadScene extends Component {
     public loadBunny () {
         director.loadScene('BunnyTest');
     }
-    public loadFrame () {
+    public loadFrameTest () {
+        director.loadScene('BunnyFrameTest');
+    }
+    public loadFrameAni () {
         director.loadScene('BunnyFrameAnimationTest');
     }
-    public loadTransform () {
+    public loadTransformAni () {
         director.loadScene('BunnyTransformAnimationTest');
     }
     public loadUI () {
