@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "ac3ef2d6-623e-45c5-9e10-a276df0e5b32",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "ac3ef2d6-623e-45c5-9e10-a276df0e5b32@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "ac3ef2d6-623e-45c5-9e10-a276df0e5b32"
+        "imageUuidOrDatabaseUri": "ac3ef2d6-623e-45c5-9e10-a276df0e5b32",
+        "visible": true
       },
       "displayName": "ic_vinegarking",
       "id": "6c48a",
@@ -36,6 +37,7 @@
   "userData": {
     "type": "texture",
     "redirect": "ac3ef2d6-623e-45c5-9e10-a276df0e5b32@6c48a",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

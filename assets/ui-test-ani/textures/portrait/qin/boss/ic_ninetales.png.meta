@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "77c0b84f-3608-455b-932f-f98727de8cba",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "77c0b84f-3608-455b-932f-f98727de8cba@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "77c0b84f-3608-455b-932f-f98727de8cba"
+        "imageUuidOrDatabaseUri": "77c0b84f-3608-455b-932f-f98727de8cba",
+        "visible": true
       },
       "displayName": "ic_ninetales",
       "id": "6c48a",
@@ -36,6 +37,7 @@
   "userData": {
     "type": "texture",
     "redirect": "77c0b84f-3608-455b-932f-f98727de8cba@6c48a",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

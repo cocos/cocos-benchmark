@@ -32,9 +32,9 @@
       "metallic": 1,
       "emissive": {
         "__type__": "cc.Color",
-        "r": 5,
-        "g": 5,
-        "b": 5,
+        "r": 35,
+        "g": 35,
+        "b": 35,
         "a": 255
       },
       "mainTexture": {

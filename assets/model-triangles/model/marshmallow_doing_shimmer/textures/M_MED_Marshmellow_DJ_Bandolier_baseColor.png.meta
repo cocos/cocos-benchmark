@@ -1,11 +1,11 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "b15e90d2-5ebb-4ee8-bb3d-7838ed6299b0",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
@@ -14,7 +14,7 @@
       "displayName": "M_MED_Marshmellow_DJ_Bandolier_baseColor",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -29,13 +29,15 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15e90d2-5ebb-4ee8-bb3d-7838ed6299b0"
+        "imageUuidOrDatabaseUri": "b15e90d2-5ebb-4ee8-bb3d-7838ed6299b0",
+        "visible": true
       }
     }
   },
   "userData": {
     "type": "texture",
     "redirect": "b15e90d2-5ebb-4ee8-bb3d-7838ed6299b0@6c48a",
-    "hasAlpha": false
+    "hasAlpha": false,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

@@ -1,11 +1,11 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "4a542b45-f8e4-4500-9d3c-3587fea0bdd0",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
@@ -14,7 +14,7 @@
       "displayName": "Material_002_baseColor",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -29,13 +29,15 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "4a542b45-f8e4-4500-9d3c-3587fea0bdd0"
+        "imageUuidOrDatabaseUri": "4a542b45-f8e4-4500-9d3c-3587fea0bdd0",
+        "visible": true
       }
     }
   },
   "userData": {
     "type": "texture",
     "redirect": "4a542b45-f8e4-4500-9d3c-3587fea0bdd0@6c48a",
-    "hasAlpha": false
+    "hasAlpha": false,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

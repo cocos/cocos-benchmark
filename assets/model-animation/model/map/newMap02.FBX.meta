@@ -1,5 +1,5 @@
 {
-  "ver": "2.0.14",
+  "ver": "2.3.0",
   "importer": "fbx",
   "imported": true,
   "uuid": "b092a008-0b68-4a4f-8cb6-112af7ef0783",
@@ -79,7 +79,7 @@
       "displayName": "",
       "id": "291d4",
       "name": "贴图 #6.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -103,7 +103,7 @@
       "displayName": "",
       "id": "eb794",
       "name": "贴图 #5.texture",
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -170,6 +170,9 @@
     },
     "dumpMaterials": true,
     "materialDumpDir": "db://assets/model-animation/model/map",
-    "legacyFbxImporter": true
+    "legacyFbxImporter": true,
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
   }
 }

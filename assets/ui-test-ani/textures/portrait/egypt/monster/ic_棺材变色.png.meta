@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "27a7a280-38d9-496a-8b4a-676d029d9cff",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "27a7a280-38d9-496a-8b4a-676d029d9cff@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "27a7a280-38d9-496a-8b4a-676d029d9cff"
+        "imageUuidOrDatabaseUri": "27a7a280-38d9-496a-8b4a-676d029d9cff",
+        "visible": true
       },
       "displayName": "ic_棺材变色",
       "id": "6c48a",
@@ -36,6 +37,7 @@
   "userData": {
     "type": "texture",
     "redirect": "27a7a280-38d9-496a-8b4a-676d029d9cff@6c48a",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

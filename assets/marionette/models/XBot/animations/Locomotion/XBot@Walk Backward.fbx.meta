@@ -1,0 +1,83 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "da7d4592-a442-48a3-9574-509a42f50c40",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "d2b0d": {
+      "importer": "gltf-animation",
+      "uuid": "da7d4592-a442-48a3-9574-509a42f50c40@d2b0d",
+      "displayName": "",
+      "id": "d2b0d",
+      "name": "Walk Backward.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "a4034": {
+      "importer": "gltf-scene",
+      "uuid": "da7d4592-a442-48a3-9574-509a42f50c40@a4034",
+      "displayName": "",
+      "id": "a4034",
+      "name": "XBot@Walk Backward.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Walk Backward",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "da7d4592-a442-48a3-9574-509a42f50c40@a4034",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "da7d4592-a442-48a3-9574-509a42f50c40@a4034"
+      ]
+    }
+  }
+}
