@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Prefab, instantiate } from 'cc';
+import { _decorator, Component, Node, Prefab, instantiate, profiler, EditBox } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('BatchCreation')
@@ -13,10 +13,21 @@ export class BatchCreation extends Component {
     public expectedCount = 0;
 
     start() {
+        if (!profiler._stats) {
+            profiler.showStats();
+        }
     }
 
     update(_deltaTime: number) {
         this._resize();
+    }
+
+    public setAmountFromEditBox(editBox: EditBox) {
+        const amount = Number.parseInt(editBox.string);
+        if (Number.isNaN(amount)) {
+            return;
+        }
+        this.expectedCount = amount;
     }
 
     private _instances: Node[] = [];
