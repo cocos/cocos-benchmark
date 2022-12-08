@@ -231,8 +231,6 @@
     "_screenScale": 1,
     "_visibility": 1822425087,
     "_targetTexture": null,
-    "_cameraType": -1,
-    "_trackingType": 0,
     "_id": "7dWQTpwS5LrIHnc1zAPUtf"
   },
   {
@@ -591,8 +589,6 @@
     "_screenScale": 1,
     "_visibility": 41943040,
     "_targetTexture": null,
-    "_cameraType": -1,
-    "_trackingType": 0,
     "_id": "e0d9FHAqJDmqYgSFf+QtZk"
   },
   {
@@ -1274,8 +1270,7 @@
     "_useHDR": true,
     "_editableMaterial": null,
     "_reflectionHDR": null,
-    "_reflectionLDR": null,
-    "_rotationAngle": 0
+    "_reflectionLDR": null
   },
   {
     "__type__": "cc.FogInfo",
