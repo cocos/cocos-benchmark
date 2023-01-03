@@ -27,7 +27,7 @@
         "_value": true
       },
       "physics": {
-        "_value": false,
+        "_value": true,
         "_option": "physics-ammo"
       },
       "physics-ammo": {
