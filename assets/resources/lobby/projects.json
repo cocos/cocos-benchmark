@@ -64,5 +64,11 @@
         "sceneUrl": "ui-test-ani/scene/BunnyTransformAnimationTest.scene",
         "coverImgUrl": "lobby/uiTransAni/spriteFrame",
         "tips": "用于ui位移动画测试"
+    },
+    {
+        "name": "js-benchmark",
+        "sceneUrl": "js-benchmark/js-benchmark.scene",
+        "coverImgUrl": "lobby/jsBenchmark/spriteFrame",
+        "tips": "用于js基准新能测试"
     }
 ]
