@@ -81,7 +81,7 @@ export class Benchmark extends Component {
             this.curElementNum[i] = 0;
         }
 
-        const item = localStorage.getItem(KEY_INIT_STR);
+        const item = null;//localStorage.getItem(KEY_INIT_STR);
         let value = '';
         if (item != null && item != '') {
             this.l_editBox.string = value = item;
@@ -237,7 +237,7 @@ export class Benchmark extends Component {
     onEditFinish (editBox: EditBoxComponent) {
         const str = editBox.string;
         if (str != '') {
-            localStorage.setItem(KEY_INIT_STR, str);
+            //localStorage.setItem(KEY_INIT_STR, str);
             this.updateAllElementsNumber(str);
         }
     }
