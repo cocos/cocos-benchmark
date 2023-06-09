@@ -45,19 +45,22 @@ export class Test extends cc.Component {
     }
 
     load() {
-        let time = Date.now();
+        let time = 0.0;
         cc.resources.load("LordLavaArea", cc.Prefab, null, (error, asset) => {
             if (error) {
                 console.error('load asset failed', error);
                 return;
             }
             for (let i = 0; i < 10; ++i) {
+                let execTime = Date.now();
                 let node: any = cc.instantiate(asset);
+                let dExecTime = Date.now() - execTime;
+                time += dExecTime;
                 this.nodePool.put(node);
             }
 
-            this.label.string = "池大小：" + this.nodePool.size() + " \n此次耗时：" + (Date.now() - time);
-            console.log("池大小：" + this.nodePool.size() + " 此次耗时：" + (Date.now() - time))
+            this.label.string = "池大小：" + this.nodePool.size() + " \n此次耗时：" + (time);
+            console.log("池大小：" + this.nodePool.size() + " 此次耗时：" + (time))
         });
     }
 
@@ -72,7 +75,7 @@ export class Test extends cc.Component {
     update() {}
 
     load10() {
-        let time = Date.now();
+        let time = 0.0;
         for (let n = 1; n < 11; ++n) {
             cc.resources.load("LordLavaArea", cc.Prefab, null, (error, asset) => {
                 if (error) {
@@ -80,12 +83,15 @@ export class Test extends cc.Component {
                     return;
                 }
                 for (let i = 0; i < 10; ++i) {
+                    let execTime = Date.now();
                     let node: any = cc.instantiate(asset);
+                    let dExecTime = Date.now() - execTime;
+                    time += dExecTime;
                     this.nodePool.put(node);
                 }
 
-                this.label.string = "池大小：" + this.nodePool.size() + "\n累计" +  n + "次耗时：" + (Date.now() - time) + "\n平均耗时：" + ((Date.now() - time)/n).toFixed(2);
-                console.log("池大小：" + this.nodePool.size() + "  累计" +  n + "次耗时：" + (Date.now() - time) + "  平均耗时：" + ((Date.now() - time)/n).toFixed(2))
+                this.label.string = "池大小：" + this.nodePool.size() + "\n累计" +  n + "次耗时：" + (time) + "\n平均耗时：" + ((time)/n).toFixed(2);
+                console.log("池大小：" + this.nodePool.size() + "  累计" +  n + "次耗时：" + (time) + "  平均耗时：" + ((time)/n).toFixed(2))
             });
         }
     }
