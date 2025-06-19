@@ -276,6 +276,17 @@ export class playerManager extends Component {
             }
         });
     }
+
+    getAllPlayersTransformTimeMsInOneFrame () {
+        let time = 0;
+        this.node.children.forEach((nodePlayer)=>{
+            let playerScript = nodePlayer.getComponent(player);
+            if (playerScript) {
+                time += playerScript.transformTimeMsInOneFrame;
+            }
+        });
+        return time;
+    }
     
     // enableInstancing (isEnable: boolean) {
     //     // this.arrName.forEach((name)=>{

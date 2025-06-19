@@ -13,37 +13,40 @@ export class mainUI extends Component {
     // @property
     // serializableDummy = 0;
 
-    @property (playerManager)
-    manager: playerManager = null; 
+    @property(playerManager)
+    manager: playerManager = null;
 
-    @property (LabelComponent)
+    @property(LabelComponent)
     lbFps: LabelComponent = null;
 
-    @property (LabelComponent)
+    @property(LabelComponent)
     lbDrawcall: LabelComponent = null;
 
-    @property (LabelComponent)
+    @property(LabelComponent)
     lbInstancing: LabelComponent = null;
 
-    @property (LabelComponent)
+    @property(LabelComponent)
     lbTriangle: LabelComponent = null;
 
-    @property (LabelComponent)
+    @property(LabelComponent)
     lbGFXMem: LabelComponent = null;
 
-    @property (LabelComponent)
+    @property(LabelComponent)
     lbGameLogic: LabelComponent = null;
 
-    @property (LabelComponent)
+    @property(LabelComponent)
     lbArtTriangle: LabelComponent = null;
 
-    @property (LabelComponent)
+    @property(LabelComponent)
     lbModelTriangle: LabelComponent = null;
 
-    @property (LabelComponent)
+    @property(LabelComponent)
     lbPeople: LabelComponent = null;
 
-    @property (SpriteFrame)
+    @property(LabelComponent)
+    lbTransform: LabelComponent = null;
+
+    @property(SpriteFrame)
     imgOn: SpriteFrame = null;
 
     @property(SpriteFrame)
@@ -68,38 +71,38 @@ export class mainUI extends Component {
 
     count: number = 0;
     curClickLogoTimes: number = 0;
-    maxClickLogoTimes: number = 3;
+    maxClickLogoTimes: number = 30;
 
-    set enableInstancing (value: boolean) {
+    set enableInstancing(value: boolean) {
         this.manager.enableInstancing = value;
 
         this.spInstacing.spriteFrame = value ? this.imgOn : this.imgOff;
     }
 
-    get enableInstancing () {
+    get enableInstancing() {
         return this.manager.enableInstancing;
     }
 
-    set enableShadow (value: boolean) {
+    set enableShadow(value: boolean) {
         this.manager.enableShadow = value;
 
         this.spShadow.spriteFrame = value ? this.imgOn : this.imgOff;
     }
 
-    get enableShadow () {
+    get enableShadow() {
         return this.manager.enableShadow;
     }
 
     private _profilerEnabled = false;
 
-    shareGame (title, imageUrl) {
+    shareGame(title, imageUrl) {
         if (!window.wx) {
             return;
         }
 
         window.wx.showShareMenu({
             withShareTicket: true,
-            complete: ()=>{
+            complete: () => {
 
             }
         });
@@ -109,16 +112,16 @@ export class mainUI extends Component {
             return {
                 title: title,
                 imageUrl: imageUrl,
-                
+
             };
         });
-        
+
         var updateManager = window['wx'].getUpdateManager();
-        updateManager.onUpdateReady(()=>{
+        updateManager.onUpdateReady(() => {
             window['wx'].showModal({
                 title: '温馨提示',
                 content: '新的版本已经准备好, 请重新启动',
-                success: (res)=>{
+                success: (res) => {
                     if (res.confirm) {
                         updateManager.applyUpdate();
                     }
@@ -127,7 +130,7 @@ export class mainUI extends Component {
         })
     }
 
-    start () {
+    start() {
         if (window.cocosAnalytics) {
             window.cocosAnalytics.init({
                 appID: "697959573",              // 游戏ID
@@ -155,7 +158,7 @@ export class mainUI extends Component {
         //     //@ts-ignore
         //     profiler._rootNode.active = false;
         // }
-        
+
         this.lbVersion.string = 'Version: ' + constants.VERSION;
 
         this.updateSwitch();
@@ -165,7 +168,7 @@ export class mainUI extends Component {
         }
     }
 
-    updateSwitch () {
+    updateSwitch() {
         this.spShadow.spriteFrame = this.enableShadow ? this.imgOn : this.imgOff;
 
         this.spInstacing.spriteFrame = this.enableInstancing ? this.imgOn : this.imgOff;
@@ -173,47 +176,60 @@ export class mainUI extends Component {
         this.spAliasing.spriteFrame = this.manager.enableAntiAliasing ? this.imgOn : this.imgOff;
     }
 
-    onBtnAddClick () {
+    onBtnAddClick() {
         this.manager.addPlayerGroup();
     }
 
-    onBtnResetClick () {
+    onBtnResetClick() {
         this.manager.resetPlayer();
         this.curClickLogoTimes = 0;
     }
 
-    onBtnReduceClick () {
+    onBtnReduceClick() {
         //减人
         this.manager.reducePlayer();
     }
 
-    onLogoClick () {
+    onLogoClick() {
         this.curClickLogoTimes += 1;
         if (this.curClickLogoTimes === this.maxClickLogoTimes) {
             this.manager.addDancer();
         }
+        this.changeHudVisible();
     }
 
-    switchInstancing () {
+    private changeHudVisible() {
+        const activeNodeList = ['menu', 'effects', 'version', 'NumberInput'];
+        const visible = this.node.getChildByName(activeNodeList[0])?.active!;
+        for (let i = 0; i < activeNodeList.length; i++) {
+            const node = this.node.getChildByName(activeNodeList[i]);
+            if (node) {
+                node.active = !visible;
+            }
+        }
+        visible ? profiler.hideStats() : profiler.showStats();
+    }
+
+    switchInstancing() {
         // this.spInstacing.spriteFrame
 
         this.enableInstancing = !this.enableInstancing;
     }
 
-    switchAliasing () {
+    switchAliasing() {
         //跳出提示框
         let str = this.manager.enableAntiAliasing ? '关闭' : '开启';
 
-        this.nodeConfirmBox.getComponent(confirmBox).show(`${str}抗锯齿需要重启游戏`, ()=>{
+        this.nodeConfirmBox.getComponent(confirmBox).show(`${str}抗锯齿需要重启游戏`, () => {
             this.manager.enableAntiAliasing = !this.manager.enableAntiAliasing;
-        }, ()=>{
+        }, () => {
 
         });
 
         this.nodeConfirmBox.active = true;
     }
 
-    switchShadow () {
+    switchShadow() {
         this.enableShadow = !this.enableShadow;
     }
 
@@ -228,7 +244,7 @@ export class mainUI extends Component {
         }
     }
 
-    update (deltaTime: number) {
+    update(deltaTime: number) {
         // Your update function goes here.
         this.count++;
         if (this.count > 10 && profiler._stats) {
@@ -236,7 +252,7 @@ export class mainUI extends Component {
 
             //fps
             this.lbFps.string = Math.round(profiler._stats.fps.counter.value).toString();
-            
+
             //drawcall
             this.lbDrawcall.string = profiler._stats.draws.counter.value.toString();
             this.lbInstancing.string = profiler._stats.instances.counter.value.toString();
@@ -247,6 +263,7 @@ export class mainUI extends Component {
             // this.lbVertex.string = this.manager.artVertex.toString();
             this.lbModelTriangle.string = this.manager.artTriangle.toString();
             this.lbPeople.string = this.manager.people.toString();
+            this.lbTransform.string = this.manager.getAllPlayersTransformTimeMsInOneFrame().toFixed(1);
         }
     }
 

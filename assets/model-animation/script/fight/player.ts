@@ -20,18 +20,25 @@ export class player extends Component {
 
     manager: playerManager;
     tweenMove: Tween;
+    lerpMoveNode: LerpMoveNode = null!;
 
-    start () {
+    transformTimeMsInOneFrame: number = 0;
+
+    protected onLoad(): void {
+        this.lerpMoveNode = new LerpMoveNode(this.node);
+    }
+
+    start() {
         // Your initialization goes here.
     }
 
-    show (manager: playerManager) {
+    show(manager: playerManager) {
         //x: -5~5
         //z: -20~6
         this.manager = manager;
 
         let x = (-8 - 3 * this.manager.currentLevel) + Math.random() * (16 + 6 * this.manager.currentLevel);
-        let z = -20 + Math.random() * (26 + 5*this.manager.currentLevel);
+        let z = -20 + Math.random() * (26 + 5 * this.manager.currentLevel);
 
         let pos = new Vec3(x, 0, z);
 
@@ -47,15 +54,15 @@ export class player extends Component {
         this.changeShadow(this.manager.enableShadow);
     }
 
-    onDestroy () {
+    onDestroy() {
         if (this.tweenMove) {
             this.tweenMove.stop();
             this.tweenMove = null;
         }
     }
 
-    move () {
-        let nextPoint = new Vec3((-8 - 3 * this.manager.currentLevel) + Math.random() * (16 + 6 * this.manager.currentLevel), 0, -20 + Math.random() * (26 + 5*this.manager.currentLevel));
+    move() {
+        let nextPoint = new Vec3((-8 - 3 * this.manager.currentLevel) + Math.random() * (16 + 6 * this.manager.currentLevel), 0, -20 + Math.random() * (26 + 5 * this.manager.currentLevel));
 
         let offset = nextPoint.clone().subtract(this.node.position);
 
@@ -68,14 +75,12 @@ export class player extends Component {
             this.tweenMove = null;
         }
 
-        this.tweenMove = new Tween(this.node).to(costTime, {position: nextPoint}).call(()=>{
-            this.move();
-        }).start();
+        this.lerpMoveNode.start(costTime, nextPoint, this.move.bind(this));
     }
 
-    changeInstancingBatch (isEnable) {
+    changeInstancingBatch(isEnable) {
         let arrInstancing = this.node.getComponentsInChildren(instacingMaterial);
-        arrInstancing.forEach((instancing)=>{
+        arrInstancing.forEach((instancing) => {
             instancing.enableInstancing = isEnable;
         });
 
@@ -84,16 +89,54 @@ export class player extends Component {
         }
     }
 
-    changeShadow (isEnable: boolean) {
+    changeShadow(isEnable: boolean) {
         let arrModel = this.node.getComponentsInChildren(SkinningModelComponent);
-        arrModel.forEach((model)=>{
-            model.shadowCastingMode = isEnable ? SkinningModelComponent.ShadowCastingMode.ON: SkinningModelComponent.ShadowCastingMode.OFF;
+        arrModel.forEach((model) => {
+            model.shadowCastingMode = isEnable ? SkinningModelComponent.ShadowCastingMode.ON : SkinningModelComponent.ShadowCastingMode.OFF;
         });
 
-        
+
     }
 
-    // update (deltaTime: number) {
-    //     // Your update function goes here.
-    // }
+    update (dt: number) {
+        const now = performance.now();
+        this.lerpMoveNode.update(dt);
+        this.transformTimeMsInOneFrame = performance.now() - now;
+    }
+}
+
+class LerpMoveNode {
+    private from: Vec3 = new Vec3();
+    private target: Vec3 = new Vec3();
+    private duration: number = 0;
+    private isRunning: boolean = false;
+    private time: number = 0;
+    private arrivedCallback: () => void = null!;
+
+    constructor(private node: Node) { }
+
+    start(duration: number, target: Vec3, arrivedCallback: () => void) {
+        this.from = this.node.position.clone();
+        this.target = target;
+        this.duration = duration;
+        this.isRunning = true;
+        this.time = 0;
+        this.arrivedCallback = arrivedCallback;
+    }
+
+    update(dt: number) {
+        if (!this.isRunning) return;
+
+        this.time += dt;
+        if (this.time >= this.duration) {
+            this.node.setPosition(this.target);
+            this.isRunning = false;
+            this.arrivedCallback?.();
+            return;
+        }
+
+        let t = this.time / this.duration;
+        let newPos = Vec3.lerp(new Vec3(), this.from, this.target, t);
+        this.node.setPosition(newPos);
+    }
 }
