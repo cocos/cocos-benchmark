@@ -46,6 +46,12 @@ export class mainUI extends Component {
     @property(LabelComponent)
     lbTransform: LabelComponent = null;
 
+    @property(LabelComponent)
+    lbPresent: LabelComponent = null;
+
+    @property(LabelComponent)
+    lbRenderer: LabelComponent = null;
+
     @property(SpriteFrame)
     imgOn: SpriteFrame = null;
 
@@ -264,6 +270,8 @@ export class mainUI extends Component {
             this.lbModelTriangle.string = this.manager.artTriangle.toString();
             this.lbPeople.string = this.manager.people.toString();
             this.lbTransform.string = this.manager.getAllPlayersTransformTimeMsInOneFrame().toFixed(1);
+            this.lbPresent.string = ((profiler._stats as any).present?.counter.value || 0).toFixed(2);
+            this.lbRenderer.string = profiler._stats.render.counter.value.toFixed(2);
         }
     }
 
