@@ -67,7 +67,7 @@ export class playerManager extends Component {
         return this.isEnableInstancing;
     }
 
-    isEnableShadow = true;
+    isEnableShadow = false;
 
     set enableShadow (value: boolean) {
         this.isEnableShadow = value;
